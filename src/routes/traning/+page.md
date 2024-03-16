@@ -8,6 +8,6 @@ categories:
 published: true
 ---
 
-## Markdown
+## Börja träna hos oss
 
 Träningstider i klubben

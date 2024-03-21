@@ -19,7 +19,7 @@ const config = {
 	preprocess: [vitePreprocess({}), mdsvex(mdsvexOptions)],
 	extensions: ['.svelte', '.md', '.svx'],
 	compilerOptions: {
-		runes: true
+		runes: false
 	},
 	kit: {
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.

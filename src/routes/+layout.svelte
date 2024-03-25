@@ -1,27 +1,28 @@
 <script>
 	import '../app.pcss';
-	import logo from '$lib/assets/logo.png';
+	
+	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
+	import logo  from '$lib/assets/logo_no_text.png'
 </script>
 
-<body class="">
-	<header class="body-font mt-5 w-full bg-white text-gray-700">
-		<div class="flex flex-col items-center justify-center">
-			<img class="mb-2" width="200" src={logo} alt="Österlen Budo" />
+  
+<Navbar class="px-2 sm:px-4 py-2.5 fixed  w-full z-20 top-0 start-0 border-b ">
+	<NavBrand href="/">
+	  <img src={logo} class="me-3 h-6 sm:h-9" alt="Österlen Budo Logo" />
+	  <span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Österlen Budo Klubb</span>
+	</NavBrand>
+	<NavHamburger  />
+	<NavUl >
+	  <NavLi href="/">Hem</NavLi>
+	  <NavLi href="/about">Bli medlem</NavLi>
+	  <NavLi href="/docs/components/navbar">Träning</NavLi>
+	  <NavLi href="/pricing">Medlemsinfo</NavLi>
+	  <NavLi href="/contact">Kalendarium</NavLi>
+	  <NavLi href="/contact">Om Klubben</NavLi>
+	  <NavLi href="/contact">Kontakt</NavLi>
+	</NavUl>
+  </Navbar>
+  
 
-			<nav class="ml-6 mb-20">
-				<a href="klubben" class="mr-5 font-medium hover:text-gray-900">Klubben 柔道</a>
-				<a href="traning" class="mr-5 font-medium hover:text-gray-900">Börja Träna</a>
-				<a href="#_" class="mr-5 font-medium hover:text-gray-900">Om judo</a>
-				<a href="#_" class="mr-5 font-medium hover:text-gray-900">Kontakt</a>
 
-			</nav>
-		</div>
-	</header>
-	<slot />
-</body>
-
-<style>
-	.container{
-		margin-left:400px
-	}
-</style>
+<slot />

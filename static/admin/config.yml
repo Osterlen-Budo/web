@@ -1,8 +1,10 @@
-local_backend: true
 backend:
-  url: http://localhost:8081/api/v1
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
+
+local_backend:
+  url: http://localhost:8081/api/v1
+
 media_folder: 'static/images'
 public_folder: '/images' # The src attribute for uploaded media will begin with /images/uploads
 

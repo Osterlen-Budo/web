@@ -1,5 +1,6 @@
-local_backend: false
+local_backend: true
 backend:
+  url: http://localhost:8081/api/v1
   name: git-gateway
   branch: main # Branch to update (optional; defaults to master)
 media_folder: 'static/images'
@@ -27,5 +28,30 @@ collections:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Rating (scale of 1-5)', name: 'rating', widget: 'number' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'kalender' # Used in routes, e.g., /admin/collections/blog
+    label: 'Kalender' # Used in the UI
+    folder: 'src/routes/kalender/[slug]' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Start time', name: 'starttime', widget: 'datetime' }
+      - { label: 'End time', name: 'endtime', widget: 'datetime' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'sponsor' # Used in routes, e.g., /admin/collections/blog
+    label: 'Sponsorer' # Used in the UI
+    folder: 'src/routes/sponsor/[slug]' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Title', name: 'title', widget: 'string' }
+      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
+      - { label: 'Start time', name: 'starttime', widget: 'datetime' }
+      - { label: 'End time', name: 'endtime', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }

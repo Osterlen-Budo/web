@@ -13,6 +13,12 @@ export default {
 
 	theme: {
 		extend: {
+			screens: {
+				sm: '675px'
+			},
+			gridTemplateColumns: {
+				md: '10% 60% 25% 5%'
+			},
 			colors: {
 				red: {
 					700: '#ee1c23'

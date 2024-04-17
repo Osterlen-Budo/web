@@ -5,7 +5,7 @@
 	import logo  from '$lib/assets/logo_no_text.png'
 </script>
 
-<div class="grid  sm:grid-cols-2 md:grid-cols-md sm:bg-red-50 md:bg-blue-50">
+<div class="grid  sm:grid-cols-2 md:grid-cols-md lg:grid-cols-lg ">
 	<div class="fixed w-full t-0 left-0 sm:col-span-2 md:col-span-4">
 		<Navbar class="border-b-2 t-0" >
 			<NavBrand href="/">
@@ -15,7 +15,7 @@
 			<NavHamburger  />
 			<NavUl >
 			<NavLi href="/">Hem</NavLi>
-			<NavLi href="/about">Bli medlem</NavLi>
+			<NavLi href="/borjatrana">Börja träna</NavLi>
 			<NavLi href="/docs/components/navbar">Träning</NavLi>
 			<NavLi href="/pricing">Medlemsinfo</NavLi>
 			<NavLi href="/contact">Kalendarium</NavLi>
@@ -25,8 +25,8 @@
 		</Navbar>
 	</div>
 	<slot />
-	<div class="flex md:flex-col" >
-		<div class="w-80 md:justify-self-start">
+	<div class="flex-col sm:col-span-2 sm:w-full md:col-span-1 md:col-start-3 md:mx-0" >
+		<div class="sm:w-full justify-self-start mb-10 mx-10">
 			<div class="">
 				<h5 class="mb-2 text-2xl font-thin border-b	tracking-tight text-gray-900 dark:text-white ">På gång</h5>
 				<b class="bg-red-50">Mars</b>
@@ -36,12 +36,12 @@
 				<b>April</b>
 			</div>
 		</div>
-		<div  class="sm:max-w-80 justify-self-start mb-10 mx-10">
+		<div  class="sm:w-auto justify-self-start mb-10 mx-10 sm:col-span-2">
 			<h5 class="mb-4 text-2xl font-thin border-b	 tracking-tight text-gray-900 dark:text-white">Sponsorer</h5>
 			<img src="/images/sjobo_elnat.png" class="w-auto" alt="Sjöbo Elnät Logo"/>
 			<p class="font-normal text-gray-700 dark:text-gray-400 leading-tight"></p>
 		</div>
-		<div  class="sm:max-w-80 justify-self-start mb-10 mx-10">
+		<div  class="sm:w-full justify-self-start mb-10 mx-10 sm:col-span-2">
 			<h5 class="mb-4 text-2xl font-thin border-b	 tracking-tight text-gray-900 dark:text-white">Kontakt</h5>
 			<p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">Telefon</p>
 		</div>

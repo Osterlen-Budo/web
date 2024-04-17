@@ -1,11 +1,15 @@
 export type Categories = 'sveltekit' | 'svelte';
 
-export type NewsItem = {
+export type Page = {
 	title: string;
 	slug: string;
-	description: string;
+	description?: string;
 	date: string;
-	image: string;
-	categories: Categories[];
+	time?: string;
+	image?: string;
 	published: boolean;
+};
+
+export type Judoka = {
+	name: string;
 };

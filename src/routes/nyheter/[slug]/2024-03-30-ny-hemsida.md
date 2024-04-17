@@ -1,6 +1,8 @@
 ---
 layout: blog
 title: Ny hemsida
-date: 2024-03-30T14:50
+description: Nu är nya hemsidan igång
+date: 2024-03-30
 ---
-Ny är nya hemsidan snart klar! Vi ser fram emot  en ny termin
+
+Ny är nya hemsidan snart klar! Vi ser fram emot en ny termin

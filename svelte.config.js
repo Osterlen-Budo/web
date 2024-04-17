@@ -7,7 +7,12 @@ import { mdsvex } from 'mdsvex';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
-	extensions: ['.md', '.svx']
+	extensions: ['.md', '.svx'],
+	layout: {
+		nyheter: 'src/routes/nyheter/layout.svelte',
+		traning: 'src/routes/traning/layout.svelte',
+		borjatrana: 'src/routes/[slug]/layout.svelte'
+	}
 };
 
 /** @type {import('@sveltejs/kit').Config} */

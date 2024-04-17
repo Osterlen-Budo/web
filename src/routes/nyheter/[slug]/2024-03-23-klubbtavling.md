@@ -1,15 +1,17 @@
 ---
-title: TEst 2
-description: First post.
+title: Klubbtävling 2024
+description: Den första posten.
 date: 2023-04-14
 categories:
   - sveltekit
   - svelte
+localtion: '
+image: '/images/tavling.jpeg'
 published: true
-image: '/images/traning.jpeg'
-rating: 1
 ---
 
-# Första testet
-
 Här kommer första texten hoppas den passar
+
+## Andra sektionen
+
+Här kan man lästar mer om annat

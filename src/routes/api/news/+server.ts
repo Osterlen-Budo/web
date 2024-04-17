@@ -1,10 +1,9 @@
 import { json } from '@sveltejs/kit';
 
-import type { NewsItem } from '$lib/types';
+import type { Page } from '$lib/types';
 
 async function getNewsItems() {
-	let newsItems: NewsItem[] = [];
-	const items: any[] = [];
+	let newsItems: Page[] = [];
 
 	const paths = import.meta.glob('/src/routes/nyheter/**/*.md', { eager: true });
 
@@ -13,11 +12,12 @@ async function getNewsItems() {
 		const slug = path.split('/').at(-1)?.replace('.md', '');
 
 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
-			const metadata = file.metadata as Omit<NewsItem, 'slug'>;
+			const metadata = file.metadata as Omit<Item, 'slug'>;
 			const newsItem = { ...metadata, slug } satisfies NewsItem;
-			newsItem.published && newsItems.push(newsItem);
 
-			items.push({ meta: newsItem, content: file.default });
+			console.log('FILE', file);
+
+			newsItem.published && newsItems.push(newsItem);
 		}
 	}
 
@@ -25,7 +25,7 @@ async function getNewsItems() {
 		(first, second) => new Date(second.date).getTime() - new Date(first.date).getTime()
 	);
 
-	return items;
+	return newsItems;
 }
 
 export async function GET() {

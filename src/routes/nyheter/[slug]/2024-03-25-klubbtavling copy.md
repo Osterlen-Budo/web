@@ -1,15 +1,16 @@
 ---
 title: Klubbtävling
-description: First post.
+description: Nu har det varit klubbtävling igen.
 date: 2023-04-14
 categories:
   - sveltekit
   - svelte
 published: true
-image: '/images/traning.jpeg'
-rating: 1
+image: '/images/tavling.jpeg'
 ---
 
 # Första testet
 
-Här kommer första texten hoppas den passar
+## Tredje sektionen
+
+Här kan man lästar mer om annat

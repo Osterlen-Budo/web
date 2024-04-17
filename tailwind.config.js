@@ -14,10 +14,12 @@ export default {
 	theme: {
 		extend: {
 			screens: {
-				sm: '675px'
+				sm: '675px',
+				md: '1010px'
 			},
 			gridTemplateColumns: {
-				md: '10% 60% 25% 5%'
+				md: '2% 68% 25% 2%',
+				lg: '5% 60% 25% 5%'
 			},
 			colors: {
 				red: {

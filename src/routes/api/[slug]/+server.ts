@@ -4,6 +4,7 @@ import type { Page } from '$lib/types';
 
 function loadFiles(slug: string) {
 	const paths = import.meta.glob(`/src/routes/**/*.md`, { eager: true });
+	const pages: Page[] = [];
 	for (const path in paths) {
 		const file = paths[path];
 		const slug = path.split('/').at(-1)?.replace('.md', '');
@@ -20,7 +21,7 @@ function loadFiles(slug: string) {
 }
 
 function loadPage(slug: string) {
-	// const page = import.meta.glob(`/src/routes/**/*/${slug}.md`, { eager: true });
+	const page = import.meta.glob(`/src/routes/**/*/${slug}.md`, { eager: true });
 
 	if (!page) {
 		throw new Error(`Found no page with name ${slug}`);

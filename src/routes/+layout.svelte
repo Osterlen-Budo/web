@@ -1,26 +1,38 @@
 <script>
 	import '../app.pcss';
-	
-	import { Navbar, NavBrand, NavLi, NavUl, NavHamburger, Card, Button } from 'flowbite-svelte';
+	import { page } from '$app/stores';
+
+	import {Navbar, NavBrand, NavUl, NavLi, NavHamburger, DropdownItem, Dropdown} from 'flowbite-svelte'
+	import { ChevronDownOutline } from 'flowbite-svelte-icons';
+
 	import logo  from '$lib/assets/logo_no_text.png'
+	$: activeUrl = $page.url.pathname
 </script>
 
 <div class="grid  sm:grid-cols-2 md:grid-cols-md lg:grid-cols-lg ">
 	<div class="fixed w-full t-0 left-0 sm:col-span-2 md:col-span-4">
+		
 		<Navbar class="border-b-2 t-0" >
 			<NavBrand href="/">
 			<img src={logo} class="me-3 h-6 sm:h-9" alt="Österlen Budo Logo" />
 			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Österlen Budoklubb</span>
 			</NavBrand>
 			<NavHamburger  />
-			<NavUl >
+			<NavUl {activeUrl}>
 			<NavLi href="/">Hem</NavLi>
 			<NavLi href="/borjatrana">Börja träna</NavLi>
 			<NavLi href="/docs/components/navbar">Träning</NavLi>
 			<NavLi href="/pricing">Medlemsinfo</NavLi>
 			<NavLi href="/contact">Kalendarium</NavLi>
-			<NavLi href="/contact">Om Klubben</NavLi>
-			<NavLi href="/contact">Kontakt</NavLi>
+			<NavLi class="cursor-pointer">
+				Om klubben<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline" />
+			</NavLi>
+				<Dropdown class="w-44 z-20">
+					<DropdownItem href="/klubben/styrelsen">Styrelsen</DropdownItem>
+					<DropdownItem href="/docs/components/navbar">Våra tränare</DropdownItem>
+					<DropdownItem href="/">Klubbens Historia</DropdownItem>
+			  </Dropdown>
+			  <NavLi href="/contact">Kontakt</NavLi>
 			</NavUl>
 		</Navbar>
 	</div>

@@ -15,8 +15,6 @@
 
 	import { formatDate } from '$lib/utils'
 	import { P } from 'flowbite-svelte';
-	import { Section } from 'flowbite-svelte-blocks'
-	import { lastIndexOf } from 'lodash';
 
 
 </script>
@@ -28,9 +26,3 @@
     <P class="text-2xl md:text-3xl mb-2">{title}</P>
     <slot />
 </article>
-<style lang="postcss">
-    h2 {
-        font-size: 20px;
-        font-weight: bold;
-    }
-    </style>

@@ -7,7 +7,7 @@ export default {
 		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}',
 		'./node_modules/flowbite-svelte-icons/**/*.{html,js,svelte,ts}'
 	],
-	plugins: [require('flowbite/plugin')],
+	plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')],
 
 	darkMode: 'class',
 
@@ -18,8 +18,7 @@ export default {
 				md: '1010px'
 			},
 			gridTemplateColumns: {
-				md: '2% 68% 25% 2%',
-				lg: '5% 60% 25% 5%'
+				md: 'auto minmax(720px, 720px) 300px auto'
 			},
 			colors: {
 				red: {

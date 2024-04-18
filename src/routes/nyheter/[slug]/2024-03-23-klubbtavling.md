@@ -2,10 +2,8 @@
 title: Klubbtävling 2024
 description: Den första posten.
 date: 2023-04-14
-categories:
-  - sveltekit
-  - svelte
-localtion: '
+
+localtion: ''
 image: '/images/tavling.jpeg'
 published: true
 ---

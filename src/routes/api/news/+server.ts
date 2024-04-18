@@ -12,8 +12,8 @@ async function getNewsItems() {
 		const slug = path.split('/').at(-1)?.replace('.md', '');
 
 		if (file && typeof file === 'object' && 'metadata' in file && slug) {
-			const metadata = file.metadata as Omit<Item, 'slug'>;
-			const newsItem = { ...metadata, slug } satisfies NewsItem;
+			const metadata = file.metadata as Omit<Page, 'slug'>;
+			const newsItem = { ...metadata, slug } satisfies Page;
 
 			console.log('FILE', file);
 

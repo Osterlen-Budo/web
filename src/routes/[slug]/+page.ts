@@ -2,7 +2,7 @@ import { error } from '@sveltejs/kit';
 
 export async function load({ params }) {
 	try {
-		const post = await import(/* @vite-ignore */ `./${params.slug}.md`);
+		const post = await import(`./${params.slug}.md`);
 		//const paths = import.meta.glob(`/src/routes/**/*.md`, { eager: true });
 
 		return {

@@ -22,7 +22,7 @@
 			<NavLi href="/">Hem</NavLi>
 			<NavLi href="/borjatrana">Börja träna</NavLi>
 			<NavLi href="/docs/components/navbar">Träning</NavLi>
-			<NavLi href="/pricing">Medlemsinfo</NavLi>
+			<NavLi href="/pris">Medlemsinfo</NavLi>
 			<NavLi href="/contact">Kalendarium</NavLi>
 			<NavLi class="cursor-pointer">
 				Om klubben<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline" />

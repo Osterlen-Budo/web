@@ -11,8 +11,6 @@
 	  * @type {string}
 	 */
 	export let image;
-	import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
-
 	import { formatDate } from '$lib/utils'
 	import { P } from 'flowbite-svelte';
 

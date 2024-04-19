@@ -19,20 +19,31 @@
 			</NavBrand>
 			<NavHamburger  />
 			<NavUl {activeUrl}>
-			<NavLi href="/">Hem</NavLi>
-			<NavLi href="/borjatrana">Börja träna</NavLi>
-			<NavLi href="/docs/components/navbar">Träning</NavLi>
-			<NavLi href="/avgifter">Medlemsinfo</NavLi>
-			<NavLi href="/kalendarium">Kalendarium</NavLi>
-			<NavLi class="cursor-pointer">
-				Om klubben<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline" />
-			</NavLi>
+				<NavLi href="/">Hem</NavLi>
+				<NavLi href="/borjatrana">Börja träna</NavLi>
+				<NavLi class="cursor-pointer">
+					Träning<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline" />
+				</NavLi>
 				<Dropdown class="w-44 z-20">
-					<DropdownItem href="/klubben/styrelsen">Styrelsen</DropdownItem>
-					<DropdownItem href="/docs/components/navbar">Våra tränare</DropdownItem>
-					<DropdownItem href="/">Klubbens Historia</DropdownItem>
-			  </Dropdown>
-			  <NavLi href="/contact">Kontakt</NavLi>
+					<DropdownItem href="/traningspass">Hur går träning till</DropdownItem>
+					<DropdownItem href="/tider">Träningstider</DropdownItem>
+					<DropdownItem href="/avgifter">Avgifter</DropdownItem>
+					<DropdownItem href="/vardegrund">Judons Värdegrund</DropdownItem>
+					<DropdownItem href="/gradering">Gradering</DropdownItem>
+					<DropdownItem href="/tavla">Om tävling</DropdownItem>
+				</Dropdown>
+				<NavLi href="/kontakt">Kontakt</NavLi>
+				<NavLi href="/avgifter">Medlemsinfo</NavLi>
+				<NavLi href="/kalendarium">Kalendarium</NavLi>
+				<NavLi class="cursor-pointer">
+					Om klubben<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline" />
+				</NavLi>
+					<Dropdown class="w-44 z-20">
+						<DropdownItem href="/klubben/styrelsen">Styrelsen</DropdownItem>
+						<DropdownItem href="/docs/components/navbar">Våra tränare</DropdownItem>
+						<DropdownItem href="/">Klubbens Historia</DropdownItem>
+					</Dropdown>
+				<NavLi href="/kontakt">Kontakt</NavLi>
 			</NavUl>
 		</Navbar>
 	</div>

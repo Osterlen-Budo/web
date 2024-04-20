@@ -22,7 +22,7 @@ fram till
 - 30 februari på våren
 - 30 september på hösten
 
-<a href="">träningstider</a>
+<a href="/tider">träningstider</a>
 
 ## Hur?
 

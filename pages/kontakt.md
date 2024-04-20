@@ -1,5 +1,5 @@
 ---
-title: Kontaktinformation
+title: Kontakt
 description: Här är vår kontaktinfomration
 date: 2024-04-19
 published: true
@@ -11,8 +11,8 @@ Vill ni ha upplysning angående något om föreningens verksamhet eller lämna n
 info@osterlenbudo.se
 
 **Brev**  
-Österlen Budo Klubb
-Kvarngatan 1
+Österlen Budo Klubb  
+Kvarngatan 1  
 27 536 SJÖBO
 
 **Facebook**  

@@ -10,7 +10,7 @@
 </script>
 
 <div class="grid  sm:grid-cols-2 md:grid-cols-md lg:grid-cols-lg ">
-	<div class="fixed w-full t-0 left-0 sm:col-span-2 md:col-span-4">
+	<div class="fixed w-full t-0 left-0 sm:col-span-2 md:col-span-4 z-30">
 		
 		<Navbar class="border-b-2 t-0" >
 			<NavBrand href="/">
@@ -21,6 +21,7 @@
 			<NavUl {activeUrl}>
 				<NavLi href="/">Hem</NavLi>
 				<NavLi href="/borjatrana">Börja träna</NavLi>
+				<NavLi href="/kalendarium">Kalendarium</NavLi>
 				<NavLi class="cursor-pointer">
 					Träning<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline" />
 				</NavLi>
@@ -28,26 +29,33 @@
 					<DropdownItem href="/traningspass">Hur går träning till</DropdownItem>
 					<DropdownItem href="/tider">Träningstider</DropdownItem>
 					<DropdownItem href="/avgifter">Avgifter</DropdownItem>
-					<DropdownItem href="/vardegrund">Judons Värdegrund</DropdownItem>
+					<DropdownItem href="/vardegrund">Judons värdegrund</DropdownItem>
 					<DropdownItem href="/gradering">Gradering</DropdownItem>
 					<DropdownItem href="/tavla">Om tävling</DropdownItem>
 				</Dropdown>
-				<NavLi href="/kontakt">Kontakt</NavLi>
-				<NavLi href="/avgifter">Medlemsinfo</NavLi>
-				<NavLi href="/kalendarium">Kalendarium</NavLi>
+				<NavLi class="cursor-pointer">
+					Medlemsinfo<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline" />
+				</NavLi>
+				<Dropdown class="w-44 z-20">
+					<DropdownItem href="/regler">Ordningsregler</DropdownItem>
+					<DropdownItem href="/judopass">Judopass</DropdownItem>
+					<DropdownItem href="/forsakring">Försäkringsinformation</DropdownItem>
+				</Dropdown>
 				<NavLi class="cursor-pointer">
 					Om klubben<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline" />
 				</NavLi>
 					<Dropdown class="w-44 z-20">
-						<DropdownItem href="/klubben/styrelsen">Styrelsen</DropdownItem>
-						<DropdownItem href="/docs/components/navbar">Våra tränare</DropdownItem>
-						<DropdownItem href="/">Klubbens Historia</DropdownItem>
+						<DropdownItem href="/styrelsen">Styrelsen</DropdownItem>
+						<DropdownItem href="/tranarna">Tränare</DropdownItem>
+						<DropdownItem href="/">Klubbens historia</DropdownItem>
+						<DropdownItem href="/dokument">Dokument</DropdownItem>
+
 					</Dropdown>
 				<NavLi href="/kontakt">Kontakt</NavLi>
 			</NavUl>
 		</Navbar>
 	</div>
-	<slot />
+	<slot/>
 	<div class="flex-col sm:col-span-2 sm:w-full md:col-span-1 md:col-start-3 md:mx-0" >
 		<div class="sm:w-full justify-self-start mb-10 mx-10">
 			<div class="">
@@ -64,9 +72,7 @@
 			<img src="/images/sjobo_elnat.png" class="w-auto" alt="Sjöbo Elnät Logo"/>
 			<p class="font-normal text-gray-700 dark:text-gray-400 leading-tight"></p>
 		</div>
-		<div  class="sm:w-full justify-self-start mb-10 mx-10 sm:col-span-2">
-			<h5 class="mb-4 text-2xl font-thin border-b	 tracking-tight text-gray-900 dark:text-white">Kontakt</h5>
-			<p class="font-normal text-gray-700 dark:text-gray-400 leading-tight">Telefon</p>
-		</div>
+		
 	</div>
 </div>
+<div class="h-80 w-screen bg-slate-300 bottom-0"></div>

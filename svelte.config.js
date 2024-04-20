@@ -26,7 +26,7 @@ const config = {
 		alias: {
 			// this will match a file
 			$pages: 'pages/*',
-
+			$components: 'src/lib/components',
 			// this will match a directory and its contents
 			// (`my-directory/x` resolves to `path/to/my-directory/x`)
 			$news: 'pages/news/*'

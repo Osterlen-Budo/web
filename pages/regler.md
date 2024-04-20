@@ -5,28 +5,20 @@ date: 2024-04-19
 published: true
 ---
 
-Hej
-
-Här kommer lite bra information, lite nytt och lite gammalt men fortfarande lika aktuellt.
-
-Förutom att judo ger en bra träning för hela kroppen så bygger judon också på en stark värdegrund som är likadan över hela världen och som tillämpas av alla som tränar judo (judokas) oavsett nivå.
-
-Artighet ~ Hederlighet ~ Mod ~ Respekt ~ Självkontroll ~ Vänskap ~ Ärlighet ~ Ödmjukhet
-
 ## Utrustning
 
-**Judodräkt**
+### Judodräkt
 
 - Bär en traditionell judodräkt med ett bälte som visar din grad vid alla tränings- och tävlingstillfällen.
 - tvätta judodräkten i 40° C efter varje träningstillfälle.
 
-**Vattenflaska**
+### Vattenflaska
 
 - Ta med en egen vattenflaska så att du slipper springa från mattan under träningen.
 
 ## Ordningsregler
 
-**Säkerhet och renlighet**
+### Säkerhet och renlighet
 
 - Håll fötter och händer rena.
 - Håll dina naglar (både fingrar och tår) kortklippta så att du inte river någon annan.
@@ -35,7 +27,7 @@ Artighet ~ Hederlighet ~ Mod ~ Respekt ~ Självkontroll ~ Vänskap ~ Ärlighet ~
 - Ha inte tuggummi, godis, frukt eller mat i munnen under träning.
 - Bär aldrig några smycken (ringar, halsband, örhängen, etc).
 
-**Trivsel**
+### Trivsel
 
 - Kom i tid till träningen.
 - Behöver du tejpas, gör detta innan träningen.
@@ -45,11 +37,17 @@ Artighet ~ Hederlighet ~ Mod ~ Respekt ~ Självkontroll ~ Vänskap ~ Ärlighet ~
 
 ## Mat
 
-**Före träning/tävling**: Man bör äta ett större mål (frukost, lunch, middag) 2-4 timmar innan det är dags att prestera, för nära inpå går energi till att smälta maten istället för prestationen. Äter man för långt ifrån har energin hunnit börja försvinna ut ur kroppen innan det är dags att prestera. Det är bra att få i sig något litet (frukt, macka, drickyoghurt) 30-60 minuter innan det är dags att prestera, detta för att kunna hålla energin hög så länge som möjligt under träningen.
+### Före träning/tävling
 
-**Under träning/tävling**: Dricka gäller under träning, vid tävling kan små mål också intas
+Man bör äta ett större mål (frukost, lunch, middag) 2-4 timmar innan det är dags att prestera, för nära inpå går energi till att smälta maten istället för prestationen. Äter man för långt ifrån har energin hunnit börja försvinna ut ur kroppen innan det är dags att prestera. Det är bra att få i sig något litet (frukt, macka, drickyoghurt) 30-60 minuter innan det är dags att prestera, detta för att kunna hålla energin hög så länge som möjligt under träningen.
 
-**Efter träning/tävling**: Inom 20-30 minuter efter att träningen är slut bör man äta ett mindre mål, exempelvis en frukt. Detta för att hindra att man fortsätter bryta ner kroppen även utan påfrestning. Inom 2 timmar måste man få i sig ett ordentligt mål (lunch, middag), vid tävling gäller det att få i ett riktigt mål så snart man kan efter tävlingspasset är slut.
+### Under träning/tävling
+
+Dricka gäller under träning, vid tävling kan små mål också intas
+
+### Efter träning/tävling
+
+Inom 20-30 minuter efter att träningen är slut bör man äta ett mindre mål, exempelvis en frukt. Detta för att hindra att man fortsätter bryta ner kroppen även utan påfrestning. Inom 2 timmar måste man få i sig ett ordentligt mål (lunch, middag), vid tävling gäller det att få i ett riktigt mål så snart man kan efter tävlingspasset är slut.
 
 ## Sömn
 

@@ -9,7 +9,7 @@ import { fade, fly } from 'svelte/transition';
 
 
     
-
+    let randomGif = gif === 'random' ? true : false
     let showGif = false;
   
     function randomInteger(min:number, max:number) {
@@ -28,9 +28,7 @@ import { fade, fly } from 'svelte/transition';
     
     }
 
-    if (gif=="random") {
-        gif = `images/gif/${randomInteger(1, 3)}.gif`
-    }
+  
 	// logic goes here
 </script>
 
@@ -49,6 +47,7 @@ import { fade, fly } from 'svelte/transition';
                     transition:fly={{duration: 1600, ...getTrans()}} 
                     on:click={() => {
                         if(gif){
+                            gif = randomGif ? `images/gif/${randomInteger(1, 3)}.gif` : gif
                             showGif=true; 
                             setTimeout( () => {
                                 showGif = false

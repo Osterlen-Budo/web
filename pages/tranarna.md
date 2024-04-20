@@ -30,7 +30,7 @@ let members = [
   {
     href: "/",
     src: `/images/profile/${type}/madde.png`,
-    gif: "/images/firehearth.webp",
+    gif: "random",
     name: "Madeleine Fristedt Nilsson",
     title: "Tränare",
     belt: "1 Kyu (Brun)",
@@ -97,7 +97,7 @@ let members = [
 </script>
 
 <br/>
-<div class="not-prose flex flex-wrap justify-between">
+<div class="not-prose flex flex-wrap justify-center sm:justify-between md:justify-between lg:justify-between">
   {#each members as { gif, href, src, belt, name, title, transition }}
         <Profile name={name} title={title} image={src} gif={gif}  belt={belt}/>
   {/each}

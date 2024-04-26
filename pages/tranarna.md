@@ -21,11 +21,11 @@ let members = [
   },
     {
     href: "/",
-    src: `/images/profile/${type}/blank.webp`,
-    gif: "",
+    src: `/images/profile/${type}/mattias.png`,
+    gif: "random",
     name: "Mattias Wallinius",
     title: "Huvudtränare",
-    belt: "? Dan (Svart)" ,
+    belt: "1 Dan (Svart)" ,
   },
   {
     href: "/",

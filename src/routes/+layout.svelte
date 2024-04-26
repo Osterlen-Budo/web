@@ -6,7 +6,14 @@
 	import { ChevronDownOutline } from 'flowbite-svelte-icons';
 
 	import logo  from '$lib/assets/logo_no_text.png'
+	import { navigating } from '$app/stores';
+	let hideNavMenu = true
+
+	$: if ($navigating) {
+    	hideNavMenu = true
+	}
 	$: activeUrl = $page.url.pathname
+	
 </script>
 
 <div class="grid  sm:grid-cols-2 md:grid-cols-md lg:grid-cols-lg ">
@@ -17,8 +24,9 @@
 			<img src={logo} class="me-3 h-6 sm:h-9" alt="Österlen Budo Logo" />
 			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Österlen Budoklubb</span>
 			</NavBrand>
-			<NavHamburger  />
-			<NavUl {activeUrl}>
+			<NavHamburger on:click={()=>hideNavMenu=false}  />
+			<NavUl {activeUrl} hidden={hideNavMenu}
+			>
 				<NavLi href="/">Hem</NavLi>
 				<NavLi href="/borjatrana">Börja träna</NavLi>
 				<NavLi href="/kalendarium">Kalendarium</NavLi>

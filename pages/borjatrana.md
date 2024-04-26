@@ -13,7 +13,7 @@ Du är välkommen att komma och prova på och du behöver inte anmäla dig i fö
 
 Kvarngatan 1, andra våningen. Det står Österlen Budo Klubb över ingången.
 
-<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.9157489735503!2d13.703697977819326!3d55.638279800805165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4654770046a71cbd%3A0xd5370245621f5da8!2s%C3%96sterlen%20Budo%20Klubb!5e0!3m2!1ssv!2sse!4v1713396718413!5m2!1ssv!2sse" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.9157489735503!2d13.703697977819326!3d55.638279800805165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4654770046a71cbd%3A0xd5370245621f5da8!2s%C3%96sterlen%20Budo%20Klubb!5e0!3m2!1ssv!2sse!4v1713396718413!5m2!1ssv!2sse" width="auto" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 ## När?
 

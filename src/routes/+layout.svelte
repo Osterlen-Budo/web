@@ -16,7 +16,7 @@
 	
 </script>
 
-<div class="grid  sm:grid-cols-2 md:grid-cols-md lg:grid-cols-lg ">
+<div class="grid  sm:grid-cols-2 md:grid-cols-md lg:grid-cols-lg bg-white">
 	<div class="fixed w-full t-0 left-0 sm:col-span-2 md:col-span-4 z-30">
 		
 		<Navbar class="border-b-2 t-0" >
@@ -24,8 +24,8 @@
 			<img src={logo} class="me-3 h-6 sm:h-9" alt="Österlen Budo Logo" />
 			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Österlen Budoklubb</span>
 			</NavBrand>
-			<NavHamburger on:click={()=>hideNavMenu=false}  />
-			<NavUl {activeUrl} hidden={hideNavMenu}
+			<NavHamburger  />
+			<NavUl {activeUrl} 
 			>
 				<NavLi href="/">Hem</NavLi>
 				<NavLi href="/borjatrana">Börja träna</NavLi>
@@ -86,4 +86,3 @@
 		
 	</div>
 </div>
-<div class="h-80 w-screen bg-slate-300 bottom-0"></div>

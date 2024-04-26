@@ -11,7 +11,7 @@
 	<p class="text-1xl font-normal md:text-2xl lg:text-2xl ">
         <span class=" px-2">Välkommen till Österlen Budoklubb</span> </p
 	>
-	<p class="mb-6 text-xs dark:text-gray-400 text-red-700 sm:px-12  xl:px-28"
+	<p class="mb-6 text-xs md:text-sm dark:text-gray-400 text-red-700 sm:px-12  xl:px-28"
 		>Den lilla klubben med det stora hjärtat</p>
 </div>
 <div class="text-left flex flex-row justify-center flex-wrap sm:col-span-2 md:col-start-2 md:col-span-1 md:justify-normal">

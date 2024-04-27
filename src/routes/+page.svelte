@@ -18,7 +18,7 @@
     {#each data.newsItems as news}
         <NewsItem title={news.title} pubDate={'2024-10-31'} image={news.image || ""} slug={`nyheter/${news.slug}`} >
             {news.description}   
-     </NewsItem>
+        </NewsItem>
     {/each}
 <!--     
     <NewsItem title="Klubbtävling" pubDate="2024-03-31" image='/images/tavling.jpeg' slug="">

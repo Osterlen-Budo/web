@@ -4,6 +4,7 @@ date: 2023-04-14
 description: Här är en presentation av oss i styrelsen
 published: true
 ---
+
 <script lang="ts">
 import { Profile}  from '$components'
 
@@ -44,7 +45,7 @@ let members= [
   },
     {
     href: "/",
-     src: `/images/profile/${type}/mattias.png`,
+    src: `/images/profile/${style}/mattias.png`,
     gif: "random",
     alt: "Mattias Wallinius",
     name: "Mattias Wallinius",

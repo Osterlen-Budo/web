@@ -1,7 +1,7 @@
 ---
 title: Kalendarium VT 2024
-description: Här kan du se vad som händer under terminen
 date: 2024-04-19
+description: Här kan du se vad som händer under terminen
 published: true
 ---
 
@@ -25,6 +25,7 @@ published: true
 | 12 maj  | 10:00-16:00 | Lugi Judo Camp           | Victoriastadion, Lund      | Orange bälte och upp, 11+ år        |
 | 28 maj  | TBD         | Gradering                | Dojon                      | Alla medlemmar                      |
 | 30 maj  | TBD         | Avslutning med brännboll | Möllers mosse, Sjöbo       | Alla medlemmar med familj           |
-| TBD     | TBD         | Sommarträning            | Dojon                      | Alla                                |
+| 19 jun-14 aug     | 18.30-19:30        | Sommarträning            | Dojon                      | 7+ år                                |
+| 19 jun-14 aug  | 18:30-20:00         | Prova på judo | Dojon       | 18+ år           |
 
 TBD = to be determined

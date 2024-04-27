@@ -1,13 +1,12 @@
 ---
 title: Judopass
-description: Vad är ett judopass?
 date: 2024-04-19
+description: Vad är ett judopass?
 published: true
 ---
+Ett judopass skall du ha om du är medlem i en svensk Judoklubb ansluten till Svenska Judoförbundet. Judopasset är en judolegitimation, samt en tävlingslicens och visar din klubbtillhörighet, bältesgrad och tävlingsresultat.
 
-Ett judopass skall du ha om du är medlem i en svensk Judoklubb ansluten till Svenska Judoförbundet. Judopasset är en judolegitimation, samt en tävlingslicens och visar din klubbtillhörighet, bältesgrad och, tävlingsresultat.
-
-Det är _obligatoriskt_ att ha med sitt judopass på alla graderingar och tävlingar!
+Det är *obligatoriskt* att ha med sitt judopass på alla tävlingar!
 
 Du köper passet när du vill tävla för första gången eller efter att du har graderat till gult bälte.
 

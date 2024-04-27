@@ -4,7 +4,7 @@ date: 2023-04-14
 description: Välkommen att börja träna judo
 published: true
 ---
-## blalbVad roligt att du bestämt dig för att prova på judo!
+## Vad roligt att du bestämt dig för att prova på judo!
 
 Du är välkommen att komma och prova på och du behöver inte anmäla dig i förväg. Du får tre gratis prova på gånger innan du behöver bestämma dig för om du ska fortsätta eller inte.
 

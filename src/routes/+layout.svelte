@@ -88,6 +88,5 @@
 			<img src="/images/sponsor/sjobo_elnat.png" class="w-auto my-16" alt="Sjöbo Elnät"/>
 			<img src="/images/sponsor/Sjobo_logo.png" class="w-auto my-16" alt="Sjöbo Elnät"/>
 		</div>
-		
 	</div>
 </div>

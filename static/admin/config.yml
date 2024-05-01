@@ -15,7 +15,7 @@ collections:
     create: false # Allow users to create new documents in this collection
     slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Publiseringsdatum', name: 'date', widget: 'datetime' }
       - { label: 'Beskrivning', name: 'description', widget: 'string' }
@@ -27,7 +27,7 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'news' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Description', name: 'description', widget: 'string', optional: true }
       - { label: 'Image', name: 'image', widget: 'image' }
@@ -40,12 +40,14 @@ collections:
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
+      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'calendar' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Start time', name: 'starttime', widget: 'datetime' }
-      - { label: 'End time', name: 'endtime', widget: 'datetime' }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - { label: 'Datum', name: 'date', widget: 'datetime' }
+      - { label: 'Start tid', name: 'starttime', widget: 'datetime' }
+      - { label: 'Slut tid', name: 'endtime', widget: 'datetime' }
+      - { label: 'Vad', name: 'what', widget: 'string' }
+      - { label: 'Var', name: 'where', widget: 'string' }
+      - { label: 'För vem', name: 'who', widget: 'string' }
 
   - name: 'sponsor' # Used in routes, e.g., /admin/collections/blog
     label: 'Sponsorer' # Used in the UI

@@ -29,7 +29,7 @@ const config = {
 			$components: 'src/lib/components',
 			// this will match a directory and its contents
 			// (`my-directory/x` resolves to `path/to/my-directory/x`)
-			$news: 'pages/news/*'
+			$news: '/pages/news/*'
 		},
 
 		// adapter-auto only supports some environments, see https://kit.svelte.dev/docs/adapter-auto for a list.

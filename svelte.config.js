@@ -9,7 +9,7 @@ import { mdsvex } from 'mdsvex';
 const mdsvexOptions = {
 	extensions: ['.md', '.svx'],
 	layout: {
-		nyheter: 'src/routes/nyheter/layout.svelte',
+		nyhet: 'src/routes/nyheter/layout.svelte',
 		traning: 'src/routes/traning/layout.svelte',
 		borjatrana: 'src/routes/[slug]/layout.svelte'
 	}

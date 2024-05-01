@@ -1,5 +1,5 @@
 ---
-layout: blog
+layout: nyhet
 title: Ny hemsida
 description: Nu är nya hemsidan igång
 date: 2024-03-30

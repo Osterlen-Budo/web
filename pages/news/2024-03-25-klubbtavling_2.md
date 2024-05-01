@@ -1,4 +1,5 @@
 ---
+layout: nyhet
 title: Klubbtävling
 description: Nu har det varit klubbtävling igen.
 date: 2023-04-14

@@ -1,4 +1,5 @@
 ---
+layout: nyhet
 title: Tjejgänget på vuxenträningen 🥰
 description: Tjejgänget på vuxenträningen 🥰
 date: 2023-04-24T00:00:00.000Z

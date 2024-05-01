@@ -9,6 +9,12 @@
 	import { navigating } from '$app/stores';
 	let hideNavMenu = true
 
+	function toggleMenu () {
+		console.log("Hide menu")
+		hideNavMenu = false;
+	}
+
+
 	$: if ($navigating) {
     	hideNavMenu = true
 	}
@@ -24,9 +30,8 @@
 			<img src={logo} class="me-3 h-6 sm:h-9" alt="Österlen Budo Logo" />
 			<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white">Österlen Budoklubb</span>
 			</NavBrand>
-			<NavHamburger  />
-			<NavUl {activeUrl} 
-			>
+			<NavHamburger onClick={toggleMenu} />
+			<NavUl {activeUrl} hidden={hideNavMenu}>
 				<NavLi href="/">Hem</NavLi>
 				<NavLi href="/borjatrana">Börja träna</NavLi>
 				<NavLi href="/kalendarium">Kalendarium</NavLi>
@@ -65,7 +70,7 @@
 	</div>
 	<slot/>
 	<div class="flex-col sm:col-span-2 sm:w-full md:col-span-1 md:col-start-3 md:mx-0" >
-		<div class="sm:w-full justify-self-start mb-10 mx-10">
+		<!-- <div class="sm:w-full justify-self-start mb-10 mx-10">
 			<div class="">
 				<h5 class="mb-2 text-2xl font-thin border-b	tracking-tight text-gray-900 dark:text-white ">På gång</h5>
 				<b class="">April</b>
@@ -75,7 +80,7 @@
 				<p class="font-thin mb-2 text-gray-700 dark:text-gray-400 leading-tight">12/5 - Lugi Judo Camp</p>
 				<p class="font-thin mb-2 text-gray-700 dark:text-gray-400 leading-tight">28/5 - Gradering</p>	
 			</div>
-		</div>
+		</div> -->
 		<div  class="sm:w-auto justify-self-start mb-10 mx-10 sm:col-span-2">
 			<h5 class="mb-4 text-2xl font-thin border-b	 tracking-tight text-gray-900 dark:text-white">Sponsorer</h5>
 			<img  src="/images/sponsor/Sparbanken-skane-logo.png" class="w-auto my-16" alt="Sparbanken Skåne"/>

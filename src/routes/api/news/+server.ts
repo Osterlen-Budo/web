@@ -5,7 +5,7 @@ import type { Page } from '$lib/types';
 async function getNewsItems() {
 	let newsItems: Page[] = [];
 
-	const paths = import.meta.glob('/pages/news/**/*.md', { eager: true });
+	const paths = import.meta.glob('/src/pages/news/**/*.md', { eager: true });
 
 	for (const path in paths) {
 		const file = paths[path];

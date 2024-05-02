@@ -97,7 +97,7 @@ let members = [
 </script>
 
 <br/>
-<div class="not-prose flex flex-wrap justify-center sm:justify-between md:justify-between lg:justify-between">
+<div class="not-prose flex flex-wrap justify-center sm:justify-between ">
   {#each members as { gif, href, src, belt, name, title, transition }}
         <Profile name={name} title={title} image={src} gif={gif}  belt={belt}/>
   {/each}

@@ -34,7 +34,7 @@ import { fade, fly } from 'svelte/transition';
 
 
  <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
- <div class="group w-56 h-80 rounded-xl relative  bg-slate-100   mb-10 overflow-hidden">
+ <div class="group w-56 h-80 rounded-xl relative  bg-slate-100   mb-10 overflow-hidden mx-2">
         <div class="overflow-clip  relative justify-cente" >
             {#if showGif && gif != ''}
                 <img transition:fade={{duration: 800}} class="align-bottom  w-full h-full absolute "  src={gif}  alt={title} />

@@ -66,7 +66,7 @@ let members= [
 </script>
 
 <br />
-<div class="not-prose flex flex-wrap justify-between bg-slate w-full">
+<div class="not-prose flex flex-wrap justify-center sm:justify-between bg-slate w-full">
       {#each members as { gif, href, src, alt, name, title, description, transition }}
             <Profile name={name} title={title} image={src} gif={gif} />
       {/each}

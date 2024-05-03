@@ -16,7 +16,7 @@
 </div>
 <div class="text-left flex flex-row justify-center flex-wrap sm:col-span-2 md:col-start-2 md:col-span-1 md:justify-normal">
     {#each data.newsItems as news}
-        <NewsItem title={news.title} pubDate={'2024-10-31'} image={news.image || ""} slug={`nyheter/${news.slug}`} >
+        <NewsItem title={news.title} date={news.date} image={news.image || ""} slug={`nyheter/${news.slug}`} >
             {news.description}   
         </NewsItem>
     {/each}

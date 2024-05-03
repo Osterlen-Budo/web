@@ -81,12 +81,12 @@
 				<p class="font-thin mb-2 text-gray-700 dark:text-gray-400 leading-tight">28/5 - Gradering</p>	
 			</div>
 		</div> -->
-		<div  class="sm:w-auto justify-self-start mb-10 mx-10 sm:col-span-2">
+		<div  class="sm:w-auto justify-center sm:justify-self-start mb-10 mx-10 sm:col-span-2">
 			<h5 class="mb-4 text-2xl font-thin border-b	 tracking-tight text-gray-900 dark:text-white">Sponsorer</h5>
-			<img  src="/images/sponsor/Sparbanken-skane-logo.png" class="w-auto my-16" alt="Sparbanken Skåne"/>
-			<img src="/images/sponsor/rf_sisu.svg" class="w-auto my-16" alt="RF-SISU"/>
-			<img src="/images/sponsor/sjobo_elnat.png" class="w-auto my-16" alt="Sjöbo Elnät"/>
-			<img src="/images/sponsor/Sjobo_logo.png" class="w-auto my-16" alt="Sjöbo Elnät"/>
+			<img  src="/images/sponsor/Sparbanken-skane-logo.png" class="w-auto my-16 max-w-52" alt="Sparbanken Skåne"/>
+			<img src="/images/sponsor/rf_sisu.svg" class="w-auto my-16 max-w-52" alt="RF-SISU"/>
+			<img src="/images/sponsor/sjobo_elnat.png" class="w-auto my-16 max-w-52" alt="Sjöbo Elnät"/>
+			<img src="/images/sponsor/Sjobo_logo.png" class="w-auto my-16 max-w-52" alt="Sjöbo Elnät"/>
 		</div>
 	</div>
 </div>

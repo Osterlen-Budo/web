@@ -60,7 +60,7 @@
 					<Dropdown class="w-44 z-20">
 						<DropdownItem href="/styrelsen">Styrelsen</DropdownItem>
 						<DropdownItem href="/tranarna">Tränare</DropdownItem>
-						<DropdownItem href="/">Klubbens historia</DropdownItem>
+						<!-- <DropdownItem href="/">Klubbens historia</DropdownItem> -->
 						<DropdownItem href="/dokument">Dokument</DropdownItem>
 
 					</Dropdown>

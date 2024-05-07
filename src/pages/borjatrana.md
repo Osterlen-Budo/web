@@ -4,7 +4,6 @@ date: 2023-04-14
 description: Välkommen att börja träna judo
 published: true
 ---
-
 ## Vad roligt att du bestämt dig för att prova på judo!
 
 Du är välkommen att komma och prova på och du behöver inte anmäla dig i förväg. Du får tre gratis prova på gånger innan du behöver bestämma dig för om du ska fortsätta eller inte.
@@ -17,10 +16,10 @@ Kvarngatan 1, på innergården. Det står Österlen Budo Klubb över ingången. 
 
 ## När?
 
-fram till
+För att säkra kvaliteten på träningen tar vi emot nya medlemmar från terminsstart fram till
 
-- 30 februari på våren
-- 30 september på hösten
+* 30 februari på våren
+* 30 september på hösten
 
 <a href="/tider">träningstider</a>
 

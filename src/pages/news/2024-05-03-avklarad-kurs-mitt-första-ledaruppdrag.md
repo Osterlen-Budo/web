@@ -1,8 +1,6 @@
 ---
 layout: nyhet
 title: Avklarad kurs - "Mitt första ledaruppdrag"
-description: Idag har vår fina hjälptränare Milton varit på kursen ”Mitt första
-  ledaruppdrag” i Helsingborg.
 image: /images/milton.jpeg
 published: true
 date: 2024-05-03T09:19:00.000Z

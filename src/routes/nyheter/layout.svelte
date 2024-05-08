@@ -26,7 +26,6 @@
 <div class="sm:grid-cols-2 md:col-start-2 mb-10 mx-10 ">
 	<Breadcrumb  aria-label="Default breadcrumb example">
 		<BreadcrumbItem href="/" home>Hem</BreadcrumbItem>
-		<BreadcrumbItem href="/nytheter">Nyheter</BreadcrumbItem>
 		<BreadcrumbItem>{title}</BreadcrumbItem>
 	  </Breadcrumb>
 

@@ -1,7 +1,6 @@
 ---
 layout: nyhet
 title: Skåneserien i Knislinge
-description: Idag har vi varit på Skåneserien i Knislinge
 image: /images/knislinge.jpeg
 published: true
 date: 2024-04-21T09:17:00.000Z

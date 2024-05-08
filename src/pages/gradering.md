@@ -4,14 +4,15 @@ date: 2024-04-19
 description: Här kan du se vad det kostar att träna i vår klubb
 published: true
 ---
+
 I judo har man olika färger på bältet. Ju mer man tränar och ju mer man kan desto högre bälte får man. När man börjar träna judo har man vitt bälte (6 Kyu). Därefter kan man gradera till bälte i följande ordning:
 
-* Gult bälte 5 Kyu
-* Orange bälte 4 Kyu
-* Grönt bälte 3 Kyu
-* Blått bälte 2 Kyu
-* Brunt bälte 1 Kyu
-* Svart bälte (1 Dan - 10 Dan)
+- Gult bälte 5 Kyu
+- Orange bälte 4 Kyu
+- Grönt bälte 3 Kyu
+- Blått bälte 2 Kyu
+- Brunt bälte 1 Kyu
+- Svart bälte (1 Dan - 10 Dan)
 
 I det svarta bältet finns det också olika grader (Dan). 1 Dan är den lägsta graden och 10 Dan den högsta.
 
@@ -23,6 +24,6 @@ Vi på Österlen Budo följer graderingsbestämmelserna för bältesgradering fr
 
 ### Några bra hemsidor:
 
-* [Graderingsbestämmelserna](https://drive.google.com/drive/folders/0B-VmgzDTzgdRMWVnSkI1emdlY0k)- Svenska Judoförbundets riktlinjer där det står beskrivet vad man ska kunna till varje bälte
-* [gradera.nu](https://gradera.nu)- det står beskrivet vad man ska kunna till varje bälte. Youtube länkar till de flesta kast och fasthållningar. En lista med de vanligaste ord som används inom judon.
-* [Kyu-grad](https://sv.wikipedia.org/wiki/Kyugrad)- allmän information om Kyu-graden och var de kommer ifrån
+- [Graderingsbestämmelserna](https://drive.google.com/drive/folders/0B-VmgzDTzgdRMWVnSkI1emdlY0k)- Svenska Judoförbundets riktlinjer där det står beskrivet vad man ska kunna till varje bälte
+- [gradera.nu](https://gradera.nu)- det står beskrivet vad man ska kunna till varje bälte. Youtube länkar till de flesta kast och fasthållningar. En lista med de vanligaste ord som används inom judon.
+- [Kyu-grad](https://sv.wikipedia.org/wiki/Kyugrad)- allmän information om Kyu-graden och var de kommer ifrån

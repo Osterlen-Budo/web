@@ -11,13 +11,13 @@
 
 
  <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
- <div  on:keyup={(e)=>goto(slug)} role="navigation" on:click={(e)=>goto(slug)}  class="mx-1 my-5 bg-white sm:mx-2 border rounded-md overflow-clip w-auto sm:max-w-80 md:max-w-80 cursor-pointer" >
+ <div  on:keyup={(e)=>goto(slug)} role="navigation" on:click={(e)=>goto(slug)}  class="mx-1 my-5 bg-white sm:mx-2 border rounded overflow-clip w-auto sm:max-w-80 md:max-w-80 cursor-pointer" >
         <div class="p-5">
             <h5 class="mb-2 text-xl font-bold  tracking-tight text-gray-900 dark:text-white">{title}</h5>
             <p class="text-xs font-thin text-grey-50">{formatDate(date)}</p>
         </div>
-        <div class="h-80 overflow-clip border-y">
-            <img class="object-cover p-1 bg-red-50" src={image} alt="Judo klubbtävling" />
+        <div class="h-80  overflow-clip">
+            <img class="object-cover p-1 bg-red-50" src={image} alt="{title}" />
         </div>
             <!-- <div class="p-5">
                 <p class="font-thin text-normal text-gray-700 dark:text-gray-400 leading-tight"><slot /> </p>

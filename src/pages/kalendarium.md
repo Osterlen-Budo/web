@@ -22,8 +22,9 @@ published: true
 | 20 apr                 |             | Knislinge Judo Open      | Snapphanehallen, Knislinge | Grönt bälte och upp                 |
 | 21 apr                 |             | Skåneserien 2            | Snapphanehallen,Knislinge  | Gult bälte och upp                  |
 | 12 maj                 | 10:00-16:00 | Lugi Judo Camp           | Victoriastadion, Lund      | Orange bälte och upp, 11+ år        |
-| 28 maj                 | TBD         | Gradering                | Dojon                      | Alla medlemmar                      |
-| 30 maj                 | TBD         | Avslutning med brännboll | Möllers mosse, Sjöbo       | Alla medlemmar med familj           |
+| 28 maj                 | 18:30-20:00 | Gradering                | Dojon                      | Barn                                |
+| 28 maj                 | 20:00-21:30 | Gradering                | Dojon                      | Ungdomar/Vuxna                                |
+| 30 maj                 | 18:00-         | Avslutning med brännboll | Möllers mosse, Sjöbo       | Alla medlemmar med familj           |
 | onsdagar 19 jun-14 aug | 18.30-19:30 | Sommarträning            | Dojon                      | 7+ år                               |
 | onsdagar 19 jun-14 aug | 18:30-20:00 | Sommarträning            | Dojon                      | 18+ år                              |
 

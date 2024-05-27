@@ -23,6 +23,7 @@
 </script>
 
 <div class="grid  sm:grid-cols-2 md:grid-cols-md lg:grid-cols-lg bg-white">
+	
 	<div class="fixed w-full t-0 left-0 sm:col-span-2 md:col-span-4 z-30">
 		
 		<Navbar class="border-b-2 t-0" >

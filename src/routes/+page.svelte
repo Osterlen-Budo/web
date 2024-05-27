@@ -15,12 +15,16 @@
 		>Den lilla klubben med det stora hjärtat</p>
 </div>
 <div class="text-left flex flex-row justify-center flex-wrap sm:col-span-2 md:col-start-2 md:col-span-1 md:justify-normal">
+    <iframe class="" src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fosterlenbudo&tabs=timeline&width=500&height=500&small_header=true&adapt_container_width=true&hide_cover=true&show_facepile=true&appId=773680968230193" width="500" height="271" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe>
     {#each data.newsItems as news}
         <NewsItem title={news.title} date={news.date} image={news.image || ""} slug={`nyheter/${news.slug}`} >
-            {news.description}   
         </NewsItem>
     {/each}
-<!--     
+    <!-- <div class="fb-page" data-href="https://www.facebook.com/osterlenbudo" data-tabs="timeline" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="true" data-show-facepile="true">
+    <blockquote cite="https://www.facebook.com/osterlenbudo" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/osterlenbudo">Österlen Budo Klubb</a></blockquote></div>
+ -->
+
+    <!--     
     <NewsItem title="Klubbtävling" pubDate="2024-03-31" image='/images/tavling.jpeg' slug="">
         Idag har vi haft en klubbtävling med 20 duktiga deltagare varav det var mångas första gång.
     </NewsItem>

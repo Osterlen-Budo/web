@@ -1,10 +1,9 @@
 ---
 title: Tränarna
-description: Här är en presentation av oss i styrelsen
 date: 2023-04-14
+description: Här är en presentation av oss i styrelsen
 published: true
 ---
-
 <script lang="ts">
 import { Profile}  from '$components'
 
@@ -49,7 +48,7 @@ let members = [
     gif: "random",
     name: "Paul Andersson",
     title: "Tränare",
-    belt: "2 Kyu (Blå)",
+    belt: "1 Kyu (Brun)",
   },
   {
     href: "/",
@@ -57,7 +56,7 @@ let members = [
     gif: "random",
     name: "Hannes Alm",
     title: "Hjälptränare",
-    belt: "2 Kyu (Blå)",
+    belt: "1 Kyu (Brun)",
   },
   {
     href: "/",
@@ -73,7 +72,7 @@ let members = [
     gif: "random",
     name: "Alexander Bäckström",
     title: "Hjälptränare",
-    belt: "3 Kyu (Grön)",
+    belt: "3 Kyu (Blå-grön)",
   },
   {
     href: "/",
@@ -81,7 +80,7 @@ let members = [
     gif: "random",
     name: "Magdalena Alm",
     title: "Hjälptränare",
-    belt: "3 Kyu (Grön)",
+    belt: "3 Kyu (Blå-grön)",
   },
   {
     href: "/",
@@ -89,7 +88,7 @@ let members = [
     gif: "random",
     name: "Milton Holst",
     title: "Hjälptränare",
-    belt: "3 Kyu (Grön)",
+    belt: "3 Kyu (Blå-grön)",
   },
   
   

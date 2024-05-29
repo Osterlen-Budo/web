@@ -25,11 +25,7 @@ published: true
 | 28 maj                 | 18:30-20:00 | Gradering                | Dojon                      | Barn                                |
 | 28 maj                 | 20:00-21:30 | Gradering                | Dojon                      | Ungdomar/Vuxna                      |
 | 30 maj                 | 18:00-      | Avslutning med brännboll | Möllers mosse, Sjöbo       | Alla medlemmar med familj           |
-| 19,26 jun
-3, 10, 17, 24, 31 jul
-7, 14 aug                 | 18.30-19:30 | Sommarträning            | Dojon                      | 7+ år                               |
-| 19,26 jun
-3, 10, 17, 24, 31 jul
-7, 14 aug    | 18:30-20:00 | Sommarträning            | Dojon                      | 18+ år                              |
+| Onsdagar 19 jun - 14 aug                      | 18.30-19:30 | Sommarträning            | Dojon                      | 7+ år                               |
+| Onsdagar 19 jun - 14 aug    | 18:30-20:00 | Sommarträning            | Dojon                      | 18+ år                              |
 
 TBD = to be determined

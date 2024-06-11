@@ -84,10 +84,10 @@
 		</div> -->
 		<div  class="sm:w-auto justify-center sm:justify-self-start mb-10 mx-10 sm:col-span-2">
 			<h5 class="mb-4 text-2xl font-thin border-b	 tracking-tight text-gray-900 dark:text-white">Sponsorer</h5>
+			<img src="/images/sponsor/Sjobo_logo.png" class="w-auto my-16 max-w-52" alt="Sjöbo"/>
 			<img  src="/images/sponsor/Sparbanken-skane-logo.png" class="w-auto my-16 max-w-52" alt="Sparbanken Skåne"/>
 			<img src="/images/sponsor/rf_sisu.svg" class="w-auto my-16 max-w-52" alt="RF-SISU"/>
 			<img src="/images/sponsor/sjobo_elnat.png" class="w-auto my-16 max-w-52" alt="Sjöbo Elnät"/>
-			<img src="/images/sponsor/Sjobo_logo.png" class="w-auto my-16 max-w-52" alt="Sjöbo Elnät"/>
 		</div>
 	</div>
 </div>

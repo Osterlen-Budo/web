@@ -23,7 +23,7 @@ let members = [
     src: `/images/profile/${type}/mattias.png`,
     gif: "random",
     name: "Mattias Wallinius",
-    title: "Huvudtränare",
+    title: "Vice Huvudtränare",
     belt: "1 Dan (Svart)" ,
   },
   {

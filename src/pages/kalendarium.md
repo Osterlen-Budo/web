@@ -4,6 +4,8 @@ date: 2024-08-06T12:30:00.000Z
 description: Terminen börjar 19 augusti 2024.
 published: true
 ---
+Terminen börjar 19 augusti 2024.
+
 | Dag                      | Tid         | Vad                      | Var                        | För vem                             |
 | ------------------------ | ----------- | ------------------------ | -------------------------- | ----------------------------------- |
 | 26-29 aug                |             | Bring a friend           | Dojon                      | Alla                                |

@@ -1,11 +1,11 @@
 ---
-title: Österlen Budo vårschema 2024
-description: Välkommen att börja träna judo
+title: Österlen Budo höstschema 2024
 date: 2024-04-19
+description: Välkommen att börja träna judo
 published: true
 ---
 
-Schemat gäller 15/1/2024 till 27/5/2024.
+Schemat gäller 19/8/2024 till 12/12/2024.
 
 | Dag       | Tid         | Grupp             | Ålder | Bälte            |
 | --------- | ----------- | ----------------- | ----- | ---------------- |

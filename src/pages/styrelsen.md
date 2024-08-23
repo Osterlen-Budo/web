@@ -53,7 +53,7 @@ let members= [
   },
       {
     href: "/",
-    src: `/images/profile/${style}/jimmy.webp`,
+    src: `/images/profile/${style}/jimmy.png`,
     gif: "random",
     alt: "Jimmy Falk",
     name: "Jimmy Falk",

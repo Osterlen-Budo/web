@@ -25,14 +25,11 @@ Vi på Österlen Budo följer graderingsbestämmelserna för bältesgradering fr
 
 * [Vitt bälte med gul markering](https://www.youtube.com/watch?v=2DsVvDw7b8g&list=PLDb6lNXmB3P4sEhjX-PP_EGrqsLMpPKzM)
 
-* [Gult bälte]
-(https://www.youtube.com/watch?v=jeQ541ScLB4&list=PLDb6lNXmB3P5fif3ttjAi08I1rvGbFNz2)
+* [Gult bälte](https://www.youtube.com/watch?v=jeQ541ScLB4&list=PLDb6lNXmB3P5fif3ttjAi08I1rvGbFNz2)
 
-* [Gult bälte med orange markering]
-(https://www.youtube.com/watch?v=4BUUvqxi_Kk&list=PLDb6lNXmB3P7tbEsJ0lWy5ujLF48wzCeC)
+* [Gult bälte med orange markering](https://www.youtube.com/watch?v=4BUUvqxi_Kk&list=PLDb6lNXmB3P7tbEsJ0lWy5ujLF48wzCeC)
 
-* [Orange bälte]
-(https://www.youtube.com/watch?v=c-A_nP7mKAc&list=PLDb6lNXmB3P7u-o4hy6GRIkUWZAJq03qn)
+* [Orange bälte](https://www.youtube.com/watch?v=c-A_nP7mKAc&list=PLDb6lNXmB3P7u-o4hy6GRIkUWZAJq03qn)
 
 * [Orange bälte med grön markering](https://www.youtube.com/watch?v=nw1ZdRjrdRI&list=PLDb6lNXmB3P4676naLMKKu6Gy950rhtgA)
 

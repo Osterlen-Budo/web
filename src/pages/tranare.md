@@ -4,7 +4,6 @@ date: 2023-04-14
 description: Här är en presentation av oss i styrelsen
 published: true
 ---
-
 <script lang="ts">
 import { Profile}  from '$components'
 
@@ -98,7 +97,7 @@ let members = [
     alt: "Sania Bäckström",
     name: "Sania Bäckström",
     title: "Hjälptränare",
-    belt: "3 Kyu (grön)",
+    belt: "3 Kyu (Grön)",
   },
   {
     href: "/",
@@ -106,7 +105,7 @@ let members = [
     gif: "random",
     name: "Patrick Bylén",
     title: "Hjälptränare",
-    belt: "3 Kyu (grön)",
+    belt: "3 Kyu (Grön)",
   },
   
   

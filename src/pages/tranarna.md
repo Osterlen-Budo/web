@@ -105,7 +105,7 @@ let members = [
     href: "/",
     src: `/images/profile/${type}/patrik.png`,
     gif: "random",
-    name: "Patrick Bilén",
+    name: "Patrick Bylén",
     title: "Hjälptränare",
     belt: "3 Kyu (grön)",
   },

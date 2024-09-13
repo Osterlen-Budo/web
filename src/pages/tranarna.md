@@ -93,7 +93,7 @@ let members = [
   },
   {
     href: "/",
-    src: `/images/profile/${style}/sania.png`,
+    src: `/images/profile/${type}/sania.png`,
     gif: "/images/unicorn-drinking-boba.gif",
     alt: "Sania Bäckström",
     name: "Sania Bäckström",

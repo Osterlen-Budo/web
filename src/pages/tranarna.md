@@ -97,8 +97,7 @@ let members = [
     alt: "Sania Bäckström",
     name: "Sania Bäckström",
     title: "Hjälptränare",
-
-belt: "3 Kyu (Grön)",
+    belt: "3 Kyu (Grön)",
   },
   
 ];

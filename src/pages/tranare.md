@@ -1,5 +1,5 @@
 ---
-title: Tränarna
+title: Tränare
 date: 2023-04-14
 description: Här är en presentation av oss i styrelsen
 published: true

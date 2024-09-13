@@ -59,8 +59,8 @@
 					Om klubben<ChevronDownOutline class="w-6 h-6 ms-2 text-primary-800 dark:text-white inline" />
 				</NavLi>
 					<Dropdown class="w-44 z-20">
-						<DropdownItem href="/styrelsen">Styrelsen</DropdownItem>
-						<DropdownItem href="/tranarna">Tränare</DropdownItem>
+						<DropdownItem href="/styrelse">Styrelse</DropdownItem>
+						<DropdownItem href="/tranare">Tränare</DropdownItem>
 						<!-- <DropdownItem href="/">Klubbens historia</DropdownItem> -->
 						<DropdownItem href="/dokument">Dokument</DropdownItem>
 

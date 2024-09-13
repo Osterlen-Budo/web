@@ -1,5 +1,5 @@
 ---
-title: Styrelsen
+title: Styrelse
 date: 2023-04-14
 description: Här är en presentation av oss i styrelsen
 published: true

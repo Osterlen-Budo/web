@@ -13,7 +13,7 @@ const type = "close"
 let members = [
     {
     href: "/",
-    src: \`/images/profile/${type}/tony.png\`,
+    src: `/images/profile/${type}/tony.png`,
     gif: "/images/judo.gif",
     name: "Tony Jansson",
     title: "Huvudtränare",
@@ -21,7 +21,7 @@ let members = [
   },
     {
     href: "/",
-    src: \`/images/profile/${type}/mattias.png\`,
+    src: `/images/profile/${type}/mattias.png`,
     gif: "random",
     name: "Mattias Wallinius",
     title: "Vice Huvudtränare",
@@ -29,7 +29,7 @@ let members = [
   },
   {
     href: "/",
-    src: \`/images/profile/${type}/madde.png\`,
+    src: `/images/profile/${type}/madde.png`,
     gif: "random",
     name: "Madeleine Fristedt Nilsson",
     title: "Tränare",
@@ -37,7 +37,7 @@ let members = [
   },
 {
     href: "/",
-    src: \`/images/profile/${type}/hilko.png\`,
+    src: `/images/profile/${type}/hilko.png`,
     gif: "random",
     name: "Hilko Spoelstra",
     title: "Tränare",
@@ -45,7 +45,7 @@ let members = [
   },
   {
     href: "/",
-    src: \`/images/profile/${type}/paul.png\`,
+    src: `/images/profile/${type}/paul.png`,
     gif: "random",
     name: "Paul Andersson",
     title: "Tränare",
@@ -53,7 +53,7 @@ let members = [
   },
   {
     href: "/",
-    src: \`/images/profile/${type}/hannes.png\`,
+    src: `/images/profile/${type}/hannes.png`,
     gif: "random",
     name: "Hannes Alm",
     title: "Hjälptränare",
@@ -61,7 +61,7 @@ let members = [
   },
   {
     href: "/",
-    src: \`/images/profile/${type}/benjamin.png\`,
+    src: `/images/profile/${type}/benjamin.png`,
     gif: "random",
     name: "Benjamin Fristedt",
     title: "Hjälptränare",
@@ -69,7 +69,7 @@ let members = [
   },
     {
     href: "/",
-    src: \`/images/profile/${type}/alexander.png\`,
+    src: `/images/profile/${type}/alexander.png`,
     gif: "random",
     name: "Alexander Bäckström",
     title: "Hjälptränare",
@@ -77,7 +77,7 @@ let members = [
   },
   {
     href: "/",
-    src: \`/images/profile/${type}/magdalena.png\`,
+    src: `/images/profile/${type}/magdalena.png`,
     gif: "random",
     name: "Magdalena Alm",
     title: "Hjälptränare",
@@ -85,7 +85,7 @@ let members = [
   },
   {
     href: "/",
-    src: \`/images/profile/${type}/milton.png\`,
+    src: `/images/profile/${type}/milton.png`,
     gif: "random",
     name: "Milton Holst",
     title: "Hjälptränare",
@@ -99,13 +99,12 @@ let members = [
     name: "Sania Bäckström",
     title: "Hjälptränare",
     belt: "3 Kyu (grön)",
-
   },
   {
     href: "/",
     src: `/images/profile/${type}/patrik.png`,
     gif: "random",
-    name: "Patrick Bylén",
+    name: "Patrick Bilén",
     title: "Hjälptränare",
     belt: "3 Kyu (grön)",
   },

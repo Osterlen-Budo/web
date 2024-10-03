@@ -13,6 +13,10 @@ export default {
 
 	theme: {
 		extend: {
+			padding: {
+				'1/2': '50%',
+				full: '100%'
+			},
 			screens: {
 				sm: '675px',
 				md: '1010px'

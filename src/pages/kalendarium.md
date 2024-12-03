@@ -17,7 +17,7 @@ Höstterminen är 19 augusti 2024 - 12 december 2024.
 | 6 okt     |              | Skåneserien 3            | Skurup       | Gul bälte +               |
 | 16 nov    |              | Staffanstorps judo games | Staffanstorp | Grön bälte +              |
 | 17 nov    |              | Skåneserien 4            | Staffanstorp | Gul bälte  +              |
-| 30 nov    | 9.45-15.30   | Judoläger                | Dojon        | Medlemmar och föräldrar   |
+| 30 nov    | 9.45-15.30   | Medlemsdag                | Dojon        | Medlemmar och föräldrar   |
 | 12 dec    | 18.30-20.00 Barn, 20.00-21.15 Ungdomar/Vuxna  | Gradering och avslutning | Dojon        | Medlemmar                 |
 |           |              |                          |              |                           |
 

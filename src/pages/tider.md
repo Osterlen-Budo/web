@@ -5,7 +5,7 @@ description: Välkommen att börja träna judo
 published: true
 ---
 
-Schemat gäller 19/8/2024 till 12/12/2024.
+Schemat gäller 13/1/2025 till 5/6/2025.
 
 | Dag       | Tid         | Grupp             | Ålder | Bälte            |
 | --------- | ----------- | ----------------- | ----- | ---------------- |

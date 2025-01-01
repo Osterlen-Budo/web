@@ -1,7 +1,7 @@
 ---
-title: Träningsavgifter 2024
+title: Träningsavgifter 2025
+date: 2025-01-01T20:58:00.000Z
 description: Här kan du se vad det kostar att träna i vår klubb
-date: 2024-04-19
 published: true
 ---
 

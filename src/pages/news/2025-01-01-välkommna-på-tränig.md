@@ -1,7 +1,7 @@
 ---
 layout: nyhet
 title: Nu börjar vårterminen. Välkomna!
-image: /images/img_4697.jpg
+image: /images/judo.png
 date: 2025-01-01T21:05:00.000Z
 published: true
 ---

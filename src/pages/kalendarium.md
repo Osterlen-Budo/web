@@ -1,24 +1,29 @@
 ---
-title: Kalendarium HT2024
+title: Kalendarium VT2025
 date: 2024-08-06T12:30:00.000Z
 description: Terminen börjar 19 augusti 2024.
 published: true
 ---
-Höstterminen är 19 augusti 2024 - 12 december 2024.
+Vårterminen är 13 januari 2025 - 5 juni 2025.
 
-| Dag       | Tid          | Vad                      | Var          | För vem                   |
-| --------- | ------------ | ------------------------ | ------------ | ------------------------- |
-| 26-29 aug |              | Bring a friend           | Dojon        | Alla                      |
-| 9  sep    |              | Hjälptränarutbildning    | Dojon        | Nya hjälptränare          |
-| 14 sep    | 9.30-11.30   | Klubbtävling             | Dojon        | Vit-gul bälte +, ej vuxna |
-| 21 sep    | 10.00-16.30  | Kata kurs                | Kristianstad | Brun bälte +              |
-| 22 sep    | 9.30-15.30   | Kata kurs                | Kristianstad | Brun bälte +              |
-| 5 okt     |              | Wemmenhögs judo open     | Skurup       | Grön bälte +              |
-| 6 okt     |              | Skåneserien 3            | Skurup       | Gul bälte +               |
-| 16 nov    |              | Staffanstorps judo games | Staffanstorp | Grön bälte +              |
-| 17 nov    |              | Skåneserien 4            | Staffanstorp | Gul bälte  +              |
-| 30 nov    | 9.45-15.30   | Medlemsdag                | Dojon        | Medlemmar och föräldrar   |
-| 12 dec    | 18.30-20.00 Barn, 20.00-21.15 Ungdomar/Vuxna  | Gradering och avslutning | Dojon        | Medlemmar                 |
-|           |              |                          |              |                           |
+| Dag             | Tid           | Vad                                    | Var           | För vem                   |
+| --------------- | ------------- | -------------------------------------- | ------------- | ------------------------- |
+| 13 Jan          |               | Terminstart                            | Dojon         | Medlemmar                 |
+| 20-23 jan       |               | Bring a friend                         | Dojon         | Medlemmar                 |
+| 1-2 feb         |               | Judo SM                                | Skurup        | Alla                      |
+| 21 Feb          | 18.30-20.00   | Tjej-judo                              | Dojon         | Tjejer/Kvinnor 12+        |
+| 8 Mar           | 9.30-11.30    | Klubbtävling                           | Dojon         | Vit-gul bälte +, ej vuxna |
+| 8 Mar           | 11.30-13.30   | Årsmöte                                | Klubbrummet   | Medlemmar                 |
+| 15 Mar          |               | Knislinge Judo Open                    | Knislinge     | Grönt +                   |
+| 16 Mar          |               | Skåneserien                            | Knislinge     | Gul till orange-grön      |
+| 18-19 apr       |               | Copenhagen Open                        | Köpenhamn     | Grönt +                   |
+| 20-21 apr       |               | Randori camp Copenhagen Open           | Köpenhamn     | Grönt +                   |
+| 29-30 maj       |               | Budo Nord Cup                          | Lund          | Grönt +                   |
+| maj             |               | Lugi Judo Camp                         | Lund          | Grönt +                   |
+| 5 Jun           | TBD           | Gradering                              | Dojon         | Medlemmar                 |
+| 6 Jun           | TBD           | Avslutning med grillning och brännboll | Möllers Mosse | Medlemmar med familj      |
+| 18 jun - 20 aug | 18.30 - 19.30 | Sommarträning                          | Dojon         | Alla 7+ år                |
+| 18 jun - 20 aug | 18.30 - 20.00 | Sommarträning                          | Dojon         | Alla 12+ år               |
+| 25 Aug          |               | Hösttermin börjar                      | Dojon         | Medlemmar                 |
 
 TBD = to be determined

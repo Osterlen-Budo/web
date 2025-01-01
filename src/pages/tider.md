@@ -1,6 +1,6 @@
 ---
-title: Österlen Budo höstschema 2024
-date: 2024-04-19
+title: Österlen Budo vårschema 2025
+date: 2025-01-01T20:59:00.000Z
 description: Välkommen att börja träna judo
 published: true
 ---

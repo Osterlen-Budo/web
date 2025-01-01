@@ -1,6 +1,6 @@
 ---
 layout: nyhet
-title: Välkommna på träning
+title: Nu börjar vårterminen. Välkommna!
 image: /images/img_4697.jpg
 date: 2025-01-01T21:05:00.000Z
 published: true

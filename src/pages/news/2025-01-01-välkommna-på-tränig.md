@@ -1,6 +1,6 @@
 ---
 layout: nyhet
-title: Välkommna på tränig
+title: Välkommna på träning
 image: /images/img_4697.jpg
 date: 2025-01-01T21:05:00.000Z
 published: true

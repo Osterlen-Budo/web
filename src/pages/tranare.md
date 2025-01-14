@@ -84,14 +84,6 @@ let members = [
   },
   {
     href: "/",
-    src: `/images/profile/${type}/milton.png`,
-    gif: "random",
-    name: "Milton Holst",
-    title: "Hjälptränare",
-    belt: "3 Kyu (Blå-grön)",
-  },
-  {
-    href: "/",
     src: `/images/profile/${type}/sania.png`,
     gif: "/images/unicorn-drinking-boba.gif",
     alt: "Sania Bäckström",
@@ -99,16 +91,6 @@ let members = [
     title: "Hjälptränare",
     belt: "3 Kyu (Grön)",
   },
-  {
-    href: "/",
-    src: `/images/profile/${type}/patrick.png`,
-    gif: "random",
-    name: "Patrick Bylén",
-    title: "Hjälptränare",
-    belt: "3 Kyu (Grön)",
-  },
-  
-  
 ];
 </script>
 

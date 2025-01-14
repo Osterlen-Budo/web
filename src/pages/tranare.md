@@ -64,7 +64,7 @@ let members = [
     gif: "random",
     name: "Benjamin Fristedt",
     title: "Hjälptränare",
-    belt: "3 Kyu (Blå-grön)",
+    belt: "2 Kyu (Blå)",
   },
     {
     href: "/",

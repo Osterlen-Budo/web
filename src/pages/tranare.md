@@ -4,6 +4,7 @@ date: 2023-04-14
 description: Här är en presentation av oss i styrelsen
 published: true
 ---
+
 <script lang="ts">
 import { Profile}  from '$components'
 
@@ -90,6 +91,14 @@ let members = [
     name: "Sania Bäckström",
     title: "Hjälptränare",
     belt: "3 Kyu (Blå-grön)",
+  },
+  {href: "/",
+    src: `/images/profile/${type}/emilio.png`,
+    gif: "random",
+    alt: "Emilio Lindsjö ",
+    name: "Emilio Lindsjö ",
+    title: "Hjälptränare",
+    belt: "4 Kyu (Orange)",
   },
 ];
 </script>

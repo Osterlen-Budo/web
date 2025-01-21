@@ -20,8 +20,8 @@ Kvarngatan 1, på innergården. Det står Österlen Budo Klubb över ingången. 
 
 För att säkra kvaliteten på träningen tar vi emot nya medlemmar från terminsstart fram till
 
-* 28 februari på våren
-* 30 september på hösten
+* Från terminsstart t.o.m. 28 februari på våren
+* Från terminsstart t.o.m. 30 september på hösten
 
 <a href="/tider">träningstider</a>
 

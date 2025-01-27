@@ -18,8 +18,8 @@ Vårterminen är 13 januari 2025 - 5 juni 2025.
 | 16 Mar          |               | Skåneserien                            | Knislinge     | Gul till orange-grön      |
 | 18-19 apr       |               | Copenhagen Open                        | Köpenhamn     | Grönt +                   |
 | 20-21 apr       |               | Randori camp Copenhagen Open           | Köpenhamn     | Grönt +                   |
-| 29-30 maj       |               | Budo Nord Cup                          | Lund          | Grönt +                   |
-| maj             |               | Lugi Judo Camp                         | Lund          | Grönt +                   |
+| 29-30 Maj       |               | Budo Nord Cup                          | Lund          | Grönt +                   |
+| 31 Maj-1 Jun             |               | Lugi Judo Camp                         | Lund          | Grönt +                   |
 | 5 Jun           | TBD           | Gradering                              | Dojon         | Medlemmar                 |
 | 6 Jun           | TBD           | Avslutning med grillning och brännboll | Möllers Mosse | Medlemmar med familj      |
 | 18 jun - 20 aug | 18.30 - 19.30 | Sommarträning                          | Dojon         | Alla 7+ år                |

@@ -13,7 +13,9 @@ Vårterminen är 13 januari 2025 - 5 juni 2025.
 | 1-2 feb         |               | Judo SM                                | Skurup        | Alla                      |
 | 8 Feb          | 12.00-14.00   | Judo Syd Randori                              | Lund         | 13+ och orange+        |
 | 16 Feb          | 14.30-16.30   | Bio "Flow                              | Flora Bio         | Medlemmar        |
+| 20 Feb          | 19.30-21.00   | Prova-på kickboxning                              | BK Viljan         | Ungdomsgruppen       |
 | 21 Feb          | 18.30-20.00   | Tjej-judo                              | Dojon         | Tjejer/Kvinnor 12+        |
+| 1 Mar          | 10.00-   | Prova-på luftgevärsskytte                              | Sjöbo USG         | Ungdomsgruppen       |
 | 8 Mar           | 9.30-11.30    | Klubbtävling                           | Dojon         | Vit-gul bälte +, ej vuxna |
 | 8 Mar           | 11.30-13.30   | Årsmöte                                | Klubbrummet   | Medlemmar                 |
 | 15 Mar          |               | Knislinge Judo Open                    | Knislinge     | Grönt +                   |

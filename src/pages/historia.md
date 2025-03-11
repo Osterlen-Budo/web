@@ -4,9 +4,10 @@ date: 2025-03-11
 description: Här kan du läsa om klubbens historia
 published: true
 ---
+
 Klubben har sin början som Ystad Budo club och startades 12 april 1977. Den föddes ur en längtan från några arbetare på Köpingebro sockerfabrik att utöva kampsport, de hette Stefan Påhlsson, Jan Andersson och Gunnar Bemlander. Den första lokalen låg i Ystad under ÖP-hallen. Från början var det ju jutsu som de tränade och på kort tid växte antalet medlemmar till 200. Träningen flyttade till ett rum under badhuset och sedan till en lokal på Herrestadsgatan i Ystad.
 
-Judon kom till Ystad Budo Klubb med Sven Lindgren någon gång 1978-1979. Sven Lindgren tränade först i Tomelilla men sedan när han flyttade till Ystad tog han med judon till klubben. Sven hade 1 Dan i judo och var till yrke lärare i samhällsämnen. I 2009 blev klubben tvungen att leta efter nya lokaler för att de dåvarande lokalerna skulle säljas. I slutet av 2011 flyttade klubben till Tomelilla till sin lokal på Långgatan och namnet på klubben byttes till Österlen Budoklubb. 
+Judon kom till Ystad Budo Klubb med Sven Lindgren någon gång 1978-1979. Sven Lindgren tränade först i Tomelilla men sedan när han flyttade till Ystad tog han med judon till klubben. Sven hade 1 Dan i judo och var till yrke lärare i samhällsämnen. I 2009 blev klubben tvungen att leta efter nya lokaler för att de dåvarande lokalerna skulle säljas. I slutet av 2011 flyttade klubben till Tomelilla till sin lokal på Långgatan och namnet på klubben byttes till Österlen Budoklubb.
 
 I 2015 var det dags för flytt igen. Det kom krav från kommunen på att handikappanpassa lokalen som skulle bli omöjliga med klubbens ekonomi. Då gick flyttlasset till de nuvarande lokalerna på Kvarngatan i Sjöbo. Sjöbo Kommun blev vald för att man kunde få en välbehövd hyresstöd på lokalen.
 

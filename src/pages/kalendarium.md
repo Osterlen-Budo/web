@@ -20,7 +20,6 @@ Vårterminen är 13 januari 2025 - 5 juni 2025.
 | 8 Mar           | 11.30-13.30   | Årsmöte                                | Klubbrummet   | Medlemmar                 |
 | 15 Mar          |               | Knislinge Judo Open                    | Knislinge     | Grönt +                   |
 | 16 Mar          |               | Skåneserien                            | Knislinge     | Gul till orange-grön      |
-| 18-19 apr       |               | Copenhagen Open                        | Köpenhamn     | Grönt +                   |
 | 20-21 apr       |               | Randori camp Copenhagen Open           | Köpenhamn     | Grönt +                   |
 | 26 apr          | 12.00-14.00   | Judo Syd Randori                              | Malmö         | 13+ och orange+        |
 | 24 maj          | 12.00-14.00   | Judo Syd Randori                              | TBD         | 13+ och orange+        |

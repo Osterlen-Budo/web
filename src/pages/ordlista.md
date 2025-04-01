@@ -7,4 +7,4 @@ published: true
 
 | Namn                                                          | Datum      |
 | ------------------------------------------------------------- | ---------- |
-| [Japansk - Svensk Ordlista](/files/JapanskSvenskordlista.pdf) | 2025-03-25 |
+| [Japansk - Svensk Ordlista](/files/JapanskSvenskordlista.pdf) | 2025-04-01 |

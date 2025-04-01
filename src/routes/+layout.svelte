@@ -52,6 +52,7 @@
 					<DropdownItem href="/vardegrund">Judons värdegrund</DropdownItem>
 					<DropdownItem href="/gradering">Gradering</DropdownItem>
 					<DropdownItem href="/tavla">Om tävling</DropdownItem>
+					<DropdownItem href="/ordlista">Japansk-Svensk ordlista</DropdownItem>
 				</Dropdown>
 				<NavLi class="cursor-pointer">
 					Medlemsinfo<ChevronDownOutline

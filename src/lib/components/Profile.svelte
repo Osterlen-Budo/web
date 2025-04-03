@@ -25,7 +25,7 @@
 
 <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 <div class="group relative mx-2 mb-10 h-80 w-56 overflow-hidden rounded-xl bg-slate-100">
-	<div class="justify-cente relative overflow-clip">
+	<div class="relative flex h-56 justify-center overflow-clip">
 		{#if showGif && gif != ''}
 			<img
 				transition:fade={{ duration: 800 }}
@@ -48,7 +48,7 @@
 						}, 1600);
 					}
 				}}
-				class="h-56"
+				class="w-reset h-auto"
 				src={image}
 				alt={title}
 			/>

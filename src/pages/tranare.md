@@ -93,14 +93,6 @@ let members = [
     belt: "3 Kyu (Blå-grön)",
   },
   {href: "/",
-    src: `/images/profile/2025/profil-emilio.png`,
-    gif: "random",
-    alt: "Emilio Lindsjö ",
-    name: "Emilio Lindsjö ",
-    title: "Hjälptränare",
-    belt: "4 Kyu (Orange)",
-  },
-    {href: "/",
     src: `/images/profile/2025/profil-alma.png`,
     gif: "random",
     alt: "Alma Sjöstrand ",
@@ -108,6 +100,14 @@ let members = [
     title: "Hjälptränare",
     belt: "4 Kyu (Orange-Grön)",
   },
+  {href: "/",
+    src: `/images/profile/2025/profil-emilio.png`,
+    gif: "random",
+    alt: "Emilio Lindsjö ",
+    name: "Emilio Lindsjö ",
+    title: "Hjälptränare",
+    belt: "4 Kyu (Orange)",
+  }
 ];
 </script>
 

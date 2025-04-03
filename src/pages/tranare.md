@@ -53,7 +53,7 @@ let members = [
   },
   {
     href: "/",
-    src: `/images/profile/${type}/hannes.png`,
+    src: `/images/profile/2025/profil-hannes.png`,
     gif: "random",
     name: "Hannes Alm",
     title: "Hjälptränare",
@@ -61,7 +61,7 @@ let members = [
   },
   {
     href: "/",
-    src: `/images/profile/${type}/benjamin.png`,
+    src: `/images/profile/2025/profil-benjamin.png`,
     gif: "random",
     name: "Benjamin Fristedt",
     title: "Hjälptränare",
@@ -69,7 +69,7 @@ let members = [
   },
     {
     href: "/",
-    src: `/images/profile/${type}/alexander.png`,
+    src: `/images/profile/2025/profil-alexander.png`,
     gif: "random",
     name: "Alexander Bäckström",
     title: "Hjälptränare",
@@ -77,7 +77,7 @@ let members = [
   },
   {
     href: "/",
-    src: `/images/profile/${type}/magdalena.png`,
+    src: `/images/profile/2025/profil-magdalena.png`,
     gif: "random",
     name: "Magdalena Alm",
     title: "Hjälptränare",
@@ -85,7 +85,7 @@ let members = [
   },
   {
     href: "/",
-    src: `/images/profile/${type}/sania.png`,
+    src: `/images/profile/2025/profil-sania.png`,
     gif: "/images/unicorn-drinking-boba.gif",
     alt: "Sania Bäckström",
     name: "Sania Bäckström",
@@ -93,12 +93,20 @@ let members = [
     belt: "3 Kyu (Blå-grön)",
   },
   {href: "/",
-    src: `/images/profile/${type}/emilio.png`,
+    src: `/images/profile/2025/profil-emilio.png`,
     gif: "random",
     alt: "Emilio Lindsjö ",
     name: "Emilio Lindsjö ",
     title: "Hjälptränare",
     belt: "4 Kyu (Orange)",
+  },
+    {href: "/",
+    src: `/images/profile/2025/profil-alma.png`,
+    gif: "random",
+    alt: "Alma Lindsjö ",
+    name: "Alma Lindsjö ",
+    title: "Hjälptränare",
+    belt: "4 Kyu (Orange-Grön)",
   },
 ];
 </script>

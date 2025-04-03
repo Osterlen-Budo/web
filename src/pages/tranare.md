@@ -98,7 +98,7 @@ let members = [
     alt: "Alma Sjöstrand ",
     name: "Alma Sjöstrand ",
     title: "Hjälptränare",
-    belt: "4 Kyu (Orange-Grön)",
+    belt: "4 Kyu (Grön-orange)",
   },
   {href: "/",
     src: `/images/profile/2025/profil-emilio.png`,

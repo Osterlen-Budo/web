@@ -1,7 +1,7 @@
 ---
 layout: nyhet
 title: Klubbläder
-image: https://www.bpungdom.se/start/?ID=417607
+image: /images/scr-20250407-qtri.png
 date: 2025-04-07T18:51:00.000Z
 published: true
 ---

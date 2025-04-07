@@ -1,6 +1,6 @@
 ---
 layout: nyhet
-title: Klubbläder
+title: Klubbkläder
 image: /images/scr-20250407-qtri.png
 date: 2025-04-07T18:51:00.000Z
 published: true

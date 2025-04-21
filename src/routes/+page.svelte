@@ -76,61 +76,53 @@
 				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">Om tävling</div>
 			</div>
 		</div> -->
-<div class=" col-span-2 h-12 pt-4 font-thin md:col-span-4">Våra grupper</div>
-<div class="flex h-52 justify-center">
-	<!-- <img src="/\images/assets/barn_nyborjare.png" /> -->
+<div class="text-blue mx-4 h-12 bg-sand pt-4 text-xl font-thin md:col-span-4">Våra grupper</div>
+<!-- <img src="/\images/assets/barn_nyborjare.png" /> -->
+<div class="col-span-2 flex flex-row flex-wrap justify-center gap-4 md:col-span-4">
 	<div
-		class="flex h-52 w-48 items-center justify-center rounded-md border-2 border-white bg-[url('/images/assets/barn_nyborjare.png')] bg-cover bg-no-repeat shadow-lg"
+		class="flex h-52 w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/barn_nyborjare.png')] bg-cover bg-no-repeat shadow-lg"
 	>
 		<div
-			class="flex w-full items-center justify-center rounded-bl-2xl border-white bg-red-700 bg-opacity-75 p-2"
+			class="flex w-full items-center justify-center rounded-bl-2xl bg-red-accent bg-opacity-75 p-2"
 		>
 			<span class="text-center text-lg text-white">Barn Nybörjare<br />7-12 år</span>
 		</div>
 	</div>
-</div>
 
-<div class="flex h-52 justify-center">
 	<div
-		class="flex w-48 items-center justify-center rounded-md border-2 border-white bg-[url('/images/assets/barn_fortsattning.png')] bg-cover bg-no-repeat shadow-lg"
+		class="flex h-52 w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/barn_fortsattning.png')] bg-cover bg-no-repeat shadow-lg"
 	>
 		<div
-			class="flex w-full items-center justify-center rounded-bl-2xl border-white bg-red-700 bg-opacity-75 p-2"
+			class="flex w-full items-center justify-center rounded-bl-2xl border-box bg-red-accent bg-opacity-75 p-2"
 		>
 			<span class="text-center text-lg text-white">Barn Forts.<br />7-12 år</span>
 		</div>
 	</div>
-</div>
 
-<div class="flex h-52 justify-center">
 	<div
-		class="flex w-48 items-center justify-center rounded-md border-2 border-white bg-[url('/images/assets/ungdomar.png')] bg-cover bg-no-repeat shadow-lg"
+		class="flex h-52 w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/ungdomar.png')] bg-cover bg-no-repeat shadow-lg md:justify-center"
 	>
 		<div
-			class="flex w-full items-center justify-center rounded-bl-2xl border-white bg-red-700 bg-opacity-75 p-2"
+			class="flex w-full items-center justify-center rounded-bl-2xl border-white bg-red-accent bg-opacity-75 p-2"
 		>
 			<span class="text-center text-lg text-white">Ungdomar<br />13-17 år</span>
 		</div>
 	</div>
-</div>
 
-<div class="flex h-52 justify-center">
 	<div
-		class="flex w-48 items-center justify-center rounded-md border-2 border-white bg-[url('/images/assets/vuxen1.png')] bg-cover bg-no-repeat shadow-lg"
+		class="flex h-52 w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/vuxen1.png')] bg-cover bg-no-repeat shadow-lg"
 	>
 		<div
-			class="flex w-full items-center justify-center rounded-bl-2xl border-white bg-red-700 bg-opacity-75 p-2"
+			class="flex w-full items-center justify-center rounded-bl-2xl border-white bg-red-accent bg-opacity-75 p-2"
 		>
 			<span class="text-center text-lg text-white">Vuxna<br />18+</span>
 		</div>
 	</div>
 </div>
 
-<div class="col-span-2 h-8 pt-4 font-thin md:col-span-4">Kalendarium</div>
+<div class="col-span-2 m-4 h-8 pt-4 text-xl font-thin md:col-span-4">Kalendarium</div>
 
-<div
-	class=" col-span-2 m-1 flex h-52 justify-start rounded-lg border-8 border-gray-100 px-2 shadow-lg"
->
+<div class=" col-span-2 m-1 mx-4 flex h-52 justify-start rounded-lg bg-sand px-2 shadow-lg">
 	<div class="p-2">
 		<ul>
 			<o><span class="text-sm">30 Nov:</span><span class="text-base">Läger</span> </o>
@@ -138,11 +130,9 @@
 	</div>
 </div>
 
-<div class="col-span-2 h-8 pt-4 font-thin md:col-span-4">Kontakt</div>
+<div class="col-span-2 m-4 h-8 pt-4 text-xl font-thin md:col-span-4">Kontakt</div>
 
-<div
-	class=" col-span-2 m-1 flex h-52 justify-start rounded-lg border-8 border-gray-100 px-2 shadow-lg"
->
+<div class=" col-span-2 m-1 mx-4 flex h-52 justify-start rounded-lg bg-box px-2 shadow-lg">
 	<div class="mx-w-xs p-2">info@osterlenbudo.se</div>
 </div>
 

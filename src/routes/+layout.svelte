@@ -63,11 +63,11 @@
 	}
 </script>
 
-<div class="lg:grid-cols-lg grid bg-white sm:grid-cols-2 md:grid-cols-md">
-	<div class="t-0 absolute left-0 z-30 w-full sm:col-span-2 md:col-span-4">
-		<Navbar class="t-0 border-b-2">
+<div class="lg:grid-cols-lg grid bg-primary sm:grid-cols-2 md:grid-cols-md">
+	<div class="t-0 absolute left-0 z-30 w-full bg-primary sm:col-span-2 md:col-span-4">
+		<Navbar class="t-0  bg-primary pb-4 text-sand">
 			<NavBrand href="/">
-				<img src={logo} class="me-3 h-6 sm:h-9" alt="Österlen Budo Logo" />
+				<img src={logo} class="me-3 h-7 w-8 rounded-full sm:h-9" alt="Österlen Budo Logo" />
 				<span class="self-center whitespace-nowrap text-xl font-semibold dark:text-white"
 					>Österlen Budoklubb</span
 				>
@@ -116,14 +116,17 @@
 	</div>
 	<div class="flex w-screen justify-center">
 		<div
-			class="absolute mb-10 mt-20 grid grid-cols-2 flex-wrap justify-center overflow-y-visible sm:gap-4 md:w-8/12 md:grid-cols-4"
+			class="absolute mb-10 mt-14 grid grid-cols-2 flex-wrap justify-center overflow-y-visible sm:gap-4 md:w-8/12 md:grid-cols-4"
 		>
+			<div class="col-span-2 bg-primary font-thin opacity-50 md:col-span-4">
+				<img src={'images/judo-banner.png'} alt="Österlen Budo Logo" />
+			</div>
 			{#each menuItems as menu}
 				<div class="relative">
 					<a
 						href={menu.link}
 						on:click|preventDefault={() => setSelected(menu.title)}
-						class="w-42 flex h-12 items-center justify-center border-2 border-gray-100 bg-slate-100 text-center hover:bg-slate-100 sm:rounded-md"
+						class="w-42 border-1 m-1 flex h-12 items-center justify-center rounded-md bg-primary text-center text-sand hover:cursor-pointer hover:bg-red-700"
 					>
 						<div class="text-md">{menu.title}</div>
 					</a>
@@ -133,11 +136,11 @@
 							on:click_outside={handleClickOutside}
 							class="w-42 border-1 absolute z-0 col-span-8 {selected === `${menu.title}`
 								? ''
-								: 'hidden'} w-full bg-slate-100 shadow-2xl shadow-black"
+								: 'hidden'} w-full bg-red-600 shadow-2xl shadow-black"
 						>
 							{#each menu.sublinks as sub}
 								<div
-									class="border-2 border-slate-50 bg-slate-50 p-2 text-sm font-medium hover:bg-slate-200"
+									class="border-2 border-sand bg-sand p-2 text-sm font-medium hover:bg-red-700 hover:text-white"
 								>
 									<a href={sub.link}>{sub.title}</a>
 								</div>

@@ -25,11 +25,20 @@ export default {
 				md: 'auto minmax(720px, 720px) 300px auto'
 			},
 			colors: {
+				brown: '#ba826e',
+				sand: '#e4dbce',
+				box: '#f3e4d4',
+				primary: '#111827',
 				red: {
-					700: '#ee1c23'
+					accent: 'rgb(210 51 47)',
+					600: '#ffb7c5',
+					700: '#c33803'
 				},
+				background: {
+					light: '#e4dbce'
+				}
+
 				// violet
-				primary: colors.red
 
 				// 	50: '#f5f3ff',
 				// 	100: '#ede9fe',

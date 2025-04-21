@@ -1,6 +1,7 @@
 import { error } from '@sveltejs/kit';
+import type { PageLoad } from './$types';
 
-export async function load({ params }) {
+export const load: PageLoad = async ({ params }) => {
 	try {
 		const post = await import(`../../pages/${params.slug}.md`);
 		//const paths = import.meta.glob(`/src/routes/**/*.md`, { eager: true });
@@ -12,4 +13,4 @@ export async function load({ params }) {
 	} catch (e) {
 		error(404, `Could not find ${params.slug}`);
 	}
-}
+};

@@ -23,10 +23,10 @@ Vårterminen är 13 januari 2025 - 5 juni 2025.
 | 20-21 apr       |               | Randori camp Copenhagen Open           | Köpenhamn     | Grönt +                   |
 | 26 apr          | 12.00-14.00   | Judo Syd Randori                              | Malmö         | 13+ och orange+        |
 | 24 maj          | 12.00-14.00   | Judo Syd Randori                              | TBD         | 13+ och orange+        |
-| 29-30 Maj       |               | Budo Nord Cup                          | Lund          | Grönt +                   |
 | 31 Maj-1 Jun             |               | Lugi Judo Camp                         | Lund          | Grönt +                   |
-| 5 Jun           | TBD           | Gradering                              | Dojon         | Medlemmar                 |
-| 6 Jun           | TBD           | Avslutning med grillning och brännboll | Möllers Mosse | Medlemmar med familj      |
+| 5 Jun           | 18.30-19.30           | Gradering barn                             | Dojon         | Barn                 |
+| 5 Jun           | 19.30-21.00           | Gradering ungdomar och vuxna                             | Dojon         | Ungdomar och vuxna                 |
+| 6 Jun           | 12.00           | Avslutning med grillning och brännboll | Möllers Mosse | Medlemmar med familj      |
 | 18 jun - 20 aug | 18.30 - 19.30 | Sommarträning                          | Dojon         | Alla 7+ år                |
 | 18 jun - 20 aug | 18.30 - 20.00 | Sommarträning                          | Dojon         | Alla 12+ år               |
 | 25 Aug          |               | Hösttermin börjar                      | Dojon         | Medlemmar                 |

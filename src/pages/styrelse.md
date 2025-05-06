@@ -21,7 +21,7 @@ let members= [
   },
 {
     href: "/",
-    src: `/images/profile/${style}/sania.png`,
+    src: `/images/profile/2025/profil-sania.png`,
     gif: "/images/unicorn-drinking-boba.gif",
     alt: "Sania Bäckström",
     name: "Sania Bäckström",
@@ -37,10 +37,10 @@ let members= [
   },
   {
     href: "/",
-    src: `/images/profile/${style}/tony.png`,
+    src: `/images/profile/2025/profil-sandra.png`,
     gif: "/images/judo.gif",
-    alt: "Tony Jansson",
-    name: "Tony Jansson",
+    alt: "Sandra Lindsjö",
+    name: "Sandra Lindsjö",
     title: "Ledamot",
   },
     {

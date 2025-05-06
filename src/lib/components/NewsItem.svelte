@@ -2,16 +2,25 @@
 	import { formatDate } from '$lib/utils'
     import { goto } from '$app/navigation';
 
-    export let title: string
-    export let date: string
-    export let image: string
-    export let slug: string
-	// logic goes here
+    interface Props {
+        title: string;
+        date: string;
+        image: string;
+        slug: string; // logic goes here
+    }
+
+    let {
+        title,
+        date,
+        image,
+        slug
+    }: Props = $props();
+	
 </script>
 
 
- <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
- <div  on:keyup={(e)=>goto(slug)} role="navigation" on:click={(e)=>goto(slug)}  class="mx-1 my-5 bg-white sm:mx-2 border rounded overflow-clip w-auto sm:max-w-80 md:max-w-80 cursor-pointer" >
+ <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+ <div  onkeyup={(e)=>goto(slug)} role="navigation" onclick={(e)=>goto(slug)}  class="mx-1 my-5 bg-white sm:mx-2 border rounded overflow-clip w-auto sm:max-w-80 md:max-w-80 cursor-pointer" >
         <div class="p-5">
             <h5 class="mb-2 text-xl font-bold  tracking-tight text-gray-900 dark:text-white">{title}</h5>
             <p class="text-xs font-thin text-grey-50">{formatDate(date)}</p>

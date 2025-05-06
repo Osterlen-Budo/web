@@ -15,8 +15,6 @@ async function getNewsItems() {
 			const metadata = file.metadata as Omit<Page, 'slug'>;
 			const newsItem = { ...metadata, slug } satisfies Page;
 
-			console.log('FILE', file);
-
 			newsItem.published && newsItems.push(newsItem);
 		}
 	}

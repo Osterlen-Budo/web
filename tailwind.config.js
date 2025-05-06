@@ -1,29 +1,12 @@
-import colors from 'tailwindcss/colors';
-
 /** @type {import('tailwindcss').Config} */
 export default {
-	content: [
-		'./src/**/*.{html,js,svelte,ts}',
-		'./node_modules/flowbite-svelte/**/*.{html,js,svelte,ts}',
-		'./node_modules/flowbite-svelte-icons/**/*.{html,js,svelte,ts}'
-	],
-	plugins: [require('@tailwindcss/typography'), require('flowbite/plugin')],
+	content: ['./src/**/*.{html,js,svelte,ts}'],
+	plugins: [require('@tailwindcss/typography')],
 
 	darkMode: 'class',
 
 	theme: {
 		extend: {
-			padding: {
-				'1/2': '50%',
-				full: '100%'
-			},
-			screens: {
-				sm: '675px',
-				md: '1010px'
-			},
-			gridTemplateColumns: {
-				md: 'auto minmax(720px, 720px) 300px auto'
-			},
 			colors: {
 				brown: '#ba826e',
 				sand: '#e4dbce',

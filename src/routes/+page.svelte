@@ -2,85 +2,18 @@
 	import { NewsItem } from '$lib/components/index';
 	import logo from '$lib/assets/logo_no_text.png';
 
-	export let data;
+	let { data } = $props();
 	let children: any;
 	// }
 </script>
 
-<!-- <div class="text-center mt-28 flex items-center justify-center flex-col sm:col-span-2 md:col-span-4">
-	<img src={logo} alt="Österlen Budo Logo" width="200px" class="mb-5"/>
-	<p class="text-1xl font-normal md:text-2xl lg:text-2xl ">
-        <span class=" px-2">Välkommen till Österlen Budoklubb</span> </p
-	>
-	<p class="mb-6 text-xs md:text-sm dark:text-gray-400 text-red-700 sm:px-12  xl:px-28"
-		>Den lilla klubben med det stora hjärtat</p>
-</div> -->
-<!-- svelte-ignore a11y-invalid-attribute -->
-<!-- svelte-ignore a11y-click-events-have-key-events -->
-<!-- svelte-ignore a11y-no-static-element-interactions -->
-
-<!-- <div
-			class="w-42 flex h-12 items-center justify-center border-2 border-gray-100 bg-slate-100 text-center sm:rounded-md"
-		>
-			<div class="text-md">Börja träna</div>
-		</div>
-
-		<div
-			class="w-42 flex h-12 items-center justify-center border-2 border-gray-100 bg-slate-100 text-center sm:rounded-md"
-		>
-			<div class="text-md">Om klubben</div>
-		</div>
-		<div class="relative">
-			<div
-				on:click={() => setSelected('medlemsinfo')}
-				class="w-42 z-10 flex h-12 items-center justify-center border-2 border-gray-100 bg-slate-100 text-center {selected ===
-				'medlemsinfo'
-					? 'shadow-xl'
-					: ''} sm:rounded-md"
-			>
-				<div class="text-md">Medlemsinfo</div>
-			</div>
-			<div
-				class="w-42 border-1 absolute z-0 col-span-8 {selected === 'medlemsinfo'
-					? ''
-					: 'hidden'} w-full bg-slate-100 shadow-2xl shadow-black"
-			>
-				<div class="border-2 border-slate-50 bg-slate-50 p-2 text-sm font-medium">
-					Hur går träning till
-				</div>
-				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">
-					Ordningsregler
-				</div>
-				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">Judopass</div>
-				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">Försäkring</div>
-			</div>
-		</div>
-
-		<div>
-			<div
-				class="w-42 flex h-12 items-center justify-center border-2 border-gray-100 bg-slate-100 text-center sm:rounded-md"
-			>
-				<div class="text-md">Träning</div>
-			</div>
-			<div class="w-42 z-0 col-span-8 hidden w-full border-2">
-				<div class=" border-2 border-slate-50 bg-slate-50 p-2 text-sm font-medium">
-					Hur går träning till
-				</div>
-				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">Träningstider</div>
-				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">Avgifter</div>
-				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">Träningstider</div>
-				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">
-					Judons värdegrund
-				</div>
-				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">Gradering</div>
-				<div class="bg-slate-5 border-2 border-slate-50 p-2 text-sm font-medium">Om tävling</div>
-			</div>
-		</div> -->
-<div class="text-blue mx-4 h-12 bg-sand pt-4 text-xl font-thin md:col-span-4">Våra grupper</div>
+<div class="text-blue col-span-2 mx-4 h-12 bg-sand pt-4 text-xl font-thin md:col-span-4">
+	Våra grupper
+</div>
 <!-- <img src="/\images/assets/barn_nyborjare.png" /> -->
-<div class="col-span-2 flex flex-row flex-wrap justify-center gap-4 md:col-span-4">
+<div class="col-span-2 flex flex-row overflow-auto md:col-span-4 md:justify-center">
 	<div
-		class="flex h-52 w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/barn_nyborjare.png')] bg-cover bg-no-repeat shadow-lg"
+		class="ml-8 flex h-52 w-1/4 min-w-32 max-w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/barn_nyborjare.png')] bg-cover bg-no-repeat shadow-lg"
 	>
 		<div
 			class="flex w-full items-center justify-center rounded-bl-2xl bg-red-accent bg-opacity-75 p-2"
@@ -90,7 +23,7 @@
 	</div>
 
 	<div
-		class="flex h-52 w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/barn_fortsattning.png')] bg-cover bg-no-repeat shadow-lg"
+		class="ml-4 flex h-52 w-1/4 min-w-32 max-w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/barn_fortsattning.png')] bg-cover bg-no-repeat shadow-lg"
 	>
 		<div
 			class="flex w-full items-center justify-center rounded-bl-2xl border-box bg-red-accent bg-opacity-75 p-2"
@@ -100,7 +33,7 @@
 	</div>
 
 	<div
-		class="flex h-52 w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/ungdomar.png')] bg-cover bg-no-repeat shadow-lg md:justify-center"
+		class="ml-4 flex h-52 w-1/4 min-w-32 max-w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/ungdomar.png')] bg-cover bg-no-repeat shadow-lg md:justify-center"
 	>
 		<div
 			class="flex w-full items-center justify-center rounded-bl-2xl border-white bg-red-accent bg-opacity-75 p-2"
@@ -110,7 +43,7 @@
 	</div>
 
 	<div
-		class="flex h-52 w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/vuxen1.png')] bg-cover bg-no-repeat shadow-lg"
+		class="ml-4 mr-8 flex h-52 w-1/4 min-w-32 max-w-48 items-center justify-center rounded-md border-2 border-box bg-[url('/images/assets/vuxen1.png')] bg-cover bg-no-repeat shadow-lg"
 	>
 		<div
 			class="flex w-full items-center justify-center rounded-bl-2xl border-white bg-red-accent bg-opacity-75 p-2"
@@ -120,19 +53,33 @@
 	</div>
 </div>
 
-<div class="col-span-2 m-4 h-8 pt-4 text-xl font-thin md:col-span-4">Kalendarium</div>
+<div class=" col-span-2 m-10 mx-4 h-52 flex-col justify-start rounded-md bg-box px-2 shadow-sm">
+	<div class="text-blue m-2 text-xl font-thin">Kalendarium</div>
 
-<div class=" col-span-2 m-1 mx-4 flex h-52 justify-start rounded-lg bg-sand px-2 shadow-lg">
 	<div class="p-2">
 		<ul>
 			<o><span class="text-sm">30 Nov:</span><span class="text-base">Läger</span> </o>
 		</ul>
 	</div>
 </div>
+<div></div>
+<div
+	class="col-span-2 row-span-1 mx-4 h-auto flex-col justify-end rounded-md bg-box px-2 shadow-sm md:row-span-2 lg:col-span-1"
+>
+	<div class=" mt-2 text-xl font-thin">Sponsorer</div>
 
-<div class="col-span-2 m-4 h-8 pt-4 text-xl font-thin md:col-span-4">Kontakt</div>
+	<div class="mx-w-xs flex-col justify-items-center p-6">
+		<img src="/images/sponsor/Sjobo_logo.png" alt="Sjöbo Kommun" class=" max-h-20" />
+		<img src="/images/sponsor/Sparbanken-skane-logo.png" alt="Sjöbo Kommun" class="mt-4 max-h-20" />
+		<img src="/images/sponsor/rf_sisu.svg" alt="Sjöbo Kommun" class="mt-4 max-h-20" />
+		<img src="/images/sponsor/sjobo_elnat.png" alt="Sjöbo Kommun" class="mt-4 max-h-20" />
+	</div>
+</div>
+<div
+	class=" col-span-2 m-10 mx-4 h-52 flex-col justify-start rounded-md bg-box px-2 shadow-sm md:col-span-2"
+>
+	<div class="m-2 text-xl font-thin">Kontakt</div>
 
-<div class=" col-span-2 m-1 mx-4 flex h-52 justify-start rounded-lg bg-box px-2 shadow-lg">
 	<div class="mx-w-xs p-2">info@osterlenbudo.se</div>
 </div>
 

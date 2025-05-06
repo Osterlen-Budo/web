@@ -1,43 +1,39 @@
 <script>
+	//import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
+
+	import { formatDate } from '$lib/utils';
 	/**
-	 * @type {string}
+	 * @typedef {Object} Props
+	 * @property {string} title
+	 * @property {string} date
+	 * @property {string} image
+	 * @property {import('svelte').Snippet} [children]
 	 */
-	 export let title;
-	/**
-	 * @type {string}
-	 */
-	 export let date;
-	 /**
-	  * @type {string}
-	 */
-	export let image;
-	import { Breadcrumb, BreadcrumbItem } from 'flowbite-svelte';
 
-	import { formatDate } from '$lib/utils'
-
-
+	/** @type {Props} */
+	let { title, date, image, children } = $props();
 </script>
 
-<style>
-	p{
-		color: #F00;
-	}
-</style>
-<div class="sm:grid-cols-2 md:col-start-2 mb-10 mx-10 ">
-	<Breadcrumb  aria-label="Default breadcrumb example">
-		<BreadcrumbItem href="/" home>Hem</BreadcrumbItem>
-		<BreadcrumbItem>{title}</BreadcrumbItem>
-	  </Breadcrumb>
-
-	<div class='pt-8 pb-16 lg:pt-16 lg:pb-24 bg-white dark:bg-gray-900 prose prose-h1:mb-1'>
-		<article class="mx-auto w-full max-w-2xl format format-sm sm:format-base lg:format-lg format-blue dark:format-invert">
-			<img class="object-contain max-h-96 w-full mb-5  rounded" src={image} alt=""  />
-			<p class="font-thin">{formatDate(date)}</p>
-			<p class="text-2xl md:text-3xl mb-2">{title}</p>
-			<slot />
-		</article>
+<div class="mx-10 mb-10 sm:grid-cols-2 md:col-start-2">
+	<div aria-label="Default breadcrumb example">
+		<a href="/">Hem</a>
+		<div>{title}</div>
 	</div>
 
-		
-
+	<div class="prose bg-white pb-16 pt-8 prose-h1:mb-1 dark:bg-gray-900 lg:pb-24 lg:pt-16">
+		<article
+			class="format format-sm sm:format-base lg:format-lg format-blue dark:format-invert mx-auto w-full max-w-2xl"
+		>
+			<img class="mb-5 max-h-96 w-full rounded object-contain" src={image} alt="" />
+			<p class="font-thin">{formatDate(date)}</p>
+			<p class="mb-2 text-2xl md:text-3xl">{title}</p>
+			{@render children?.()}
+		</article>
+	</div>
 </div>
+
+<style>
+	p {
+		color: #f00;
+	}
+</style>

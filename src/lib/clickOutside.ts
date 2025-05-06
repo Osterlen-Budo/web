@@ -1,16 +1,23 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
-export function clickOutside(node: any) {
-	const handleClick = (event: any) => {
-		if (node && !node.contains(event.target) && !event.defaultPrevented) {
-			node.dispatchEvent(new CustomEvent('click_outside', node));
+export function clickOutside(node: Node, callback: (node: Event) => void) {
+	return outside(node, 'click', callback);
+}
+
+export function tapOutside(node: Node, callback: (node: Event) => void) {
+	return outside(node, 'mousedown', callback);
+}
+
+function outside(node: Node, listener: string, callback: (node: Event) => void) {
+	const handleClick = (event: Event) => {
+		if (node && !node.contains(event.target as Node) && !event.defaultPrevented) {
+			callback(event);
 		}
 	};
 
-	document.addEventListener('click', handleClick, true);
+	document.addEventListener(listener, handleClick);
 
 	return {
 		destroy() {
-			document.removeEventListener('click', handleClick, true);
+			document.removeEventListener(listener, handleClick);
 		}
 	};
 }

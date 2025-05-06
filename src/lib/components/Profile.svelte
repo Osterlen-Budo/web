@@ -1,14 +1,24 @@
 <script lang="ts">
 	import { fade, fly } from 'svelte/transition';
 
-	export let name: string;
-	export let title: string;
-	export let image: string;
-	export let gif: string;
-	export let belt: string = '';
+	interface Props {
+		name: string;
+		title: string;
+		image: string;
+		gif: string;
+		belt?: string;
+	}
+
+	let {
+		name,
+		title,
+		image,
+		gif = $bindable(),
+		belt = ''
+	}: Props = $props();
 
 	let randomGif = gif === 'random' ? true : false;
-	let showGif = false;
+	let showGif = $state(false);
 
 	function randomInteger(min: number, max: number) {
 		return Math.floor(Math.random() * (max - min + 1)) + min;
@@ -23,7 +33,7 @@
 	// logic goes here
 </script>
 
-<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+<!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
 <div class="group relative mx-2 mb-10 h-80 w-56 overflow-hidden rounded-xl bg-slate-100">
 	<div class="relative flex h-56 justify-center overflow-clip">
 		{#if showGif && gif != ''}
@@ -35,11 +45,11 @@
 			/>
 		{/if}
 
-		<!-- svelte-ignore a11y-click-events-have-key-events -->
+		<!-- svelte-ignore a11y_click_events_have_key_events -->
 		{#if !showGif}
 			<img
 				transition:fly={{ duration: 1600, ...getTrans() }}
-				on:click={() => {
+				onclick={() => {
 					if (gif) {
 						gif = randomGif ? `images/gif/${randomInteger(1, 3)}.gif` : gif;
 						showGif = true;

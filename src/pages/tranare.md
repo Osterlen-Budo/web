@@ -4,7 +4,6 @@ date: 2023-04-14
 description: Här är en presentation av oss i styrelsen
 published: true
 ---
-
 <script lang="ts">
 import { Profile}  from '$components'
 
@@ -16,17 +15,9 @@ let members = [
     src: `/images/profile/${type}/tony.png`,
     gif: "/images/judo.gif",
     name: "Tony Jansson",
-    title: "Huvudtränare",
+    title: "Tränare",
     belt: "1 Dan (Svart)",
-  },
-    {
-    href: "/",
-    src: `/images/profile/${type}/mattias.png`,
-    gif: "random",
-    name: "Mattias Wallinius",
-    title: "Vice Huvudtränare",
-    belt: "1 Dan (Svart)" ,
-  },
+  },  
   {
     href: "/",
     src: `/images/profile/${type}/madde.png`,
@@ -73,7 +64,7 @@ let members = [
     gif: "random",
     name: "Alexander Bäckström",
     title: "Hjälptränare",
-    belt: "3 Kyu (Blå-grön)",
+    belt: "2 Kyu (Blå)",
   },
   {
     href: "/",
@@ -81,7 +72,7 @@ let members = [
     gif: "random",
     name: "Magdalena Alm",
     title: "Hjälptränare",
-    belt: "3 Kyu (Blå-grön)",
+    belt: "2 Kyu (Blå)",
   },
   {
     href: "/",
@@ -90,7 +81,7 @@ let members = [
     alt: "Sania Bäckström",
     name: "Sania Bäckström",
     title: "Hjälptränare",
-    belt: "3 Kyu (Blå-grön)",
+    belt: "2 Kyu (Blå)",
   },
   {href: "/",
     src: `/images/profile/2025/profil-alma.png`,
@@ -98,7 +89,7 @@ let members = [
     alt: "Alma Sjöstrand ",
     name: "Alma Sjöstrand ",
     title: "Hjälptränare",
-    belt: "4 Kyu (Grön-orange)",
+    belt: "3 Kyu (Grön)",
   },
   {href: "/",
     src: `/images/profile/2025/profil-emilio.png`,
@@ -106,7 +97,7 @@ let members = [
     alt: "Emilio Lindsjö ",
     name: "Emilio Lindsjö ",
     title: "Hjälptränare",
-    belt: "4 Kyu (Orange)",
+    belt: "3 Kyu (Grön)",
   }
 ];
 </script>

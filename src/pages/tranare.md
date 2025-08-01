@@ -54,7 +54,7 @@ let members = [
 
   {
     href: "/",
-    src: `/images/profile/2025/profil-erik.png`,
+    src: `/images/profile/${style}/erik.png`,
     gif: "/images/unicorn-drinking-boba.gif",
     alt: "Erik Bäckström",
     name: "Erik Bäckström",

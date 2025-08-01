@@ -26,7 +26,7 @@ let members = [
     name: "Per Larsson",
     title: "Tränare",
 
-belt:"1 Kyu (Brun)",
+belt: "1 Kyu (Brun)",
   }, 
   {
     href: "/",

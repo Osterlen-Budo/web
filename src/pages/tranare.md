@@ -9,7 +9,7 @@ published: true
 import { Profile}  from '$components'
 
 const type = "close"
-
+const style = "close"
 let members = [
     {
     href: "/",

@@ -18,6 +18,6 @@ Höstterminen är 25 augusti 2025 - 11 december 2025.
 | 2025-11-08 |          | Staffanstorps Judo Games | Staffanstorp | Grön+                          |
 | 2025-11-09 |          | Skåneserien              | Staffanstorp | Gul till orange-grön           |
 | 2025-11-28 | 18.30-20 | Tjejjudo                 | Dojon        | Tjejer födda 2014 och tidigare |
-| 2025-12-11 |          | Gradering                | Dojon        | Medlemmar                      |
+| 2025-12-10 |          | Gradering                | Dojon        | Medlemmar                      |
 
 TBD = to be determined

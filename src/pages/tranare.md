@@ -11,30 +11,36 @@ import { Profile}  from '$components'
 const type = "close"
 const style = "close"
 let members = [
-    {
+    {href: "/",
+    src: `/images/profile/${type}/paul.png`,
+    gif: "random",
+    name: "Paul Andersson",
+    title: "Huvudtränare",
+    belt: "1 Kyu (Brun)",
+  },
+  {
+    href: "/",
+    src: `/images/profile/${type}/madde.png`,
+    gif: "random",
+    name: "Madeleine Fristedt Nilsson",
+    title: "Tävlingsansvarg, Tränare",
+    belt: "1 Kyu (Brun)",
+  },
+ {
     href: "/",
     src: `/images/profile/${type}/tony.png`,
     gif: "/images/judo.gif",
     name: "Tony Jansson",
     title: "Tränare",
     belt: "1 Dan (Svart)",
-  },
-  {
-    href: "/",
+  }, 
+{    href: "/",
     src: `/images/profile/${style}/per.png`,
     gif: "random",
     name: "Per Larsson",
     title: "Tränare",
     belt: "1 Kyu (Brun)",
   }, 
-  {
-    href: "/",
-    src: `/images/profile/${type}/madde.png`,
-    gif: "random",
-    name: "Madeleine Fristedt Nilsson",
-    title: "Tränare",
-    belt: "1 Kyu (Brun)",
-  },
 {
     href: "/",
     src: `/images/profile/${type}/hilko.png`,
@@ -43,13 +49,7 @@ let members = [
     title: "Tränare",
     belt: "1 Kyu (Brun)",
   },
-  {href: "/",
-    src: `/images/profile/${type}/paul.png`,
-    gif: "random",
-    name: "Paul Andersson",
-    title: "Tränare",
-    belt: "1 Kyu (Brun)",
-  },
+ 
   {href: "/",
     src: `/images/profile/2025/profil-sania.png`,
     gif: "/images/unicorn-drinking-boba.gif",

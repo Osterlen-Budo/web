@@ -14,3 +14,4 @@ Schemat gäller 25/8/2025 till 11/12/2025.
 | Tisdagar  | 19.30-21.00 | Vuxna             | 18+   | Alla             |
 | Onsdagar  | 18.30-20.00 | Ungdomar          | 13-17 | Alla             |
 | Torsdagar | 18.30-19.30 | Barn fortsättning | 7-12  | Gult och uppåt   |
+| Söndagar  | 09.15-10.00 | Stor & Liten      | 4-6  | Alla   |

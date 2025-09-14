@@ -8,10 +8,10 @@ Schemat gäller 25/8/2025 till 10/12/2025.
 
 | Dag       | Tid         | Grupp             | Ålder | Bälte            |
 | --------- | ----------- | ----------------- | ----- | ---------------- |
-| Måndagar  | 18.30-19.30 | Barn fortsättning | 7-12  | Gult och uppåt   |
-| Måndagar  | 19.30-21.00 | Ungdomar          | 13-17 | Alla             |
+| Måndagar  | 18.30-19.30 | Barn fortsättning | 7-12  | Gult till orange-grönt    |
+| Måndagar  | 19.30-21.00 | Ungdomar          | 13-17 | Barn med grönt och uppåt, alla ungdomar             |
 | Tisdagar  | 18.30-19.30 | Barn nybörjare    | 7-12  | Vit och vit-gult |
 | Tisdagar  | 19.30-21.00 | Vuxna             | 18+   | Alla             |
-| Onsdagar  | 18.30-20.00 | Ungdomar          | 13-17 | Alla             |
-| Torsdagar | 18.30-19.30 | Barn fortsättning | 7-12  | Gult och uppåt   |
+| Onsdagar  | 18.30-20.00 | Ungdomar          | 13-17 | Barn med grönt och uppåt, alla ungdomar            |
+| Torsdagar | 18.30-19.30 | Barn fortsättning | 7-12  | Gult till orange-grönt   |
 | Söndagar  | 09.15-10.00 | Stor & Liten      | 4-6  | Alla   |

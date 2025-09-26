@@ -100,6 +100,14 @@ let members = [
     name: "Emilio Lindsjö ",
     title: "Hjälptränare",
     belt: "3 Kyu (Grön)",
+  },
+  {href: "/",
+    src: `/images/profile/2025/profil-olivia.png`,
+    gif: "random",
+    alt: "Olivia Persson Mårtensson",
+    name: "Olivia Persson Mårtensson",
+    title: "Hjälptränare",
+    belt: "3 Kyu (Grön)",
   }
 ];
 </script>

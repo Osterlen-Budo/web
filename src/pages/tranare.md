@@ -107,7 +107,7 @@ let members = [
     alt: "Olivia Persson Mårtensson",
     name: "Olivia Persson Mårtensson",
     title: "Hjälptränare",
-    belt: "3 Kyu (Grön)",
+    belt: "3 Kyu (Grön-Blå)",
   }
 ];
 </script>

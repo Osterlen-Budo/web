@@ -85,6 +85,14 @@ let members = [
     title: "Hjälptränare",
     belt: "2 Kyu (Blå)",
   },
+    {href: "/",
+    src: `/images/profile/2025/profil-olivia.png`,
+    gif: "random",
+    alt: "Olivia Persson Mårtensson",
+    name: "Olivia Persson Mårtensson",
+    title: "Hjälptränare",
+    belt: "3 Kyu (Grön-Blå)",
+  },
   {href: "/",
     src: `/images/profile/2025/profil-alma.png`,
     gif: "random",
@@ -101,14 +109,7 @@ let members = [
     title: "Hjälptränare",
     belt: "3 Kyu (Grön)",
   },
-  {href: "/",
-    src: `/images/profile/2025/profil-olivia.png`,
-    gif: "random",
-    alt: "Olivia Persson Mårtensson",
-    name: "Olivia Persson Mårtensson",
-    title: "Hjälptränare",
-    belt: "3 Kyu (Grön-Blå)",
-  }
+
 ];
 </script>
 

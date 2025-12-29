@@ -18,6 +18,8 @@ Medlemsavgifter betalas årsvis.
 | Styrelse och tränare | 250 kr/termin |                                  |
 | Stödmedlem           | 125 kr/år     |                                  |
 
+Det går bra att betala med fritidskortet hos oss.
+
 Vi erbjuder medlems- och terminsavgiften som friskvård. Maila till kassor@osterlenbudo.se
 
 Vi fakturerar avgifterna varje termin. Vid frågor maila till kassor@osterlenbudo.se

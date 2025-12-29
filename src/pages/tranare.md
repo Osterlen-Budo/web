@@ -23,7 +23,7 @@ let members = [
     src: `/images/profile/${type}/madde.png`,
     gif: "random",
     name: "Madeleine Fristedt Nilsson",
-    title: "Tävlingsansvarg, Tränare",
+    title: "Tävlingsansvarig, Tränare",
     belt: "1 Kyu (Brun)",
   },
 {    href: "/",

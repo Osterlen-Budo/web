@@ -1,23 +1,26 @@
 ---
-title: Kalendarium HT2025
+title: Kalendarium VT2026
 date: 2024-08-06T12:30:00.000Z
 description: Terminen börjar 19 augusti 2024.
 published: true
 ---
-Höstterminen är 25 augusti 2025 - 11 december 2025.
+Vårterminen är 12 januari 2026 - 4 juni 2026.
 
-| Dag        | Tid      | Vad                      | Var          | För vem                        |
-| ---------- | -------- | ------------------------ | ------------ | ------------------------------ |
-| 2025-08-25 |          | Terminsstart             | Dojon        | Medlemmar                      |
-| 1/9-5/9    |          | Bring a friend, vecka 36 | Dojon        | Medlemmar                      |
-| 2025-09-06 | 12-14    | Tjejrandori              | Lund         | 13+, orange+                   |
-| 2025-09-21 | 10-12    | Klubbtävling             | Dojon        | Vit-gul+                       |
-| 2025-10-04 |          | Wemmenhögs Judo Open     | Skurup       | Grön+                          |
-| 2025-10-05 |          | Skåneserien              | Skurup       | Gul till orange-grön           |
-| 2025-10-17 | 18.30-20 | Tjejjudo                 | Dojon        | Tjejer födda 2014 och tidigare |
-| 2025-11-08 |          | Staffanstorps Judo Games | Staffanstorp | Grön+                          |
-| 2025-11-09 |          | Skåneserien              | Staffanstorp | Gul till orange-grön           |
-| 2025-11-28 | 18.30-20 | Tjejjudo                 | Dojon        | Tjejer födda 2014 och tidigare |
-| 2025-12-10 |          | Gradering                | Dojon        | Medlemmar                      |
-
+| Dag             | Tid                   | Vad                      | Var           | För vem                        |
+| --------------- | --------------------- | ------------------------ | ------------- | ------------------------------ |
+| 12 Jan          |                       | Terminsstart             |               |                                |
+| 19-25 Jan       |                       | Bring a friend           | Dojon         | Medlemmar                      |
+| 27 Feb          |                       | Tjejjudo                 | Dojon         | Tjejer födda 2015 och tidigare |
+| 7 Mar           | 9.30-11.30            | Klubbtävling             | Dojon         | Vit-gul bälte +, ej vuxna      |
+| 7 Mar           | 11.30-                | Årsmöte                  | Klubbrummet   | Medlemmar                      |
+| 14 Mar          |                       | Knislinge Judo Open      | Knislinge     | Grönt bälte +                  |
+| 15 Mar          |                       | Skåneserien              | Knislinge     | Gult bälte +                   |
+| 2 Maj           |                       | Judoläger                | Dojon         | Medlemmar och föräldrar        |
+| 15 Maj          |                       | Tjejjudo                 | Dojon         | Tjejer födda 2015 och tidigare |
+| 16-17 Maj       | TBD                   | Lugi Judo Camp           | Lund          | Orange-grön bälte+             |
+| 4 Jun           | 18.30-                | Gradering                | Dojon         | Medlemmar                      |
+| 6 Jun           | TBD                   | Brännboll och avslutning | Möllers Mosse | Medlemmar och familj           |
+| 17 Jun - 12 Aug | onsdagar 18.30-19.30  | Sommarträning            | Dojon         | Barn                           |
+| 17 Jun - 12 Aug | onsdagar 18.30- 20.00 | Sommarträning            | Dojon         | Vuxna                          |
+| 17 Aug          |                       | Hösttermin börjar        |               |                                |
 TBD = to be determined

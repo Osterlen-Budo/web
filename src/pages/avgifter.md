@@ -11,10 +11,10 @@ Medlemsavgifter betalas årsvis.
 | Kategori             | Avgift        | Kommentar                        |
 | -------------------- | ------------- | -------------------------------- |
 | Medlemsavgift        | 135 kr/år     |                                  |
-| Stor & Liten terminsavgift   | 500 kr/termin | 4-6 år med vuxen                          |
-| Barn terminsavgift   | 500 kr/termin | 7-12 år                          |
-| Ungdom terminsavgift | 600 kr/termin | 13-17 år (året man fyller 13 år) |
-| Vuxen terminsavgift  | 700 kr/termin | 18+ (året man fyller 18 år)      |
+| Stor & Liten    | 500 kr/termin | 4-6 år med vuxen                          |
+| Barn   | 500 kr/termin | 7-12 år                          |
+| Ungdom  | 600 kr/termin | 13-17 år (året man fyller 13 år) |
+| Vuxen   | 700 kr/termin | 18+ (året man fyller 18 år)      |
 | Styrelse och tränare | 250 kr/termin |                                  |
 | Stödmedlem           | 135 kr/år     |                                  |
 

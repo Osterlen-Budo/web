@@ -7,10 +7,12 @@ published: true
 
 | Namn                                                                    | Datum      |
 | ----------------------------------------------------------------------- | ---------- |
+| [Årsmötesprotokoll 2026](/files/ÖBK_Årsmötesprotokoll_2026.pdf)         | 2026-04-02 |
 | [Årsmötesprotokoll 2025](/files/ÖBK_Årsmötesprotokoll_2025.pdf)         | 2025-03-25 |
 | [Årsmötesprotokoll 2024](/files/ÖBK_Årsmötesprotokoll_2024.pdf)         | 2024-04-19 |
-| [Verksamhetsberättelse 2023](/files/ÖBK_Verksamhetsberättelse_2023.pdf) | 2024-04-19 |
+| [Verksamhetsberättelse 2025](/files/öbk_Verksamhetsberättelse_2025.pdf) | 2026-04-02 |
 | [Verksamhetsberättelse 2024](/files/ÖBK_Verksamhetsberättelse_2024.pdf) | 2025-02-23 |
+| [Verksamhetsberättelse 2023](/files/ÖBK_Verksamhetsberättelse_2023.pdf) | 2024-04-19 |
 | [Integritetspolicy 2025](/files/ÖBK_Integritetspolicy_2025.pdf)         | 2025-02-23 |
 | [Stadgar](/files/ÖBK_Stadgar_20240323.pdf)                              | 2024-04-19 |
 | [ANDT-policy 2025](/files/ÖBK_andt_policy.pdf)                          | 2025-02-23 |

@@ -45,7 +45,7 @@ let members= [
   },
     {
     href: "/",
-    src: `/images/profile/blank.webp`,
+    src: `/images/profile/close/johanna.png`,
     gif: "random",
     alt: "Johanna Ekblad",
     name: "Johanna Ekblad",
@@ -53,7 +53,7 @@ let members= [
   },
       {
     href: "/",
-    src: `/images/profile/blank.webp`,
+    src: `/images/profile/close/anna.png`,
     gif: "random",
     alt: "Anna Sandberg Melsén",
     name: "Anna Sandberg Melsén",

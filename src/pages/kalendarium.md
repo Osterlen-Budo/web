@@ -4,7 +4,7 @@ date: 2024-08-06T12:30:00.000Z
 description: Terminen börjar 19 augusti 2024.
 published: true
 ---
-Vårterminen är 12 januari 2026 - 4 juni 2026.
+Vårterminen är 12 januari 2026 - 2 juni 2026.
 
 | Dag             | Tid                   | Vad                      | Var           | För vem                        |
 | --------------- | --------------------- | ------------------------ | ------------- | ------------------------------ |
@@ -17,9 +17,9 @@ Vårterminen är 12 januari 2026 - 4 juni 2026.
 | 15 Mar          |                       | Skåneserien              | Knislinge     | Gult bälte +                   |
 | 2 Maj           |                       | Judoläger                | Dojon         | Medlemmar och föräldrar        |
 | 15 Maj          |                       | Tjejjudo                 | Dojon         | Tjejer födda 2015 och tidigare |
-| 16-17 Maj       | TBD                   | Lugi Judo Camp           | Lund          | Orange-grön bälte+             |
-| 4 Jun           | 18.30-                | Gradering                | Dojon         | Medlemmar                      |
-| 6 Jun           | TBD                   | Brännboll och avslutning | Möllers Mosse | Medlemmar och familj           |
+| 16-17 Maj       |                    | Lugi Judo Camp           | Lund          | Orange bälte+             |
+| 2 Jun           | 18.30-                | Gradering                | Dojon         | Medlemmar                      |
+| 6 Jun           | 11.00-                   | Brännboll och avslutning | Möllers Mosse | Medlemmar och familj           |
 | 17 Jun - 12 Aug | onsdagar 18.30-19.30  | Sommarträning            | Dojon         | Barn                           |
 | 17 Jun - 12 Aug | onsdagar 18.30- 20.00 | Sommarträning            | Dojon         | Vuxna                          |
 | 17 Aug          |                       | Hösttermin börjar        |               |                                |

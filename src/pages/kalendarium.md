@@ -18,6 +18,7 @@ Vårterminen är 12 januari 2026 - 2 juni 2026.
 | 2 Maj           |                       | Judoläger                | Dojon         | Medlemmar och föräldrar        |
 | 15 Maj          |                       | Tjejjudo                 | Dojon         | Tjejer födda 2015 och tidigare |
 | 16-17 Maj       |                    | Lugi Judo Camp           | Lund          | Orange bälte+             |
+| 21 Maj       | 19.30                   | Extra årsmöte           | Klubbrummet          | Medlemmar             |
 | 2 Jun           | 18.30-                | Gradering                | Dojon         | Medlemmar                      |
 | 6 Jun           | 11.00-                   | Brännboll och avslutning | Möllers Mosse | Medlemmar och familj           |
 | 17 Jun - 12 Aug | onsdagar 18.30-19.30  | Sommarträning            | Dojon         | Barn                           |

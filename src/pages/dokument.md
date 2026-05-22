@@ -15,5 +15,5 @@ published: true
 | [Verksamhetsberättelse 2024](/files/ÖBK_Verksamhetsberättelse_2024.pdf) | 2025-02-23 |
 | [Verksamhetsberättelse 2023](/files/ÖBK_Verksamhetsberättelse_2023.pdf) | 2024-04-19 |
 | [Integritetspolicy 2025](/files/ÖBK_Integritetspolicy_2025.pdf)         | 2025-02-23 |
-| [Stadgar](/files/ÖBK_Stadgar_20240323.pdf)                              | 2024-04-19 |
+| [Stadgar](/files/ÖBK_Stadgar_20260521.pdf)                              | 2025-05-21 |
 | [ANDT-policy 2025](/files/ÖBK_andt_policy.pdf)                          | 2025-02-23 |

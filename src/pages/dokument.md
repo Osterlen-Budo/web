@@ -7,6 +7,7 @@ published: true
 
 | Namn                                                                    | Datum      |
 | ----------------------------------------------------------------------- | ---------- |
+| [Protokoll extra årsmöte 2026](/files/ÖBK_protokoll_extra_årsmöte_2026.pdf)   | 2026-05-21 |
 | [Årsmötesprotokoll 2026](/files/ÖBK_Årsmötesprotokoll_2026.pdf)         | 2026-04-02 |
 | [Årsmötesprotokoll 2025](/files/ÖBK_Årsmötesprotokoll_2025.pdf)         | 2025-03-25 |
 | [Årsmötesprotokoll 2024](/files/ÖBK_Årsmötesprotokoll_2024.pdf)         | 2024-04-19 |

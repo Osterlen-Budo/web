@@ -1,8 +1,5 @@
-import type { Page } from '$lib/types';
+import homepage from '../pages/homepage.json';
 
-export async function load({ fetch }) {
-	const response = await fetch('api/news');
-
-	const newsItems: Page[] = await response.json();
-	return { newsItems };
+export async function load() {
+	return { homepage };
 }

@@ -1,16 +1,11 @@
 <script lang="ts">
-	export let data
+	let { data } = $props();
+	const Content = $derived(data.content);
 </script>
 
-<style>
-
-</style>
-
-<div class="text-center mt-28 flex items-center justify-center flex-col sm:col-span-2 md:col-span-4">
+<div class="max-w-4xl mx-auto px-6 pt-8 pb-16 min-h-screen">
+	<article class="prose prose-lg prose-slate prose-h1:mt-0 prose-h1:text-primary prose-a:text-primary prose-a:font-bold hover:prose-a:text-foreground prose-img:rounded-sm prose-th:text-left max-w-none">
+		<h1>{data.meta.title}</h1>
+		<Content />
+	</article>
 </div>
-
-<div class="p-1 mx-3   sm:col-span-2 md:col-span-1 sm:justify-center sm:max-w-none md:col-start-2 prose prose-headings:mb-1 prose-h1:text-red-700 prose-td:px-4 prose-th:px-4 prose-th:text-white prose-th:text-left prose-thead:bg-red-700 prose-strong:text-red-700">
-    <h1>{data.meta.title}</h1>
-    <svelte:component this={data.content} />
-</div>
-

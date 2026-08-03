@@ -1,0 +1,29 @@
+{
+  "welcomeTitle": "Välkommen till Österlen Budo",
+  "welcomeText": "Den lilla klubben med det stora hjärtat. Vi tränar traditionell Judo för alla åldrar, från nybörjare till avancerade utövare. Varmt välkommen att komma och prova på!",
+  "announcementActive": false,
+  "announcementText": "Terminsstart för höstterminen börjar vecka 34! Välkomna alla gamla och nya medlemmar.",
+  "announcementLink": "/tider",
+  "quickLinks": [
+    {
+      "title": "Börja träna",
+      "description": "Information för dig som vill börja träna hos oss. Vanliga frågor och svar.",
+      "url": "/borjatrana"
+    },
+    {
+      "title": "Träningstider",
+      "description": "Se schemat för våra olika grupper och träningstider under terminen.",
+      "url": "/tider"
+    },
+    {
+      "title": "Kalendarium",
+      "description": "Håll koll på klubbens kommande aktiviteter, läger och tävlingar.",
+      "url": "/kalendarium"
+    },
+    {
+      "title": "Avgifter",
+      "description": "Information om medlemsavgifter, träningsavgifter och hur man betalar.",
+      "url": "/avgifter"
+    }
+  ]
+}

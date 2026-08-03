@@ -1,6 +1,8 @@
 backend:
-  name: git-gateway
+  name: github
+  repo: Osterlen-Budo/web
   branch: main # Branch to update (optional; defaults to master)
+  base_url: https://sveltia-cms-auth.erik-backstrom.workers.dev
 
 local_backend: true
 #url: http://localhost:8081/api/v1
@@ -61,3 +63,27 @@ collections:
       - { label: 'Start time', name: 'starttime', widget: 'datetime' }
       - { label: 'End time', name: 'endtime', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  - name: 'settings'
+    label: 'Inställningar'
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: 'homepage'
+        label: 'Startsida (Hem)'
+        file: 'src/pages/homepage.json'
+        fields:
+          - { label: 'Välkomsttitel', name: 'welcomeTitle', widget: 'string' }
+          - { label: 'Välkomsttext', name: 'welcomeText', widget: 'text' }
+          - { label: 'Viktigt meddelande (Visas högst upp)', name: 'announcementActive', widget: 'boolean', default: false }
+          - { label: 'Meddelandetext', name: 'announcementText', widget: 'string', required: false }
+          - { label: 'Meddelandelänk', name: 'announcementLink', widget: 'string', required: false }
+          - label: 'Snabblänkar'
+            name: 'quickLinks'
+            widget: 'list'
+            fields:
+              - { label: 'Titel', name: 'title', widget: 'string' }
+              - { label: 'Beskrivning', name: 'description', widget: 'string' }
+              - { label: 'Länk (t.ex. /borjatrana)', name: 'url', widget: 'string' }
+

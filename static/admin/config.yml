@@ -2,7 +2,6 @@ backend:
   name: github
   repo: Osterlen-Budo/web
   branch: main # Branch to update (optional; defaults to master)
-  base_url: https://sveltia-cms-auth.erik-backstrom.workers.dev
 
 local_backend: true
 #url: http://localhost:8081/api/v1

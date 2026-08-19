@@ -1,4 +1,5 @@
 ---
+layout: page
 title: Tränare
 date: 2023-04-14
 description: Här är en presentation av oss i styrelsen
@@ -33,7 +34,7 @@ let members = [
     title: "Tränare",
     belt: "1 Kyu (Brun)",
   },
- 
+
   {href: "/",
     src: `/images/profile/2025/profil-sania.png`,
     gif: "/images/unicorn-drinking-boba.gif",
@@ -47,13 +48,6 @@ let members = [
     name: "Erik Bäckström",
     title: "Tränare",
     belt: "6 Kyu (Vit)",
-  },
-  {href: "/",
-    src: `/images/profile/2025/profil-benjamin.png`,
-    gif: "random",
-    name: "Benjamin Fristedt",
-    title: "Hjälptränare",
-    belt: "1 Kyu (Brun)",
   },
     {href: "/",
     src: `/images/profile/2025/profil-alexander.png`,

@@ -18,6 +18,13 @@ let members = [
     name: "Paul Andersson",
     title: "Huvudtränare",
     belt: "1 Kyu (Brun)",
+  },{
+    href: "/",
+    src: `/images/profile/${type}/hilko.png`,
+    gif: "random",
+    name: "Hilko Spoelstra",
+    title: "Tränare och tävlingsansvarig",
+    belt: "1 Kyu (Brun)",
   },
  {    href: "/",
     src: `/images/profile/${style}/per.png`,
@@ -26,14 +33,7 @@ let members = [
     title: "Tränare",
     belt: "1 Kyu (Brun)",
   }, 
-{
-    href: "/",
-    src: `/images/profile/${type}/hilko.png`,
-    gif: "random",
-    name: "Hilko Spoelstra",
-    title: "Tränare",
-    belt: "1 Kyu (Brun)",
-  },
+
     {href: "/",
     src: `/images/profile/2025/profil-alexander.png`,
     gif: "random",
@@ -86,7 +86,7 @@ let members = [
     gif: "random",
     alt: "Alma Sjöstrand ",
     name: "Alma Sjöstrand ",
-    title: "Hjälptränare",
+    title: "Hjälptränare och aspirantdomare",
     belt: "3 Kyu (Grön-blå)",
   },
 ];

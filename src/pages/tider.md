@@ -15,7 +15,5 @@ Schemat gäller 17/8/2026 till 10/12/2026.
 | Tisdagar | 18.30-19.30 | Barn nybörjare | 7-12 | Vit och vit-gult |
 | Tisdagar | 19.30-21.00 | Vuxna | 18+ | Alla |
 | Onsdagar | 18.30-19.30 | Barn fortsättning | 7-12 | Gult till orange-grönt |
-
 | Torsdagar | 18.30-20.00 | Ungdomar | 13-17 | Barn med grönt och uppåt och alla ungdomar |  
-
 | Söndagar | 09.15-10.00 | Stor & Liten | 4-6 | Alla |

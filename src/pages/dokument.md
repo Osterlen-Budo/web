@@ -1,19 +1,14 @@
 ---
 title: Dokument
-date: 2025-02-23T12:19:00.000Z
-description: Välkommen att börja träna judo
+date: 2026-05-21T12:00:00.000Z
+description: Föreningsdokument, stadgar, årsmötesprotokoll, verksamhetsberättelser och policys för Österlen Budo Klubb.
 published: true
 ---
+<script lang="ts">
+	import { DocumentLibrary } from '$components';
+</script>
 
-| Namn                                                                    | Datum      |
-| ----------------------------------------------------------------------- | ---------- |
-| [Protokoll extra årsmöte 2026](/files/ÖBK_protokoll_extra_årsmöte_2026.pdf)   | 2026-05-21 |
-| [Årsmötesprotokoll 2026](/files/ÖBK_Årsmötesprotokoll_2026.pdf)         | 2026-04-02 |
-| [Årsmötesprotokoll 2025](/files/ÖBK_Årsmötesprotokoll_2025.pdf)         | 2025-03-25 |
-| [Årsmötesprotokoll 2024](/files/ÖBK_Årsmötesprotokoll_2024.pdf)         | 2024-04-19 |
-| [Verksamhetsberättelse 2025](/files/öbk_Verksamhetsberättelse_2025.pdf) | 2026-04-02 |
-| [Verksamhetsberättelse 2024](/files/ÖBK_Verksamhetsberättelse_2024.pdf) | 2025-02-23 |
-| [Verksamhetsberättelse 2023](/files/ÖBK_Verksamhetsberättelse_2023.pdf) | 2024-04-19 |
-| [Integritetspolicy 2025](/files/ÖBK_Integritetspolicy_2025.pdf)         | 2025-02-23 |
-| [Stadgar](/files/ÖBK_Stadgar_20260521.pdf)                              | 2025-05-21 |
-| [ANDT-policy 2025](/files/ÖBK_andt_policy.pdf)                          | 2025-02-23 |
+Här samlar vi officiella föreningsdokument, gällande stadgar, årsmötesprotokoll, verksamhetsberättelser och klubbens policys. Klicka på ett dokument för att öppna eller ladda ner PDF-filen.
+
+<DocumentLibrary />
+

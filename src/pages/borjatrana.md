@@ -8,6 +8,8 @@ published: true
 	import { IntakeNotice } from '$components';
 </script>
 
+<IntakeNotice />
+
 ## Vad roligt att du bestämt dig för att prova på judo!
 
 Du är välkommen att komma och prova på och du behöver inte anmäla dig i förväg. Du får tre gratis prova på gånger innan du behöver bestämma dig för om du ska fortsätta eller inte.
@@ -22,11 +24,8 @@ Kvarngatan 1 i Sjöbo, på innergården (2:a våningen). Det står *Österlen Bu
 
 ## När kan man börja?
 
-För att säkra kvaliteten på träningen tar vi emot nya medlemmar under början av varje termin.
+För att säkra kvaliteten på träningen tar vi emot nya medlemmar under början av varje termin fram till sista intagningsdatum. Se våra <a href="/tider">träningstider</a> för att hitta passet som passar din åldersgrupp.
 
-<IntakeNotice />
-
-Se våra <a href="/tider">träningstider</a> för att hitta passet som passar din åldersgrupp.
 
 
 

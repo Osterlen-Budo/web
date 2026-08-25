@@ -1,6 +1,7 @@
 <script lang="ts">
 	import avgifterData from '../../pages/avgifter.json';
-	import { CreditCard, HeartHandshake, Sparkles, Mail, CheckCircle2, ShieldCheck } from 'lucide-svelte';
+	import { CreditCard, HeartHandshake, Sparkles, Mail, ShieldCheck } from 'lucide-svelte';
+
 
 	type FeeCategory = {
 		name: string;
@@ -75,14 +76,10 @@
 						</p>
 					{/if}
 				</div>
-
-				<div class="mt-4 pt-3 border-t border-border/50 flex items-center gap-1.5 text-[11px] text-foreground/60">
-					<CheckCircle2 class="h-3.5 w-3.5 text-primary shrink-0" />
-					<span>Ingår i medlemskapet</span>
-				</div>
 			</div>
 		{/each}
 	</div>
+
 
 	<!-- Benefits Section (Fritidskortet, Friskvård, etc.) -->
 	{#if data.benefits && data.benefits.length > 0}

@@ -141,9 +141,9 @@
 				<MapPin class="h-5 w-5" />
 			</div>
 			<div>
-				<h4 class="text-lg font-bold text-foreground mb-1">Träna i Färsingahallen, Sjöbo</h4>
+				<h4 class="text-lg font-bold text-foreground mb-1">Träna i vår dojo på Kvarngatan 1</h4>
 				<p class="text-xs text-foreground/70 leading-relaxed">
-					Vår dojo finns i Färsingahallens B-hall (Kvarngatan 1, Sjöbo). Välkommen ner under våra träningstider!
+					Vår dojo finns på Kvarngatan 1 (på innergården, 2:a våningen) i Sjöbo. Välkommen ner under våra träningstider!
 				</p>
 			</div>
 		</div>
@@ -151,6 +151,7 @@
 			Hitta hit & kontakt
 		</Button>
 	</div>
+
 
 	<!-- Facebook News Section -->
 	<div>

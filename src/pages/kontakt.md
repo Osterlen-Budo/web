@@ -39,9 +39,9 @@ Vill ni ha upplysning angående föreningens verksamhet, provträning eller komm
 			<div class="w-10 h-10 bg-primary/10 text-primary flex items-center justify-center mb-4">
 				<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg>
 			</div>
-			<h3 class="font-bold text-base text-foreground mb-1">Träningslokal</h3>
-			<p class="text-xs text-foreground/60 mb-1">Färsingahallen (B-hallen)</p>
-			<p class="text-xs text-foreground/70 font-medium">Kvarngatan 1, 275 36 Sjöbo</p>
+			<h3 class="font-bold text-base text-foreground mb-1">Vår Dojo</h3>
+			<p class="text-xs text-foreground/60 mb-1">Kvarngatan 1 (innergården, vån 2)</p>
+			<p class="text-xs text-foreground/70 font-medium">275 36 Sjöbo</p>
 		</div>
 		<a href="https://maps.google.com/?q=Kvarngatan+1,+275+36+Sjöbo" target="_blank" rel="noopener noreferrer" class="mt-4 text-xs font-bold uppercase tracking-wider text-primary hover:underline">
 			Öppna i Google Maps &rarr;
@@ -52,5 +52,6 @@ Vill ni ha upplysning angående föreningens verksamhet, provträning eller komm
 ---
 
 ### Hitta till Dojon
-Vi tränar i **Färsingahallens B-hall** i Sjöbo. Ingång sker via hallens huvudentré eller skyltad ingång till B-hallen. Om dörren är låst strax innan träningsstart, knacka eller ring på klockan så öppnar en tränare.
+Vi tränar i vår egen dojo på **Kvarngatan 1** i Sjöbo (på innergården, 2:a våningen). Det står *Österlen Budo Klubb* över ingången. Om dörren är låst strax innan träningsstart, ring på klockan så öppnar en tränare.
+
 

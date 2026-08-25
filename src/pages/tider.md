@@ -15,7 +15,8 @@ Schemat gäller **17 augusti 2026 till 10 december 2026**. Välj en åldersgrupp
 <ScheduleGrid />
 
 ### Bra att veta inför träningen
-- **Plats**: Färsingahallens B-hall (Kvarngatan 1, Sjöbo).
+- **Plats**: Vår dojo på Kvarngatan 1 (på innergården, 2:a våningen), Sjöbo.
 - **Klädsel för nybörjare**: Vanliga mjuka träningskläder (långa träningsbyxor och t-shirt). Vi tränar barfota på mattan.
 - **Hygien & Säkerhet**: Klippta naglar på händer och fötter, inga smycken, klockor eller hårspännen av metall på mattan.
 - **Provträning**: Du är alltid välkommen att provträna 3 gånger gratis innan du bestämmer dig!
+

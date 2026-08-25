@@ -54,5 +54,19 @@ Vill ni ha upplysning angående föreningens verksamhet, provträning eller komm
 ### Hitta till Dojon
 Vi tränar i vår egen dojo på **Kvarngatan 1** i Sjöbo (på innergården, 2:a våningen). Det står *Österlen Budo Klubb* över ingången.
 
+<div class="not-prose my-6 border border-border overflow-hidden shadow-sm">
+	<iframe
+		title="Karta till Österlen Budo Klubb, Kvarngatan 1 i Sjöbo"
+		src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2251.9157489735503!2d13.703697977819326!3d55.638279800805165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4654770046a71cbd%3A0xd5370245621f5da8!2s%C3%96sterlen%20Budo%20Klubb!5e0!3m2!1ssv!2sse!4v1713396718413!5m2!1ssv!2sse"
+		width="100%"
+		height="420"
+		style="border:0;"
+		allowfullscreen={false}
+		loading="lazy"
+		referrerpolicy="no-referrer-when-downgrade"
+	></iframe>
+</div>
+
+
 
 

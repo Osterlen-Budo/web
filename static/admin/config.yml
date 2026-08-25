@@ -4,65 +4,34 @@ backend:
   branch: main # Branch to update (optional; defaults to master)
 
 local_backend: true
-#url: http://localhost:8081/api/v1
 
 media_folder: 'static/images'
-public_folder: '/images' # The src attribute for uploaded media will begin with /images/uploads
+public_folder: '/images'
 
 collections:
-  - name: 'Pages' # Used in routes, e.g., /admin/collections/blog
-    label: 'Sidor' # Used in the UI
-    folder: 'src/pages/' # The path to the folder where the documents are stored
-    create: false # Allow users to create new documents in this collection
-    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: 'Pages'
+    label: 'Sidor'
+    folder: 'src/pages'
+    create: false
+    slug: '{{slug}}'
+    fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'page' }
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Datum', name: 'date', widget: 'datetime' }
       - { label: 'Beskrivning', name: 'description', widget: 'string' }
-      - { label: 'Startdatum (Termin)', name: 'startDate', widget: 'date', required: false }
-      - { label: 'Slutdatum (Termin)', name: 'endDate', widget: 'date', required: false }
       - { label: 'Text', name: 'body', widget: 'markdown' }
 
-  - name: 'nyheter' # Used in routes, e.g., /admin/collections/blog
-    label: 'Nyhet' # Used in the UI
-    folder: 'src/pages/news' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
+  - name: 'nyheter'
+    label: 'Nyheter'
+    folder: 'src/pages/news'
+    create: true
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}'
+    fields:
       - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'nyhet' }
       - { label: 'Title', name: 'title', widget: 'string' }
       - { label: 'Bild', name: 'image', widget: 'image' }
       - { label: 'Datum', name: 'date', widget: 'datetime' }
       - { label: 'Publicerad', name: 'published', widget: 'boolean', default: true }
-      - { label: 'Body', name: 'body', widget: 'markdown' }
-
-  - name: 'kalender' # Used in routes, e.g., /admin/collections/blog
-    label: 'Kalender' # Used in the UI
-    folder: 'src/pages/events/[slug]' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'event' }
-      - { label: 'Titel', name: 'title', widget: 'string' }
-      - { label: 'Datum', name: 'date', widget: 'datetime' }
-      - { label: 'Slut Datum', name: 'enddate', widget: 'datetime', optional: true }
-      - { label: 'Start tid', name: 'starttime', widget: 'datetime' }
-      - { label: 'Slut tid', name: 'endtime', widget: 'datetime', optional: true }
-      - { label: 'Var', name: 'where', widget: 'string' }
-      - { label: 'För vem', name: 'who', widget: 'string' }
-
-  - name: 'sponsor' # Used in routes, e.g., /admin/collections/blog
-    label: 'Sponsorer' # Used in the UI
-    folder: 'src/routes/sponsor/[slug]' # The path to the folder where the documents are stored
-    create: true # Allow users to create new documents in this collection
-    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-    fields: # The fields for each document, usually in front matter
-      - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'blog' }
-      - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Publish Date', name: 'date', widget: 'datetime' }
-      - { label: 'Start time', name: 'starttime', widget: 'datetime' }
-      - { label: 'End time', name: 'endtime', widget: 'datetime' }
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   - name: 'settings'
@@ -96,6 +65,7 @@ collections:
           - { label: 'Startdatum', name: 'startDate', widget: 'date', default: '2026-08-17' }
           - { label: 'Slutdatum', name: 'endDate', widget: 'date', default: '2026-12-10' }
           - { label: 'Informationstext', name: 'infoText', widget: 'string', required: false }
+
 
 
 

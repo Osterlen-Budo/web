@@ -5,10 +5,27 @@ date: 2024-04-19
 published: true
 ---
 
-Judons värdegrund är densamma oavsett var i världen du än tränar. Grundaren av judo, **Professor Jigoro Kano**, skapade judo inte bara som en kampsport, utan som en livsfilosofi och uppfostringsmetod för att utveckla goda medmänniskor.
+<div class="not-prose my-6 flex flex-col sm:flex-row items-center sm:items-start gap-6 bg-card border border-border/80 p-6 shadow-xs">
+	<div class="shrink-0 w-36 sm:w-40 text-center">
+		<img
+			src="/images/jigoro_kano.jpg"
+			alt="Professor Jigoro Kano – Judons grundare"
+			class="w-full h-auto object-cover border border-border shadow-xs"
+		/>
+		<span class="block text-[11px] font-medium text-foreground/60 mt-2">Jigoro Kano (1860–1938)</span>
+	</div>
+	<div class="flex-1 text-left">
+		<span class="text-[10px] font-mono uppercase tracking-widest text-primary font-bold">Judons Filosofi</span>
+		<h3 class="text-lg md:text-xl font-bold text-foreground mt-0.5 mb-2">Mer än bara en kampsport</h3>
+		<p class="text-xs text-foreground/75 leading-relaxed mb-3">
+			Judons värdegrund är densamma oavsett var i världen du än tränar. Grundaren av judo, <strong>Professor Jigoro Kano</strong>, skapade judo som en livsfilosofi och fostrande metod för att utveckla goda medmänniskor och ett starkt samhälle.
+		</p>
+		<blockquote class="border-l-2 border-primary pl-3 text-xs italic text-foreground/80 leading-relaxed bg-primary/5 py-2.5 pr-2">
+			"Judo är vägen till den mest effektiva användningen av både fysisk och mental kraft. Genom träning förbättrar du din kropp och själ, och genom att tillägna dig judons anda fulländar du dig själv och bidrar till samhället."
+		</blockquote>
+	</div>
+</div>
 
-> *"Judo är vägen till den mest effektiva användningen av både fysisk och mental kraft. Genom träning förbättrar du din kropp och själ, och genom att tillägna dig judons anda fulländar du dig själv och bidrar till samhället."*  
-> — **Jigoro Kano, Judons grundare**
 
 ---
 

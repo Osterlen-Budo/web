@@ -1,51 +1,103 @@
 ---
-title: Gradering
+title: Gradering & Bältessystem
 date: 2024-04-19
-description: Här kan du se vad det kostar att träna i vår klubb
+description: Allt om bältesgradering i judo, kyu- och dangrader, provgradering, instruktionsvideor och officiella teknikkrav.
 published: true
 ---
-I judo har man olika färger på bältet. Ju mer man tränar och ju mer man kan desto högre bälte får man. När man börjar träna judo har man vitt bälte (6 Kyu). Därefter kan man gradera till bälte i följande ordning:
+<script lang="ts">
+	import { GradingGuide } from '$components';
+</script>
 
-* Gult bälte 5 Kyu
-* Orange bälte 4 Kyu
-* Grönt bälte 3 Kyu
-* Blått bälte 2 Kyu
-* Brunt bälte 1 Kyu
-* Svart bälte (1 Dan - 10 Dan)
+I judo visar bältets färg utövarens tekniska kunskap, erfarenhet och förståelse för sportens principer. Ju mer du tränar och ju fler tekniker du behärskar med kontroll och precision, desto högre bälte kan du gradera till.
 
-I det svarta bältet finns det också olika grader (Dan). 1 Dan är den lägsta graden och 10 Dan den högsta.
+<div class="not-prose my-8 bg-card border border-border/80 p-6 shadow-xs">
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+		<div>
+			<span class="text-[10px] font-mono uppercase tracking-widest text-primary font-bold">Hur det fungerar</span>
+			<h3 class="text-base font-bold text-foreground mt-0.5 mb-1.5">Gradering på Österlen Budo</h3>
+			<p class="text-xs text-foreground/75 leading-relaxed">
+				Vi håller gradering <strong>två gånger per år</strong> i samband med terminsavslutningarna i maj/juni och december. Vid graderingen visar man i par upp kast, fasthållningar, förflyttningar och eventuella vändningar inför klubbens tränare och examinatorer.
+			</p>
+		</div>
 
-Mellan varje helt bälte finns det också ett halvt bälte (t.ex. vit-gult, gult-orange, orange-grönt osv.). Barn och ungdomar kan gradera till helt eller halvt bälte medan vuxna graderar bara till helt bälte.
+		<div>
+			<span class="text-[10px] font-mono uppercase tracking-widest text-primary font-bold">Förberedelse</span>
+			<h3 class="text-base font-bold text-foreground mt-0.5 mb-1.5">Provgradering inför avslutningen</h3>
+			<p class="text-xs text-foreground/75 leading-relaxed">
+				1–2 veckor före den officiella graderingen håller tränarna en <em>provgradering</em> på träningen. Där säkerställer vi att alla känner sig trygga med sina tekniker. Skulle en elev behöva lite mer träning pratar tränaren i förväg med eleven och vårdnadshavare.
+			</p>
+		</div>
+	</div>
+</div>
 
-Gradering till och med brunt bälte kan man göra i sin egen klubb med sina egna tränare. Gradering till svart bälte gör man med examinatorer från Svenska Judoförbundet och tillsammans med elever från andra klubbar på en central plats. För att gradera till svart bälte måste man ha fyllt minst 16 år.
+### Kyu- och Dan-grader
 
-Vi på Österlen Budo följer graderingsbestämmelserna för bältesgradering från Svenska Judoförbundet. På Österlen Budo kan man gradera vid två tillfällen per år. Detta görs vid terminsavslutningarna i maj/juni och i december. Vid graderingen på klubben ska alla som vill gradera, i par av två, visa upp för tränarna att man behärskar de kast, kontrollgrepp och övningar som man förväntas kunna till det bälte man graderar till. Oftast går tränaren en eller två veckor innan graderingen igenom detta med eleven som en liten provgradering. Skulle tränaren tycka att det är för tidigt för en elev att gradera brukar detta diskuteras med eleven och föräldrarna/vårdnadshavarna i förväg.
+- **Kyu-grader (Elevgrader)**: Från 6 Kyu (vitt) till 1 Kyu (brunt). Graderas lokalt i klubben.
+- **Mon-grader (Halva bälten)**: Mellangrader (t.ex. vit-gult, gul-orange) för barn och ungdomar under 16 år som delmål mellan hela bälten.
+- **Dan-grader (Mästargrader)**: Svart bälte (1 Dan till 10 Dan). Gradering till svart bälte sker centralt inför Svenska Judoförbundets examinatorer (åldersgräns 16 år).
 
-### Några bra video-klipp inför gradering:
+---
 
-* [Vitt bälte med gul markering](https://www.youtube.com/watch?v=2DsVvDw7b8g&list=PLDb6lNXmB3P4sEhjX-PP_EGrqsLMpPKzM)
+### Bältesstege & Instruktionsvideor
 
-* [Gult bälte](https://www.youtube.com/watch?v=jeQ541ScLB4&list=PLDb6lNXmB3P5fif3ttjAi08I1rvGbFNz2)
+Klicka på respektive bälte för att se de officiella teknikerna och instruktionsvideorna från Svenska Judoförbundet:
 
-* [Gult bälte med orange markering](https://www.youtube.com/watch?v=4BUUvqxi_Kk&list=PLDb6lNXmB3P7tbEsJ0lWy5ujLF48wzCeC)
+<GradingGuide />
 
-* [Orange bälte](https://www.youtube.com/watch?v=c-A_nP7mKAc&list=PLDb6lNXmB3P7u-o4hy6GRIkUWZAJq03qn)
+---
 
-* [Orange bälte med grön markering](https://www.youtube.com/watch?v=nw1ZdRjrdRI&list=PLDb6lNXmB3P4676naLMKKu6Gy950rhtgA)
+### Nyttiga resurser inför graderingen
 
-* [Grönt bälte](https://www.youtube.com/watch?v=gGPXvWL8VbE&list=PLDb6lNXmB3P7O5adCn_GWLJ82csOmVz_p)
+<div class="not-prose my-6 grid grid-cols-1 sm:grid-cols-3 gap-4">
+	<a
+		href="https://gradera.nu"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="p-5 bg-card border border-border/80 hover:border-primary/50 transition-colors flex flex-col justify-between group shadow-xs"
+	>
+		<div>
+			<span class="text-[10px] font-mono uppercase tracking-widest text-primary font-bold">Verktyg</span>
+			<h4 class="text-sm font-bold text-foreground group-hover:text-primary transition-colors mt-1 mb-1">
+				gradera.nu →
+			</h4>
+			<p class="text-xs text-foreground/70">
+				Komplett översikt över alla tekniker, japanska termer och videoklipp för varje bältesgrad.
+			</p>
+		</div>
+	</a>
 
-* [Grönt bälte med blå markering](
-https://www.youtube.com/watch?v=SnZciTAY9vc&list=PLDb6lNXmB3P6wmEwRNVqEKdnIEPC8JUS0)
+	<a
+		href="https://drive.google.com/drive/folders/0B-VmgzDTzgdRMWVnSkI1emdlY0k"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="p-5 bg-card border border-border/80 hover:border-primary/50 transition-colors flex flex-col justify-between group shadow-xs"
+	>
+		<div>
+			<span class="text-[10px] font-mono uppercase tracking-widest text-primary font-bold">Dokument</span>
+			<h4 class="text-sm font-bold text-foreground group-hover:text-primary transition-colors mt-1 mb-1">
+				Graderingsbestämmelser →
+			</h4>
+			<p class="text-xs text-foreground/70">
+				Svenska Judoförbundets officiella kravdokument och riktlinjer för bältesgraderingar.
+			</p>
+		</div>
+	</a>
 
-* [Blått bälte](
-https://www.youtube.com/watch?v=iUpSu5J-bgw&list=PLDb6lNXmB3P7ZotITLewbxsYRVvShu9i1)
+	<a
+		href="https://sv.wikipedia.org/wiki/Kyugrad"
+		target="_blank"
+		rel="noopener noreferrer"
+		class="p-5 bg-card border border-border/80 hover:border-primary/50 transition-colors flex flex-col justify-between group shadow-xs"
+	>
+		<div>
+			<span class="text-[10px] font-mono uppercase tracking-widest text-primary font-bold">Historia</span>
+			<h4 class="text-sm font-bold text-foreground group-hover:text-primary transition-colors mt-1 mb-1">
+				Om Kyu-grader →
+			</h4>
+			<p class="text-xs text-foreground/70">
+				Läs mer om bältesgradernas historia och bakgrund inom budosporter.
+			</p>
+		</div>
+	</a>
+</div>
 
-* [Blått bälte med brun markering](
-https://www.youtube.com/watch?v=4pQd_bEnlf0&list=PLDb6lNXmB3P4ippWMyC8O-1-79dFJNyG0)
-
-### Några bra hemsidor:
-
-* [Graderingsbestämmelserna](https://drive.google.com/drive/folders/0B-VmgzDTzgdRMWVnSkI1emdlY0k)- Svenska Judoförbundets riktlinjer där det står beskrivet vad man ska kunna till varje bälte
-* [gradera.nu](https://gradera.nu)- det står beskrivet vad man ska kunna till varje bälte. Youtube länkar till de flesta kast och fasthållningar. En lista med de vanligaste ord som används inom judon.
-* [Kyu-grad](https://sv.wikipedia.org/wiki/Kyugrad)- allmän information om Kyu-graden och var de kommer ifrån

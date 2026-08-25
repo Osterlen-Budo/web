@@ -69,9 +69,17 @@ collections:
         fields:
           - { label: 'Titel', name: 'title', widget: 'string', default: 'Dokument' }
           - { label: 'Beskrivning', name: 'description', widget: 'string', default: 'Här samlar vi officiella föreningsdokument, gällande stadgar, årsmötesprotokoll, verksamhetsberättelser och klubbens policys.' }
+          - label: 'Standardvy'
+            name: 'defaultView'
+            widget: 'select'
+            options:
+              - { label: 'Kortvy (Grid)', value: 'cards' }
+              - { label: 'Listvy (Kompakt lista)', value: 'list' }
+            default: 'cards'
           - label: 'Dokument'
             name: 'documents'
             widget: 'list'
+
             summary: '{{fields.title}} ({{fields.category}}) – {{fields.date}}'
             fields:
               - { label: 'Dokumentnamn', name: 'title', widget: 'string' }

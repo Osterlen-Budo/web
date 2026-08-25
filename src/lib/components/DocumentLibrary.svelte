@@ -1,6 +1,6 @@
 <script lang="ts">
 	import dokumentData from '../../pages/dokument.json';
-	import { FileText, Download, Search, Shield, BookOpen, FileCheck, Calendar } from 'lucide-svelte';
+	import { FileText, Download, Search, Shield, BookOpen, FileCheck, Calendar, LayoutGrid, List } from 'lucide-svelte';
 
 	type RawDoc = {
 		title: string;
@@ -39,6 +39,7 @@
 
 	let searchQuery = $state('');
 	let selectedCategory = $state<'all' | 'governance' | 'protocol' | 'report' | 'policy'>('all');
+	let viewMode = $state<'cards' | 'list'>((dokumentData?.defaultView as 'cards' | 'list') || 'cards');
 
 	const categories = [
 		{ id: 'all', label: 'Alla dokument' },
@@ -64,7 +65,6 @@
 		})
 	);
 
-
 	function formatSwedishDate(dateStr: string) {
 		try {
 			const d = new Date(dateStr);
@@ -76,7 +76,7 @@
 </script>
 
 <div class="my-6 not-prose">
-	<!-- Filter & Search Toolbar -->
+	<!-- Filter & Search & View Toolbar -->
 	<div class="flex flex-col md:flex-row items-stretch md:items-center justify-between gap-4 bg-card border border-border/80 p-5 mb-6 shadow-xs">
 		<!-- Category filter pills -->
 		<div class="flex flex-wrap gap-1.5">
@@ -93,19 +93,46 @@
 			{/each}
 		</div>
 
-		<!-- Search Input -->
-		<div class="relative min-w-[220px]">
-			<Search class="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-foreground/40" />
-			<input
-				type="text"
-				bind:value={searchQuery}
-				placeholder="Sök dokument, år..."
-				class="w-full pl-9 pr-3 py-1.5 text-xs bg-background border border-border text-foreground placeholder:text-foreground/40 focus:outline-none focus:border-primary transition-colors"
-			/>
+		<!-- Right Side: Search and View Mode Switcher -->
+		<div class="flex items-center gap-2">
+			<!-- Search Input -->
+			<div class="relative flex-1 md:w-56">
+				<Search class="absolute left-3 top-1/2 -translate-y-1/2 h-3.5 w-3.5 text-foreground/40" />
+				<input
+					type="text"
+					bind:value={searchQuery}
+					placeholder="Sök dokument, år..."
+					class="w-full pl-9 pr-3 py-1.5 text-xs bg-background border border-border text-foreground placeholder:text-foreground/40 focus:outline-none focus:border-primary transition-colors"
+				/>
+			</div>
+
+			<!-- View Mode Toggle -->
+			<div class="flex items-center border border-border bg-background p-0.5 shrink-0">
+				<button
+					type="button"
+					title="Kortvy"
+					onclick={() => (viewMode = 'cards')}
+					class="p-1.5 transition-colors cursor-pointer {viewMode === 'cards'
+						? 'bg-primary text-primary-foreground'
+						: 'text-foreground/50 hover:text-foreground'}"
+				>
+					<LayoutGrid class="h-3.5 w-3.5" />
+				</button>
+				<button
+					type="button"
+					title="Listvy"
+					onclick={() => (viewMode = 'list')}
+					class="p-1.5 transition-colors cursor-pointer {viewMode === 'list'
+						? 'bg-primary text-primary-foreground'
+						: 'text-foreground/50 hover:text-foreground'}"
+				>
+					<List class="h-3.5 w-3.5" />
+				</button>
+			</div>
 		</div>
 	</div>
 
-	<!-- Documents Grid -->
+	<!-- Empty state -->
 	{#if filteredDocuments.length === 0}
 		<div class="text-center py-12 border border-dashed border-border bg-card/50">
 			<FileText class="h-8 w-8 text-foreground/30 mx-auto mb-2" />
@@ -118,7 +145,8 @@
 				Återställ filter
 			</button>
 		</div>
-	{:else}
+	{:else if viewMode === 'cards'}
+		<!-- Cards Grid View -->
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
 			{#each filteredDocuments as doc}
 				<div class="flex flex-col justify-between bg-card border border-border/80 p-5 hover:border-primary/50 transition-all duration-200 shadow-xs group">
@@ -169,6 +197,51 @@
 				</div>
 			{/each}
 		</div>
+	{:else}
+		<!-- Compact List / Row View -->
+		<div class="border border-border/80 divide-y divide-border/60 bg-card shadow-xs">
+			{#each filteredDocuments as doc}
+				<div class="flex flex-col sm:flex-row sm:items-center justify-between p-4 hover:bg-muted/40 transition-colors gap-3 group">
+					<!-- Title, category and description -->
+					<div class="flex items-start gap-3 flex-1 min-w-0">
+						<div class="p-2 bg-primary/10 text-primary shrink-0 mt-0.5 group-hover:bg-primary group-hover:text-primary-foreground transition-colors">
+							<FileText class="h-4 w-4" />
+						</div>
+						<div class="min-w-0 flex-1">
+							<div class="flex flex-wrap items-center gap-2 mb-0.5">
+								<h3 class="text-sm font-bold text-foreground group-hover:text-primary transition-colors">
+									{doc.title}
+								</h3>
+								<span class="inline-block px-2 py-0.5 text-[10px] font-bold uppercase tracking-wider bg-muted text-foreground/70">
+									{doc.categoryLabel}
+								</span>
+							</div>
+							{#if doc.description}
+								<p class="text-xs text-foreground/60 line-clamp-1">{doc.description}</p>
+							{/if}
+						</div>
+					</div>
+
+					<!-- Date and download action -->
+					<div class="flex items-center justify-between sm:justify-end gap-4 shrink-0 pt-2 sm:pt-0 border-t sm:border-t-0 border-border/40">
+						<div class="flex items-center gap-1 text-xs font-mono text-foreground/60">
+							<Calendar class="h-3.5 w-3.5 text-foreground/40" />
+							<span>{formatSwedishDate(doc.date)}</span>
+						</div>
+
+						<a
+							href={doc.url}
+							target="_blank"
+							rel="noopener noreferrer"
+							class="inline-flex items-center gap-1.5 px-3 py-1.5 bg-primary text-primary-foreground text-xs font-bold uppercase tracking-wider hover:bg-foreground transition-colors shrink-0"
+						>
+							<Download class="h-3.5 w-3.5" />
+							<span>Öppna</span>
+						</a>
+					</div>
+				</div>
+			{/each}
+		</div>
 	{/if}
 
 	<!-- Help / Contact Footer -->
@@ -177,3 +250,4 @@
 		<a href="/kontakt" class="text-primary font-semibold hover:underline">Kontakta styrelsen →</a>
 	</div>
 </div>
+

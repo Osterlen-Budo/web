@@ -1,7 +1,9 @@
 {
   "title": "Dokument",
   "description": "Här samlar vi officiella föreningsdokument, gällande stadgar, årsmötesprotokoll, verksamhetsberättelser och klubbens policys.",
+  "defaultView": "cards",
   "documents": [
+
     {
       "title": "ÖBK Stadgar",
       "category": "governance",

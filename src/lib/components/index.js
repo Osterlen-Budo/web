@@ -4,5 +4,7 @@ export { default as Navbar } from './Navbar.svelte';
 export { default as ScheduleGrid } from './ScheduleGrid.svelte';
 export { default as JudoDictionary } from './JudoDictionary.svelte';
 export { default as IntakeNotice } from './IntakeNotice.svelte';
+export { default as EventCalendar } from './EventCalendar.svelte';
+
 
 

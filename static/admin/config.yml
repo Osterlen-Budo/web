@@ -67,6 +67,24 @@ collections:
           - { label: 'Sista datum för intag av nybörjare', name: 'intakeEndDate', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, format: 'YYYY-MM-DD', default: '2026-09-30', required: false }
           - { label: 'Informationstext', name: 'infoText', widget: 'string', required: false }
 
+      - name: 'kalendarium'
+        label: 'Kalendarium (Händelser)'
+        file: 'src/pages/kalendarium.json'
+        fields:
+          - { label: 'Titel', name: 'title', widget: 'string', default: 'Kalendarium HT2026' }
+          - { label: 'Beskrivning', name: 'description', widget: 'string', default: 'Viktiga datum, tävlingar och aktiviteter under terminen.' }
+          - label: 'Händelser'
+            name: 'events'
+            widget: 'list'
+            summary: '{{fields.date}} – {{fields.title}} ({{fields.location}})'
+            fields:
+              - { label: 'Datum / Period', name: 'date', widget: 'string', hint: 'T.ex. "17 Aug", "24–30 Aug" eller "3 Okt"' }
+              - { label: 'Tid', name: 'time', widget: 'string', required: false, hint: 'T.ex. "18:30 – 20:00" eller "Hela dagen"' }
+              - { label: 'Vad (Aktivitet / Tävling)', name: 'title', widget: 'string' }
+              - { label: 'Var (Plats)', name: 'location', widget: 'string', required: false, default: 'Dojon' }
+              - { label: 'För vem', name: 'forWhom', widget: 'string', required: false, default: 'Alla medlemmar' }
+
+
 
 
 

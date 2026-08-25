@@ -1,0 +1,69 @@
+{
+  "title": "Kalendarium HT2026",
+  "description": "Viktiga datum, tävlingar, läger och aktiviteter under terminen.",
+  "events": [
+    {
+      "date": "17 Aug",
+      "time": "",
+      "title": "Terminsstart",
+      "location": "Dojon",
+      "forWhom": "Alla grupper"
+    },
+    {
+      "date": "24–30 Aug",
+      "time": "Enligt schema",
+      "title": "Bring a friend-vecka",
+      "location": "Dojon",
+      "forWhom": "Medlemmar (ta med en kompis!)"
+    },
+    {
+      "date": "17 Sep",
+      "time": "18:30 –",
+      "title": "Klubbtävling",
+      "location": "Dojon",
+      "forWhom": "Vit-gult bälte och uppåt"
+    },
+    {
+      "date": "18 Sep",
+      "time": "18:30 – 20:00",
+      "title": "Tjejjudo",
+      "location": "Dojon",
+      "forWhom": "Tjejer födda 2015 och tidigare"
+    },
+    {
+      "date": "3 Okt",
+      "time": "Hela dagen",
+      "title": "Wemmenhögs Judo Open",
+      "location": "Skurup",
+      "forWhom": "Grönt bälte och uppåt"
+    },
+    {
+      "date": "4 Okt",
+      "time": "Hela dagen",
+      "title": "Skåneserien",
+      "location": "Skurup",
+      "forWhom": "Gult bälte och uppåt"
+    },
+    {
+      "date": "13 Nov",
+      "time": "18:30 – 20:00",
+      "title": "Tjejjudo",
+      "location": "Dojon",
+      "forWhom": "Tjejer födda 2015 och tidigare"
+    },
+    {
+      "date": "10 Dec",
+      "time": "18:30 –",
+      "title": "Gradering och julavslutning",
+      "location": "Dojon",
+      "forWhom": "Alla medlemmar & anhöriga"
+    },
+    {
+      "date": "18 Jan",
+      "time": "",
+      "title": "Vårterminen börjar",
+      "location": "Dojon",
+      "forWhom": "Alla grupper"
+    }
+  ]
+}

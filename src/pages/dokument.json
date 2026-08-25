@@ -1,0 +1,76 @@
+{
+  "title": "Dokument",
+  "description": "Här samlar vi officiella föreningsdokument, gällande stadgar, årsmötesprotokoll, verksamhetsberättelser och klubbens policys.",
+  "documents": [
+    {
+      "title": "ÖBK Stadgar",
+      "category": "governance",
+      "date": "2025-05-21",
+      "file": "/files/ÖBK_Stadgar_20260521.pdf",
+      "description": "Föreningens gällande stadgar fastställda vid årsmöte."
+    },
+    {
+      "title": "Integritetspolicy (GDPR)",
+      "category": "policy",
+      "date": "2025-02-23",
+      "file": "/files/ÖBK_integritetspolicy_2025.pdf",
+      "description": "Hur Österlen Budo Klubb behandlar personuppgifter och medlemsdata."
+    },
+    {
+      "title": "ANDT-policy",
+      "category": "policy",
+      "date": "2025-02-23",
+      "file": "/files/ÖBK_andt_policy.pdf",
+      "description": "Föreningens policy gällande alkohol, narkotika, dopning och tobak."
+    },
+    {
+      "title": "Protokoll extra årsmöte 2026",
+      "category": "protocol",
+      "date": "2026-05-21",
+      "file": "/files/ÖBK_protokoll_extra_årsmöte_2026.pdf",
+      "description": "Justerat protokoll från extra årsmöte 2026."
+    },
+    {
+      "title": "Årsmötesprotokoll 2026",
+      "category": "protocol",
+      "date": "2026-04-02",
+      "file": "/files/ÖBK_Årsmötesprotokoll_2026.pdf",
+      "description": "Justerat protokoll från ordinarie årsmöte 2026."
+    },
+    {
+      "title": "Årsmötesprotokoll 2025",
+      "category": "protocol",
+      "date": "2025-03-25",
+      "file": "/files/ÖBK_Årsmötesprotokoll_2025.pdf",
+      "description": "Justerat protokoll från ordinarie årsmöte 2025."
+    },
+    {
+      "title": "Årsmötesprotokoll 2024",
+      "category": "protocol",
+      "date": "2024-04-19",
+      "file": "/files/ÖBK_Årsmötesprotokoll_2024.pdf",
+      "description": "Justerat protokoll från ordinarie årsmöte 2024."
+    },
+    {
+      "title": "Verksamhetsberättelse 2025",
+      "category": "report",
+      "date": "2026-04-02",
+      "file": "/files/öbk_verksamhetsberättelse_2025.pdf",
+      "description": "Sammanfattning av verksamhetsåret 2025 med ekonomisk rapport."
+    },
+    {
+      "title": "Verksamhetsberättelse 2024",
+      "category": "report",
+      "date": "2025-02-23",
+      "file": "/files/ÖBK_Verksamhetsberättelse_2024.pdf",
+      "description": "Sammanfattning av verksamhetsåret 2024 med ekonomisk rapport."
+    },
+    {
+      "title": "Verksamhetsberättelse 2023",
+      "category": "report",
+      "date": "2024-04-19",
+      "file": "/files/ÖBK_Verksamhetsberättelse_2023.pdf",
+      "description": "Sammanfattning av verksamhetsåret 2023 med ekonomisk rapport."
+    }
+  ]
+}

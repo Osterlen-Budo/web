@@ -1,100 +1,41 @@
 <script lang="ts">
+	import dokumentData from '../../pages/dokument.json';
 	import { FileText, Download, Search, Shield, BookOpen, FileCheck, Calendar } from 'lucide-svelte';
 
-	type DocItem = {
+	type RawDoc = {
 		title: string;
-		category: 'governance' | 'protocol' | 'report' | 'policy';
-		categoryLabel: string;
+		category: string;
 		date: string;
-		url: string;
+		file?: string;
+		url?: string;
 		description?: string;
 	};
 
-	const documents: DocItem[] = [
-		// Stadgar & Policys
-		{
-			title: 'ÖBK Stadgar',
-			category: 'governance',
-			categoryLabel: 'Stadgar',
-			date: '2025-05-21',
-			url: '/files/ÖBK_Stadgar_20260521.pdf',
-			description: 'Föreningens gällande stadgar fastställda vid årsmöte.'
-		},
-		{
-			title: 'Integritetspolicy (GDPR)',
-			category: 'policy',
-			categoryLabel: 'Policy',
-			date: '2025-02-23',
-			url: '/files/ÖBK_integritetspolicy_2025.pdf',
-			description: 'Hur Österlen Budo Klubb behandlar personuppgifter och medlemsdata.'
-		},
-		{
-			title: 'ANDT-policy',
-			category: 'policy',
-			categoryLabel: 'Policy',
-			date: '2025-02-23',
-			url: '/files/ÖBK_andt_policy.pdf',
-			description: 'Föreningens policy gällande alkohol, narkotika, dopning och tobak.'
-		},
-		// Årsmötesprotokoll
-		{
-			title: 'Protokoll extra årsmöte 2026',
-			category: 'protocol',
-			categoryLabel: 'Årsmötesprotokoll',
-			date: '2026-05-21',
-			url: '/files/ÖBK_protokoll_extra_årsmöte_2026.pdf',
-			description: 'Justerat protokoll från extra årsmöte 2026.'
-		},
-		{
-			title: 'Årsmötesprotokoll 2026',
-			category: 'protocol',
-			categoryLabel: 'Årsmötesprotokoll',
-			date: '2026-04-02',
-			url: '/files/ÖBK_Årsmötesprotokoll_2026.pdf',
-			description: 'Justerat protokoll från ordinarie årsmöte 2026.'
-		},
-		{
-			title: 'Årsmötesprotokoll 2025',
-			category: 'protocol',
-			categoryLabel: 'Årsmötesprotokoll',
-			date: '2025-03-25',
-			url: '/files/ÖBK_Årsmötesprotokoll_2025.pdf',
-			description: 'Justerat protokoll från ordinarie årsmöte 2025.'
-		},
-		{
-			title: 'Årsmötesprotokoll 2024',
-			category: 'protocol',
-			categoryLabel: 'Årsmötesprotokoll',
-			date: '2024-04-19',
-			url: '/files/ÖBK_Årsmötesprotokoll_2024.pdf',
-			description: 'Justerat protokoll från ordinarie årsmöte 2024.'
-		},
-		// Verksamhetsberättelser
-		{
-			title: 'Verksamhetsberättelse 2025',
-			category: 'report',
-			categoryLabel: 'Verksamhetsberättelse',
-			date: '2026-04-02',
-			url: '/files/öbk_verksamhetsberättelse_2025.pdf',
-			description: 'Sammanfattning av verksamhetsåret 2025 med ekonomisk rapport.'
-		},
-		{
-			title: 'Verksamhetsberättelse 2024',
-			category: 'report',
-			categoryLabel: 'Verksamhetsberättelse',
-			date: '2025-02-23',
-			url: '/files/ÖBK_Verksamhetsberättelse_2024.pdf',
-			description: 'Sammanfattning av verksamhetsåret 2024 med ekonomisk rapport.'
-		},
-		{
-			title: 'Verksamhetsberättelse 2023',
-			category: 'report',
-			categoryLabel: 'Verksamhetsberättelse',
-			date: '2024-04-19',
-			url: '/files/ÖBK_Verksamhetsberättelse_2023.pdf',
-			description: 'Sammanfattning av verksamhetsåret 2023 med ekonomisk rapport.'
-		}
-	];
+	const categoryMap: Record<string, { label: string; group: 'governance' | 'protocol' | 'report' | 'policy' | 'other' }> = {
+		governance: { label: 'Stadgar', group: 'governance' },
+		stadgar: { label: 'Stadgar', group: 'governance' },
+		policy: { label: 'Policy', group: 'policy' },
+		protocol: { label: 'Årsmötesprotokoll', group: 'protocol' },
+		protokoll: { label: 'Årsmötesprotokoll', group: 'protocol' },
+		report: { label: 'Verksamhetsberättelse', group: 'report' },
+		verksamhetsberattelse: { label: 'Verksamhetsberättelse', group: 'report' },
+		other: { label: 'Övrigt', group: 'other' }
+	};
+
+	const docList = $derived(
+		((dokumentData?.documents || []) as RawDoc[]).map((d) => {
+			const catKey = (d.category || 'other').toLowerCase();
+			const mapped = categoryMap[catKey] || { label: d.category || 'Dokument', group: 'other' as const };
+			return {
+				title: d.title,
+				category: mapped.group,
+				categoryLabel: mapped.label,
+				date: d.date,
+				url: d.file || d.url || '',
+				description: d.description || ''
+			};
+		})
+	);
 
 	let searchQuery = $state('');
 	let selectedCategory = $state<'all' | 'governance' | 'protocol' | 'report' | 'policy'>('all');
@@ -108,7 +49,7 @@
 	] as const;
 
 	const filteredDocuments = $derived(
-		documents.filter((doc) => {
+		docList.filter((doc) => {
 			const matchesCategory = selectedCategory === 'all' || doc.category === selectedCategory;
 			if (!matchesCategory) return false;
 
@@ -122,6 +63,7 @@
 			);
 		})
 	);
+
 
 	function formatSwedishDate(dateStr: string) {
 		try {

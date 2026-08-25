@@ -39,15 +39,47 @@
 		}
 	}
 
-	function getBeltClasses(beltText: string) {
-		const b = beltText.toLowerCase();
-		if (b.includes('svart') || b.includes('dan')) return 'bg-neutral-900 text-white border-neutral-700';
-		if (b.includes('brun')) return 'bg-amber-900 text-amber-100 border-amber-800';
-		if (b.includes('blå')) return 'bg-sky-700 text-white border-sky-600';
-		if (b.includes('grön')) return 'bg-emerald-700 text-white border-emerald-600';
-		if (b.includes('orange')) return 'bg-orange-600 text-white border-orange-500';
-		if (b.includes('gul')) return 'bg-amber-400 text-amber-950 border-amber-300';
-		return 'bg-slate-200 text-slate-800 border-slate-300';
+	function getBeltColors(beltText: string): { base: string; stripe: string | null } {
+		const raw = beltText.toLowerCase();
+
+		const colorMap: Record<string, string> = {
+			svart: 'bg-neutral-900',
+			brun: 'bg-[#5c3010]',
+			blå: 'bg-[#1d4ed8]',
+			grön: 'bg-[#15803d]',
+			orange: 'bg-[#ea580c]',
+			gul: 'bg-[#eab308]',
+			vit: 'bg-white',
+			röd: 'bg-[#dc2626]'
+		};
+
+		// Check for compound colors like "blå-brun", "grön-blå", "vit-gul", "orange-grön", "gul-orange"
+		for (const [firstKey, firstVal] of Object.entries(colorMap)) {
+			for (const [secondKey, secondVal] of Object.entries(colorMap)) {
+				if (raw.includes(`${firstKey}-${secondKey}`) || raw.includes(`${firstKey} - ${secondKey}`)) {
+					return {
+						base: firstVal,
+						stripe: secondVal
+					};
+				}
+			}
+		}
+
+		// Single color matches
+		for (const [colorName, bgClass] of Object.entries(colorMap)) {
+			if (raw.includes(colorName)) {
+				return {
+					base: bgClass,
+					stripe: null
+				};
+			}
+		}
+
+		if (raw.includes('dan')) {
+			return { base: 'bg-neutral-900', stripe: null };
+		}
+
+		return { base: 'bg-white', stripe: null };
 	}
 </script>
 
@@ -80,11 +112,19 @@
 		<p class="font-bold text-sm sm:text-base tracking-tight text-gray-900 leading-snug">{name}</p>
 		<p class="text-xs text-gray-600 mt-1 leading-snug">{title}</p>
 		{#if belt}
-			<span class="inline-flex items-center px-2 py-0.5 mt-2 rounded-sm text-[11px] font-semibold border {getBeltClasses(belt)}">
-				{belt}
-			</span>
+			{@const colors = getBeltColors(belt)}
+			<div class="inline-flex items-center gap-1.5 px-2.5 py-1 mt-2 rounded border border-slate-200 bg-slate-50 text-slate-800 text-[11px] font-semibold shadow-xs">
+				<!-- Martial Arts Belt Mini Bar -->
+				<span class="relative inline-block w-6 h-3 rounded-[2px] border border-black/25 shadow-xs overflow-hidden shrink-0 {colors.base}">
+					{#if colors.stripe}
+						<span class="absolute inset-x-0 top-1/2 -translate-y-1/2 h-[3px] {colors.stripe} border-y border-black/15"></span>
+					{/if}
+				</span>
+				<span>{belt}</span>
+			</div>
 		{/if}
 	</div>
 </div>
+
 
 

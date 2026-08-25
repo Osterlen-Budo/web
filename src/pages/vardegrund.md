@@ -1,28 +1,171 @@
 ---
 title: Judons värdegrund
-description: Lär dig mer om judons värdegrund
+description: Lär dig mer om judons värdegrund och de 8 moraliska principerna
 date: 2024-04-19
 published: true
 ---
 
-Judons värdegrund är densamma oavsett var i världen du än tränar judo. Internationella Judoförbundet, IJF, ställer sig bakom värdegrunden och det finns flera originaltexter med tankar och reflektioner från judons grundare, prof. Jigoro Kano kring värdegrundens olika delar. De olikheter som kan finnas mellan olika versioner beror oftast på den tolkning som alltid görs i varje översättning från ett språk till ett annat.
+Judons värdegrund är densamma oavsett var i världen du än tränar. Grundaren av judo, **Professor Jigoro Kano**, skapade judo inte bara som en kampsport, utan som en livsfilosofi och uppfostringsmetod för att utveckla goda medmänniskor.
 
-Se IJFs film om [judons värdegrund](https://youtu.be/Nbku4t20RgU)
+> *"Judo är vägen till den mest effektiva användningen av både fysisk och mental kraft. Genom träning förbättrar du din kropp och själ, och genom att tillägna dig judons anda fulländar du dig själv och bidrar till samhället."*  
+> — **Jigoro Kano, Judons grundare**
 
-### Så här formulerar Svenska Judoförbundet judons värdegrund
+---
 
-- **Artighet**, det är att alltid uppträda korrekt mot andra. Det spelar ingen roll vem du är, var du kommer ifrån, eller vad som gjort att just du är här. Alla människor är värda att bemötas med artighet.
+### Judons två huvudprinciper
 
-- **Hederlighet**, handlar för judoutövare om att hålla det vi lovar. Att vi alltid håller de överenskommelser som vi gör med den vi tränar med och att den kan lita på att vi ska hjälpa varandra att bli bättre tillsammans. Att varje judoutövare har ett ansvar för välbefinnandet hos den som den tränar med.
+<div class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
+	<div class="bg-primary/5 border-l-4 border-primary p-5">
+		<span class="text-[10px] font-mono uppercase tracking-widest text-primary font-bold">Princip 1</span>
+		<h4 class="text-base font-bold text-foreground mt-0.5 mb-1">Jita Kyōei (自他共栄)</h4>
+		<p class="text-xs font-semibold text-primary mb-2">Ömsesidig välfärd och nytta</p>
+		<p class="text-xs text-foreground/70 leading-relaxed">
+			Genom att hjälpa och samarbeta med varandra utvecklas vi tillsammans. Vi tar alltid ansvar för vår träningspartners säkerhet och utveckling.
+		</p>
+	</div>
 
-- **Mod**, det är att våga göra det som är rätt även om det också finns rädsla. Vi tränar på att vara modiga varje träning då vi prövar saker som vi ännu inte lärt oss helt eller när vi låter oss bli kastade. Judoträning är att våga bjuda på sig själv och att våga pröva det som vi lärt oss.
+	<div class="bg-muted/40 border-l-4 border-foreground/50 p-5">
+		<span class="text-[10px] font-mono uppercase tracking-widest text-foreground/60 font-bold">Princip 2</span>
+		<h4 class="text-base font-bold text-foreground mt-0.5 mb-1">Seiryoku Zenyō (精力善用)</h4>
+		<p class="text-xs font-semibold text-foreground/80 mb-2">Bästa möjliga användning av energi</p>
+		<p class="text-xs text-foreground/70 leading-relaxed">
+			Att använda sin fysiska och mentala energi på det mest effektiva sättet, inte bara på mattan utan i alla livets situationer.
+		</p>
+	</div>
+</div>
 
-- **Respekt**, genom att visa respekt skapas förtroende. Det handlar om att vara lyhörd och tålmodig och respektera andra människor. Respekten för varandra är en av de viktigaste och kanske mest framträdande grunderna för judo. Vi visar vår respekt på varje träning genom att alltid buga till den vi tränar med, till vår grupp och också till vår klubb/träningslokal.
+---
 
-- **Självkontroll**, att i alla situationer kontrollera sitt uppförande och sitt humör. När vi tränar på teknik övar vi oss hela tiden i att ha god kontroll på både oss själva och den vi tränar med. När vi övar på kampmomentet eller tävlar kommer vi att både lyckas och misslyckas, både vinna och förlora. Alla de situationerna kan vi lära oss något av utan att tappa kontrollen över vårt uppförande.
+### Judons 8 moraliska ledord
 
-- **Vänskap**, är det yttersta målet med judo. Det handlar om att skapa en miljö som motverkar negativt grupptryck och mobbning. Genom att vara fysiskt väldigt nära varandra på judoträningen är det lättare att utveckla en vänskap. Vi relaterar också till en människa i taget – vår träningspartner – men med flera olika i vår grupp på varje träning. Det skapar bra förutsättningar för en god och växande vänskap.
+Svenska Judoförbundet och Internationella Judoförbundet (IJF) lyfter fram 8 grundläggande ledord som genomsyrar all vår träning:
 
-- **Ärlighet**, det är att säga vad man tycker utan att såra någon, tala osanning eller ha dolda syften. När vi tränar judo så behöver vi ofta ge varandra feedback och hjälpa varandra att bli bättre och utvecklas. Eftersom judo alltid utövas i grupp så behöver vi även hjälpa varandra att fungera så bra som möjligt i gruppen också.
+<div class="not-prose grid grid-cols-1 md:grid-cols-2 gap-4 my-8">
+	<!-- 1. Artighet -->
+	<div class="bg-card border border-border/80 p-5 shadow-xs hover:border-primary/50 transition-colors">
+		<div class="flex items-center justify-between gap-2 mb-2">
+			<h4 class="text-base font-bold text-foreground flex items-center gap-2">
+				<span class="w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center">1</span>
+				Artighet
+			</h4>
+			<span class="text-[11px] font-mono text-foreground/50 uppercase tracking-wider">Reigi (礼儀)</span>
+		</div>
+		<p class="text-xs text-foreground/75 leading-relaxed">
+			Att alltid uppträda korrekt mot andra. Oavsett vem du är eller var du kommer ifrån är alla människor värda att bemötas med artighet, hänsyn och ett vänligt bemötande.
+		</p>
+	</div>
 
-- **Ödmjukhet**, det är ödmjukt att känna till både sina styrkor och sina svagheter och agera utifrån den kunskapen. Alla på en judoträning är lika viktiga och lika välkomna oavsett grad, kunskapsnivå eller tidigare erfarenhet. En viktig princip inom judo är att ömsesidig hjälp leder till ömsesidig välgång.
+	<!-- 2. Hederlighet -->
+	<div class="bg-card border border-border/80 p-5 shadow-xs hover:border-primary/50 transition-colors">
+		<div class="flex items-center justify-between gap-2 mb-2">
+			<h4 class="text-base font-bold text-foreground flex items-center gap-2">
+				<span class="w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center">2</span>
+				Hederlighet
+			</h4>
+			<span class="text-[11px] font-mono text-foreground/50 uppercase tracking-wider">Meiyo (名誉)</span>
+		</div>
+		<p class="text-xs text-foreground/75 leading-relaxed">
+			Att hålla det vi lovar och alltid stå för våra överenskommelser. Varje judoutövare har ett personligt ansvar för välbefinnandet hos den partner man tränar med.
+		</p>
+	</div>
+
+	<!-- 3. Mod -->
+	<div class="bg-card border border-border/80 p-5 shadow-xs hover:border-primary/50 transition-colors">
+		<div class="flex items-center justify-between gap-2 mb-2">
+			<h4 class="text-base font-bold text-foreground flex items-center gap-2">
+				<span class="w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center">3</span>
+				Mod
+			</h4>
+			<span class="text-[11px] font-mono text-foreground/50 uppercase tracking-wider">Yūki (勇気)</span>
+		</div>
+		<p class="text-xs text-foreground/75 leading-relaxed">
+			Att våga göra det som är rätt även om det känns ovant eller läskigt. Vi övar mod varje träning när vi testar nya tekniker, låter oss bli kastade och vågar bjuda på oss själva.
+		</p>
+	</div>
+
+	<!-- 4. Respekt -->
+	<div class="bg-card border border-border/80 p-5 shadow-xs hover:border-primary/50 transition-colors">
+		<div class="flex items-center justify-between gap-2 mb-2">
+			<h4 class="text-base font-bold text-foreground flex items-center gap-2">
+				<span class="w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center">4</span>
+				Respekt
+			</h4>
+			<span class="text-[11px] font-mono text-foreground/50 uppercase tracking-wider">Sonkei (尊敬)</span>
+		</div>
+		<p class="text-xs text-foreground/75 leading-relaxed">
+			Genom respekt skapas förtroende. Vi visar respekt genom att alltid buga för träningspartnern, tränaren och dojon. Att vara lyhörd, tålmodig och acceptera olikheter.
+		</p>
+	</div>
+
+	<!-- 5. Självkontroll -->
+	<div class="bg-card border border-border/80 p-5 shadow-xs hover:border-primary/50 transition-colors">
+		<div class="flex items-center justify-between gap-2 mb-2">
+			<h4 class="text-base font-bold text-foreground flex items-center gap-2">
+				<span class="w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center">5</span>
+				Självkontroll
+			</h4>
+			<span class="text-[11px] font-mono text-foreground/50 uppercase tracking-wider">Jisei (自制)</span>
+		</div>
+		<p class="text-xs text-foreground/75 leading-relaxed">
+			Att i alla situationer kontrollera sitt uppförande och sitt humör. Både vid vinst och förlust lär vi oss något värdefullt utan att tappa fattningen.
+		</p>
+	</div>
+
+	<!-- 6. Vänskap -->
+	<div class="bg-card border border-border/80 p-5 shadow-xs hover:border-primary/50 transition-colors">
+		<div class="flex items-center justify-between gap-2 mb-2">
+			<h4 class="text-base font-bold text-foreground flex items-center gap-2">
+				<span class="w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center">6</span>
+				Vänskap
+			</h4>
+			<span class="text-[11px] font-mono text-foreground/50 uppercase tracking-wider">Yūjō (友情)</span>
+		</div>
+		<p class="text-xs text-foreground/75 leading-relaxed">
+			Det yttersta målet med judo! Vi skapar en trygg miljö fri från mobbning och utanförskap där kamratskap över åldrar och bakgrunder växer fram på mattan.
+		</p>
+	</div>
+
+	<!-- 7. Ärlighet -->
+	<div class="bg-card border border-border/80 p-5 shadow-xs hover:border-primary/50 transition-colors">
+		<div class="flex items-center justify-between gap-2 mb-2">
+			<h4 class="text-base font-bold text-foreground flex items-center gap-2">
+				<span class="w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center">7</span>
+				Ärlighet
+			</h4>
+			<span class="text-[11px] font-mono text-foreground/50 uppercase tracking-wider">Makoto (誠)</span>
+		</div>
+		<p class="text-xs text-foreground/75 leading-relaxed">
+			Att vara uppriktig utan att såra. Att ge konstruktiv feedback och hjälpa träningskamraterna och klubbgemenskapen att utvecklas på ett positivt sätt.
+		</p>
+	</div>
+
+	<!-- 8. Ödmjukhet -->
+	<div class="bg-card border border-border/80 p-5 shadow-xs hover:border-primary/50 transition-colors">
+		<div class="flex items-center justify-between gap-2 mb-2">
+			<h4 class="text-base font-bold text-foreground flex items-center gap-2">
+				<span class="w-6 h-6 rounded-full bg-primary/10 text-primary text-xs font-mono font-bold flex items-center justify-center">8</span>
+				Ödmjukhet
+			</h4>
+			<span class="text-[11px] font-mono text-foreground/50 uppercase tracking-wider">Kenkyo (謙虚)</span>
+		</div>
+		<p class="text-xs text-foreground/75 leading-relaxed">
+			Att känna till sina styrkor och svagheter utan att förhäva sig. Alla på träningen är lika välkomna och värdefulla oavsett bältesgrad eller erfarenhet.
+		</p>
+	</div>
+</div>
+
+---
+
+### Se IJF:s film om Judons värdegrund
+
+<div class="not-prose my-6 aspect-video w-full overflow-hidden border border-border shadow-sm">
+	<iframe
+		class="w-full h-full"
+		src="https://www.youtube.com/embed/Nbku4t20RgU"
+		title="International Judo Federation – Judo Moral Code"
+		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+		allowfullscreen
+		loading="lazy"
+	></iframe>
+</div>
+

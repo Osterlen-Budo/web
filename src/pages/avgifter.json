@@ -1,0 +1,71 @@
+{
+  "title": "Tränings- och medlemsavgifter",
+  "year": "2026",
+  "introText": "Träningsavgifter betalas terminsvis och medlemsavgiften betalas årsvis. Nya medlemmar är alltid välkomna att prova på 3 gånger gratis innan avgift betalas!",
+  "contactEmail": "kassor@osterlenbudo.se",
+  "categories": [
+    {
+      "name": "Medlemsavgift",
+      "price": "135 kr",
+      "period": "per år",
+      "age": "Alla aktiva & stödmedlemmar",
+      "description": "Obligatorisk för alla aktiva utövare. Innefattar medlemsförsäkring via Svenska Judoförbundet."
+    },
+    {
+      "name": "Stor & Liten",
+      "price": "500 kr",
+      "period": "per termin",
+      "age": "4–6 år (med förälder)",
+      "description": "Lekfull judo och grundmotorik tillsammans med en vuxen."
+    },
+    {
+      "name": "Barn",
+      "price": "500 kr",
+      "period": "per termin",
+      "age": "7–12 år",
+      "description": "Nybörjare och fortsättningsgrupper för barn."
+    },
+    {
+      "name": "Ungdom",
+      "price": "600 kr",
+      "period": "per termin",
+      "age": "13–17 år (året man fyller 13)",
+      "description": "Ungdomsträning, teknik och tävlingsförberedelse."
+    },
+    {
+      "name": "Vuxna",
+      "price": "700 kr",
+      "period": "per termin",
+      "age": "18+ år",
+      "description": "Motion, teknik och vuxenträning för alla nivåer."
+    },
+    {
+      "name": "Styrelse & Tränare",
+      "price": "250 kr",
+      "period": "per termin",
+      "age": "Ledare & funktionärer",
+      "description": "Reducerad avgift för klubbens aktiva ledare och tränare."
+    },
+    {
+      "name": "Stödmedlem",
+      "price": "135 kr",
+      "period": "per år",
+      "age": "Ej aktiva tränande",
+      "description": "För dig som vill stötta klubbens verksamhet utan att träna aktivt på mattan."
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Fritidskortet",
+      "description": "Det går utmärkt att använda kommunens fritidskort för att betala träningsavgiften hos oss."
+    },
+    {
+      "title": "Friskvårdsbidrag",
+      "description": "Judo är godkänt för friskvårdsbidrag. Vi utfärdar godkänt kvitto och underlag för din arbetsgivare."
+    },
+    {
+      "title": "Prova på 3 gånger gratis",
+      "description": "Kom i vanliga mjuka träningskläder och testa 3 pass utan kostnad eller föranmälan."
+    }
+  ]
+}

@@ -79,7 +79,6 @@ collections:
           - label: 'Dokument'
             name: 'documents'
             widget: 'list'
-
             summary: '{{fields.title}} ({{fields.category}}) – {{fields.date}}'
             fields:
               - { label: 'Dokumentnamn', name: 'title', widget: 'string' }
@@ -96,6 +95,39 @@ collections:
               - { label: 'Datum', name: 'date', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, format: 'YYYY-MM-DD' }
               - { label: 'Fil (PDF)', name: 'file', widget: 'file', media_folder: 'static/files', public_folder: '/files' }
               - { label: 'Kort beskrivning', name: 'description', widget: 'string', required: false }
+
+  - name: 'avgifter'
+    label: 'Avgifter'
+    delete: false
+    editor:
+      preview: false
+    files:
+      - name: 'avgifter'
+        label: 'Träningsavgifter'
+        file: 'src/pages/avgifter.json'
+        fields:
+          - { label: 'Titel', name: 'title', widget: 'string', default: 'Tränings- och medlemsavgifter' }
+          - { label: 'Gällande år / termin', name: 'year', widget: 'string', default: '2026' }
+          - { label: 'Introduktionstext', name: 'introText', widget: 'text' }
+          - { label: 'Kontakt e-post för fakturafrågor', name: 'contactEmail', widget: 'string', default: 'kassor@osterlenbudo.se' }
+          - label: 'Avgiftskategorier'
+            name: 'categories'
+            widget: 'list'
+            summary: '{{fields.name}} – {{fields.price}} ({{fields.period}})'
+            fields:
+              - { label: 'Kategori / Gruppnamn', name: 'name', widget: 'string' }
+              - { label: 'Avgift (t.ex. 500 kr)', name: 'price', widget: 'string' }
+              - { label: 'Period (t.ex. per termin / per år)', name: 'period', widget: 'string' }
+              - { label: 'Ålder / Målgrupp', name: 'age', widget: 'string', required: false }
+              - { label: 'Beskrivning / Info', name: 'description', widget: 'string', required: false }
+          - label: 'Förmåner & Betalningsinfo (t.ex. Friskvård, Fritidskortet)'
+            name: 'benefits'
+            widget: 'list'
+            summary: '{{fields.title}}'
+            fields:
+              - { label: 'Rubrik', name: 'title', widget: 'string' }
+              - { label: 'Beskrivning', name: 'description', widget: 'text' }
+
 
 
   - name: 'settings'

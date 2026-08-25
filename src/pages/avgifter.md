@@ -1,25 +1,12 @@
 ---
-title: Träningsavgifter 2026
+title: Träningsavgifter
 date: 2025-01-01T20:58:00.000Z
-description: Här kan du se vad det kostar att träna i vår klubb
+description: Här kan du se vad det kostar att träna judo i vår klubb. Information om medlems- och terminsavgifter, friskvård och fritidskortet.
 published: true
 ---
+<script lang="ts">
+	import { FeeTable } from '$components';
+</script>
 
-Träningsavgifter betalas terminsvis.<br/>
-Medlemsavgifter betalas årsvis.
+<FeeTable />
 
-| Kategori             | Avgift        | Kommentar                        |
-| -------------------- | ------------- | -------------------------------- |
-| Medlemsavgift        | 135 kr/år     |                                  |
-| Stor & Liten    | 500 kr/termin | 4-6 år med vuxen                          |
-| Barn   | 500 kr/termin | 7-12 år                          |
-| Ungdom  | 600 kr/termin | 13-17 år (året man fyller 13 år) |
-| Vuxen   | 700 kr/termin | 18+ (året man fyller 18 år)      |
-| Styrelse och tränare | 250 kr/termin |                                  |
-| Stödmedlem           | 135 kr/år     |                                  |
-
-Det går bra att betala med fritidskortet hos oss.
-
-Vi erbjuder medlems- och terminsavgiften som friskvård. Maila till kassor@osterlenbudo.se
-
-Vi fakturerar avgifterna varje termin. Vid frågor maila till kassor@osterlenbudo.se

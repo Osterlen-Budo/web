@@ -1,5 +1,5 @@
 <script lang="ts">
-	import semesterData from '../../pages/semester.json';
+	import terminData from '../../pages/termin.json';
 
 	type Session = {
 		day: string;
@@ -22,12 +22,13 @@
 		}
 	}
 
-	const semesterInfo = $derived({
-		name: semesterData?.name || 'Höstterminen 2026',
-		start: formatSwedishDate(semesterData?.startDate),
-		end: formatSwedishDate(semesterData?.endDate),
-		infoText: semesterData?.infoText || ''
+	const terminInfo = $derived({
+		name: terminData?.name || 'Höstterminen 2026',
+		start: formatSwedishDate(terminData?.startDate),
+		end: formatSwedishDate(terminData?.endDate),
+		infoText: terminData?.infoText || ''
 	});
+
 
 	const sessions: Session[] = [
 		{
@@ -120,21 +121,22 @@
 </script>
 
 <div class="my-6 not-prose">
-	<!-- Semester Active Banner -->
+	<!-- Termin Active Banner -->
 	<div class="bg-card border border-border p-5 mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-sm">
 		<div>
 			<span class="text-[11px] font-bold uppercase tracking-widest text-primary">Aktuell Termin</span>
-			<h2 class="text-xl font-bold text-foreground mt-0.5">{semesterInfo.name}</h2>
-			{#if semesterInfo.start && semesterInfo.end}
+			<h2 class="text-xl font-bold text-foreground mt-0.5">{terminInfo.name}</h2>
+			{#if terminInfo.start && terminInfo.end}
 				<p class="text-xs font-medium text-foreground/70 mt-1">
-					Schemat gäller från <strong>{semesterInfo.start}</strong> till <strong>{semesterInfo.end}</strong>.
+					Schemat gäller från <strong>{terminInfo.start}</strong> till <strong>{terminInfo.end}</strong>.
 				</p>
 			{/if}
-			{#if semesterInfo.infoText}
-				<p class="text-xs text-foreground/60 mt-1 italic">{semesterInfo.infoText}</p>
+			{#if terminInfo.infoText}
+				<p class="text-xs text-foreground/60 mt-1 italic">{terminInfo.infoText}</p>
 			{/if}
 		</div>
 	</div>
+
 
 	<!-- Filter buttons -->
 	<div class="flex flex-wrap gap-2 mb-6">

@@ -68,7 +68,7 @@ Om du eller ditt barn råkar ut för en olycksfallsskada på mattan, följ dessa
 		<div>
 			<h4 class="text-sm font-bold text-foreground mb-1">Uppsök vård vid behov & informera tränaren</h4>
 			<p class="text-xs text-foreground/70 leading-relaxed">
-				Prioritera alltid första hjälpen och läkarvård vid allvarligare skador. Meddela tränaren så att händelsen noteras i klubbens incidentlogg.
+				Prioritera alltid första hjälpen och läkarvård vid allvarligare skador, och meddela gärna tränaren vad som har inträffat.
 			</p>
 		</div>
 	</div>

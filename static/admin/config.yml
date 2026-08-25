@@ -163,6 +163,45 @@ collections:
           - { label: 'Sista datum för intag av nybörjare', name: 'intakeEndDate', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, format: 'YYYY-MM-DD', default: '2026-09-30', required: false }
           - { label: 'Informationstext', name: 'infoText', widget: 'string', required: false }
 
+      - name: 'schema'
+        label: 'Träningstider (Veckoschema)'
+        file: 'src/pages/schema.json'
+        fields:
+          - { label: 'Titel', name: 'title', widget: 'string', default: 'Träningstider' }
+          - label: 'Träningspass'
+            name: 'sessions'
+            widget: 'list'
+            summary: '{{fields.day}} {{fields.time}} – {{fields.group}}'
+            fields:
+              - label: 'Veckodag'
+                name: 'day'
+                widget: 'select'
+                options:
+                  - 'Måndag'
+                  - 'Tisdag'
+                  - 'Onsdag'
+                  - 'Torsdag'
+                  - 'Fredag'
+                  - 'Lördag'
+                  - 'Söndag'
+                default: 'Måndag'
+              - { label: 'Sorteringsnummer (1=Mån, 2=Tis, 3=Ons, 4=Tor, 5=Fre, 6=Lör, 7=Sön)', name: 'dayOrder', widget: 'number', default: 1, value_type: 'int' }
+              - { label: 'Tid (t.ex. 18:30 – 19:30)', name: 'time', widget: 'string' }
+              - { label: 'Gruppnamn (t.ex. Barn fortsättning)', name: 'group', widget: 'string' }
+              - { label: 'Ålder (t.ex. 7–12 år)', name: 'age', widget: 'string' }
+              - label: 'Kategori'
+                name: 'category'
+                widget: 'select'
+                options:
+                  - { label: 'Stor & Liten (4–6 år)', value: 'small' }
+                  - { label: 'Barn (7–12 år)', value: 'kids' }
+                  - { label: 'Ungdomar (13–17 år)', value: 'youth' }
+                  - { label: 'Vuxna (18+)', value: 'adults' }
+                default: 'kids'
+              - { label: 'Bälte (t.ex. Gult till grönt)', name: 'belt', widget: 'string' }
+              - { label: 'Nivå (t.ex. Fortsättning)', name: 'level', widget: 'string' }
+
+
 
 
 

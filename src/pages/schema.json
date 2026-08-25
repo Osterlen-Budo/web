@@ -1,0 +1,75 @@
+{
+  "title": "Träningstider",
+  "sessions": [
+    {
+      "day": "Måndag",
+      "dayOrder": 1,
+      "time": "18:30 – 19:30",
+      "group": "Barn fortsättning",
+      "age": "7–12 år",
+      "category": "kids",
+      "belt": "Gult till orange-grönt",
+      "level": "Fortsättning"
+    },
+    {
+      "day": "Måndag",
+      "dayOrder": 1,
+      "time": "19:30 – 21:00",
+      "group": "Ungdomar & Vuxna",
+      "age": "13–17 år (samt grönt+ barn)",
+      "category": "youth",
+      "belt": "Grönt bälte och uppåt / Ungdomar",
+      "level": "Mellan / Avancerad"
+    },
+    {
+      "day": "Tisdag",
+      "dayOrder": 2,
+      "time": "18:30 – 19:30",
+      "group": "Barn nybörjare",
+      "age": "7–12 år",
+      "category": "kids",
+      "belt": "Vitt och vit-gult",
+      "level": "Nybörjare"
+    },
+    {
+      "day": "Tisdag",
+      "dayOrder": 2,
+      "time": "19:30 – 21:00",
+      "group": "Vuxna & Motion",
+      "age": "18+ år",
+      "category": "adults",
+      "belt": "Alla bälten & nybörjare",
+      "level": "Alla nivåer"
+    },
+    {
+      "day": "Onsdag",
+      "dayOrder": 3,
+      "time": "18:30 – 19:30",
+      "group": "Barn fortsättning",
+      "age": "7–12 år",
+      "category": "kids",
+      "belt": "Gult till orange-grönt",
+      "level": "Fortsättning"
+    },
+    {
+      "day": "Torsdag",
+      "dayOrder": 4,
+      "time": "18:30 – 20:00",
+      "group": "Ungdomar",
+      "age": "13–17 år",
+      "category": "youth",
+      "belt": "Barn med grönt+ och alla ungdomar",
+      "level": "Mellan / Avancerad"
+    },
+    {
+      "day": "Söndag",
+      "dayOrder": 7,
+      "time": "09:15 – 10:00",
+      "group": "Stor & Liten",
+      "age": "4–6 år (med förälder)",
+      "category": "small",
+      "belt": "Alla välkomna",
+      "level": "Lek & Grundmotorik"
+    }
+  ]
+}

@@ -88,8 +88,6 @@ Här är en enkel checklista med allt du behöver tänka på inför första trä
 	</div>
 </div>
 
----
-
 ### Hitta till dojon
 
 Vår träningslokal ligger centralt i Sjöbo på **Kvarngatan 1** (på innergården, 2:a våningen). Det sitter en skylt med *Österlen Budo Klubb* ovanför dörren.
@@ -120,8 +118,6 @@ Vår träningslokal ligger centralt i Sjöbo på **Kvarngatan 1** (på innergår
 	</div>
 </div>
 
----
-
 ### Vanliga frågor inför starten
 
 <div class="not-prose space-y-3 my-6">
@@ -146,8 +142,6 @@ Vår träningslokal ligger centralt i Sjöbo på **Kvarngatan 1** (på innergår
 		</p>
 	</div>
 </div>
-
----
 
 ### Snabblänkar
 

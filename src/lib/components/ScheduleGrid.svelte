@@ -26,8 +26,10 @@
 		name: terminData?.name || 'Höstterminen 2026',
 		start: formatSwedishDate(terminData?.startDate),
 		end: formatSwedishDate(terminData?.endDate),
+		intakeEnd: formatSwedishDate(terminData?.intakeEndDate),
 		infoText: terminData?.infoText || ''
 	});
+
 
 
 	const sessions: Session[] = [
@@ -193,6 +195,9 @@
 			<h4 class="font-bold text-foreground text-sm">Vill du prova på Judo?</h4>
 			<p class="text-xs text-foreground/70 mt-1">
 				Hos oss får du alltid prova på <strong>3 gånger gratis</strong>! Kom i vanliga mjuka träningskläder (långbyxor och t-shirt).
+				{#if terminInfo.intakeEnd}
+					Intag av nya medlemmar är öppet fram till <strong>{terminInfo.intakeEnd}</strong>.
+				{/if}
 			</p>
 		</div>
 		<a
@@ -202,4 +207,5 @@
 			Läs mer inför första passet
 		</a>
 	</div>
+
 </div>

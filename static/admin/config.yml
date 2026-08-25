@@ -20,6 +20,8 @@ collections:
       - { label: 'Titel', name: 'title', widget: 'string' }
       - { label: 'Datum', name: 'date', widget: 'datetime' }
       - { label: 'Beskrivning', name: 'description', widget: 'string' }
+      - { label: 'Startdatum (Termin)', name: 'startDate', widget: 'date', required: false }
+      - { label: 'Slutdatum (Termin)', name: 'endDate', widget: 'date', required: false }
       - { label: 'Text', name: 'body', widget: 'markdown' }
 
   - name: 'nyheter' # Used in routes, e.g., /admin/collections/blog
@@ -85,4 +87,14 @@ collections:
               - { label: 'Titel', name: 'title', widget: 'string' }
               - { label: 'Beskrivning', name: 'description', widget: 'string' }
               - { label: 'Länk (t.ex. /borjatrana)', name: 'url', widget: 'string' }
+
+      - name: 'semester'
+        label: 'Terminstider (Schema)'
+        file: 'src/pages/semester.json'
+        fields:
+          - { label: 'Terminsnamn', name: 'name', widget: 'string', default: 'Höstterminen 2026' }
+          - { label: 'Startdatum', name: 'startDate', widget: 'date', default: '2026-08-17' }
+          - { label: 'Slutdatum', name: 'endDate', widget: 'date', default: '2026-12-10' }
+          - { label: 'Informationstext', name: 'infoText', widget: 'string', required: false }
+
 

@@ -1,4 +1,6 @@
 <script lang="ts">
+	import semesterData from '../../pages/semester.json';
+
 	type Session = {
 		day: string;
 		dayOrder: number;
@@ -9,6 +11,23 @@
 		belt: string;
 		level: string;
 	};
+
+	function formatSwedishDate(dateStr: string) {
+		if (!dateStr) return '';
+		try {
+			const d = new Date(dateStr);
+			return d.toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' });
+		} catch {
+			return dateStr;
+		}
+	}
+
+	const semesterInfo = $derived({
+		name: semesterData?.name || 'Höstterminen 2026',
+		start: formatSwedishDate(semesterData?.startDate),
+		end: formatSwedishDate(semesterData?.endDate),
+		infoText: semesterData?.infoText || ''
+	});
 
 	const sessions: Session[] = [
 		{
@@ -100,9 +119,26 @@
 	);
 </script>
 
-<div class="my-8 not-prose">
+<div class="my-6 not-prose">
+	<!-- Semester Active Banner -->
+	<div class="bg-card border border-border p-5 mb-8 flex flex-col sm:flex-row sm:items-center justify-between gap-4 shadow-sm">
+		<div>
+			<span class="text-[11px] font-bold uppercase tracking-widest text-primary">Aktuell Termin</span>
+			<h2 class="text-xl font-bold text-foreground mt-0.5">{semesterInfo.name}</h2>
+			{#if semesterInfo.start && semesterInfo.end}
+				<p class="text-xs font-medium text-foreground/70 mt-1">
+					Schemat gäller från <strong>{semesterInfo.start}</strong> till <strong>{semesterInfo.end}</strong>.
+				</p>
+			{/if}
+			{#if semesterInfo.infoText}
+				<p class="text-xs text-foreground/60 mt-1 italic">{semesterInfo.infoText}</p>
+			{/if}
+		</div>
+	</div>
+
 	<!-- Filter buttons -->
-	<div class="flex flex-wrap gap-2 mb-8">
+	<div class="flex flex-wrap gap-2 mb-6">
+
 		{#each categories as cat}
 			<button
 				type="button"

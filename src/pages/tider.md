@@ -10,9 +10,10 @@ published: true
 	import { ScheduleGrid } from '$components';
 </script>
 
-Schemat gäller **17 augusti 2026 till 10 december 2026**. Välj en åldersgrupp nedan för att se relevanta träningstider.
+Välj en åldersgrupp nedan för att filtrera och se relevanta träningstider för terminen.
 
 <ScheduleGrid />
+
 
 ### Bra att veta inför träningen
 - **Plats**: Vår dojo på Kvarngatan 1 (på innergården, 2:a våningen), Sjöbo.

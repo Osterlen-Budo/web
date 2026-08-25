@@ -52,6 +52,7 @@ Vill ni ha upplysning angående föreningens verksamhet, provträning eller komm
 ---
 
 ### Hitta till Dojon
-Vi tränar i vår egen dojo på **Kvarngatan 1** i Sjöbo (på innergården, 2:a våningen). Det står *Österlen Budo Klubb* över ingången. Om dörren är låst strax innan träningsstart, ring på klockan så öppnar en tränare.
+Vi tränar i vår egen dojo på **Kvarngatan 1** i Sjöbo (på innergården, 2:a våningen). Det står *Österlen Budo Klubb* över ingången.
+
 
 

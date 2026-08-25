@@ -2,10 +2,30 @@
 	import * as Card from '$lib/components/ui/card';
 	import { Button } from '$lib/components/ui/button';
 	import logo from '$lib/assets/logo_no_text.png';
-	import { ArrowRight, Bell, Shield, Heart, Zap, Sparkles, MapPin } from 'lucide-svelte';
+	import { ArrowRight, Bell, Shield, Heart, Zap, Sparkles, MapPin, Info } from 'lucide-svelte';
 
 	let { data } = $props();
 	const homepage = $derived(data.homepage);
+	const termin = $derived(data.termin);
+
+	function formatSwedishDate(dateStr?: string) {
+		if (!dateStr) return '';
+		try {
+			const d = new Date(dateStr);
+			return d.toLocaleDateString('sv-SE', { day: 'numeric', month: 'long', year: 'numeric' });
+		} catch {
+			return dateStr || '';
+		}
+	}
+
+	const isIntakeClosed = $derived.by(() => {
+		if (!termin?.intakeEndDate) return false;
+		const today = new Date();
+		today.setHours(0, 0, 0, 0);
+		const deadline = new Date(termin.intakeEndDate);
+		deadline.setHours(23, 59, 59, 999);
+		return today > deadline;
+	});
 </script>
 
 <!-- Hero / Welcome Area -->
@@ -29,13 +49,23 @@
 
 	<!-- Primary Action Buttons -->
 	<div class="flex flex-col sm:flex-row items-center justify-center gap-4 w-full sm:w-auto">
-		<Button
-			href="/borjatrana"
-			class="w-full sm:w-auto rounded-none bg-primary text-primary-foreground hover:bg-foreground transition-all duration-200 px-8 py-6 font-bold tracking-wide uppercase text-sm shadow-md flex items-center justify-center gap-2"
-		>
-			Börja träna – 3 ggr gratis
-			<ArrowRight class="h-4 w-4" />
-		</Button>
+		{#if !isIntakeClosed}
+			<Button
+				href="/borjatrana"
+				class="w-full sm:w-auto rounded-none bg-primary text-primary-foreground hover:bg-foreground transition-all duration-200 px-8 py-6 font-bold tracking-wide uppercase text-sm shadow-md flex items-center justify-center gap-2"
+			>
+				Börja träna – 3 ggr gratis
+				<ArrowRight class="h-4 w-4" />
+			</Button>
+		{:else}
+			<Button
+				href="/borjatrana"
+				class="w-full sm:w-auto rounded-none bg-foreground text-background hover:bg-primary hover:text-primary-foreground transition-all duration-200 px-8 py-6 font-bold tracking-wide uppercase text-sm shadow-md flex items-center justify-center gap-2"
+			>
+				Börja träna (Info)
+				<ArrowRight class="h-4 w-4" />
+			</Button>
+		{/if}
 		<Button
 			href="/tider"
 			variant="outline"
@@ -44,7 +74,23 @@
 			Se träningstider
 		</Button>
 	</div>
+
+	<!-- Closed Intake Notice Banner -->
+	{#if isIntakeClosed}
+		<div class="mt-8 max-w-xl mx-auto p-4 bg-muted/60 border border-border flex items-start sm:items-center gap-3 text-left shadow-xs">
+			<div class="w-8 h-8 rounded-full bg-foreground/10 flex items-center justify-center shrink-0 text-foreground/70 mt-0.5 sm:mt-0">
+				<Info class="h-4 w-4" />
+			</div>
+			<div>
+				<h4 class="text-xs font-bold uppercase tracking-wider text-foreground">Intag stängt för {termin?.name || 'terminen'}</h4>
+				<p class="text-xs text-foreground/70 mt-0.5">
+					Intaget av nya medlemmar för denna termin stängde den {formatSwedishDate(termin?.intakeEndDate)}. Välkommen åter vid nästa terminsstart!
+				</p>
+			</div>
+		</div>
+	{/if}
 </div>
+
 
 <!-- Main Content Area -->
 <div class="flex flex-col gap-16">

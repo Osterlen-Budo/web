@@ -27,8 +27,6 @@ published: true
 </div>
 
 
----
-
 ### Judons två huvudprinciper
 
 <div class="not-prose grid grid-cols-1 sm:grid-cols-2 gap-4 my-6">
@@ -51,7 +49,6 @@ published: true
 	</div>
 </div>
 
----
 
 ### Judons 8 moraliska ledord
 
@@ -171,7 +168,6 @@ Svenska Judoförbundet och Internationella Judoförbundet (IJF) lyfter fram 8 gr
 	</div>
 </div>
 
----
 
 ### Se IJF:s film om Judons värdegrund
 

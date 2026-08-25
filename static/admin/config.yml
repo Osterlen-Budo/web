@@ -62,9 +62,10 @@ collections:
         file: 'src/pages/termin.json'
         fields:
           - { label: 'Terminsnamn', name: 'name', widget: 'string', default: 'Höstterminen 2026' }
-          - { label: 'Startdatum', name: 'startDate', widget: 'date', default: '2026-08-17' }
-          - { label: 'Slutdatum', name: 'endDate', widget: 'date', default: '2026-12-10' }
+          - { label: 'Startdatum', name: 'startDate', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, format: 'YYYY-MM-DD', default: '2026-08-17' }
+          - { label: 'Slutdatum', name: 'endDate', widget: 'datetime', date_format: 'YYYY-MM-DD', time_format: false, format: 'YYYY-MM-DD', default: '2026-12-10' }
           - { label: 'Informationstext', name: 'infoText', widget: 'string', required: false }
+
 
 
 

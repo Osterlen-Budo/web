@@ -2,7 +2,7 @@
 	import * as Card from '$lib/components/ui/card';
 	import { Button } from '$lib/components/ui/button';
 	import logo from '$lib/assets/logo_no_text.png';
-	import { ArrowRight, Bell, Shield, Heart, Zap, Sparkles, MapPin, Info } from 'lucide-svelte';
+	import { ArrowRight, Bell, Shield, Heart, Zap, Sparkles, MapPin, Info, ShoppingBag, ExternalLink, Check } from 'lucide-svelte';
 
 	let { data } = $props();
 	const homepage = $derived(data.homepage);
@@ -177,6 +177,92 @@
 					</p>
 				</a>
 			{/each}
+		</div>
+	</div>
+
+	<!-- Webshop Section -->
+	<div>
+		<div class="flex items-center gap-4 mb-8">
+			<div class="h-px bg-border flex-1"></div>
+			<h3 class="text-sm font-bold text-foreground/50 uppercase tracking-[0.2em] px-4">Klubbshop</h3>
+			<div class="h-px bg-border flex-1"></div>
+		</div>
+
+		<div class="bg-card border border-border p-8 md:p-10 shadow-sm hover:border-primary/50 transition-all duration-300 relative overflow-hidden">
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-8 items-center">
+				<div class="lg:col-span-2">
+					<div class="inline-flex items-center gap-2 px-3 py-1 mb-4 text-xs font-semibold uppercase tracking-widest text-primary bg-primary/10 border border-primary/20">
+						<ShoppingBag class="h-3.5 w-3.5" />
+						Föreningskläder & Profilprodukter
+					</div>
+					
+					<h4 class="text-2xl md:text-3xl font-extrabold text-foreground tracking-tight mb-3">
+						Köp Österlen Budo-kläder i vår webbshop
+					</h4>
+					
+					<p class="text-foreground/70 font-light text-sm md:text-base leading-relaxed mb-6">
+						Vill du representera klubben i dojon eller till vardags? I samarbete med <strong>Action & Trend</strong> i Skurup erbjuder vi en officiell klubbshop där du smidigt kan beställa träningsoveraller, hoodies, t-shirts, träningsplagg och tillbehör med Österlen Budos officiella klubbtryck.
+					</p>
+
+					<div class="grid grid-cols-1 sm:grid-cols-2 gap-3 mb-8">
+						<div class="flex items-center gap-2.5 text-xs text-foreground/80 font-medium">
+							<span class="w-5 h-5 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+								<Check class="h-3 w-3" />
+							</span>
+							Officiellt Österlen Budo-tryck
+						</div>
+						<div class="flex items-center gap-2.5 text-xs text-foreground/80 font-medium">
+							<span class="w-5 h-5 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+								<Check class="h-3 w-3" />
+							</span>
+							Kvalitetskläder för barn & vuxna
+						</div>
+						<div class="flex items-center gap-2.5 text-xs text-foreground/80 font-medium">
+							<span class="w-5 h-5 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+								<Check class="h-3 w-3" />
+							</span>
+							Smidig onlinebeställning
+						</div>
+						<div class="flex items-center gap-2.5 text-xs text-foreground/80 font-medium">
+							<span class="w-5 h-5 rounded-full bg-primary/10 text-primary flex items-center justify-center shrink-0">
+								<Check class="h-3 w-3" />
+							</span>
+							Leverans direkt hem eller för upphämtning
+						</div>
+					</div>
+
+					<Button
+						href="https://www.playactionochtrend.se/samarbetsforeningar/kampsport/osterlen-budo/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="w-full sm:w-auto rounded-none bg-primary text-primary-foreground hover:bg-foreground transition-all duration-200 px-8 py-6 font-bold tracking-wide uppercase text-sm shadow-md flex items-center justify-center gap-2"
+					>
+						Besök webbshoppen
+						<ExternalLink class="h-4 w-4" />
+					</Button>
+				</div>
+
+				<div class="bg-muted/40 border border-border/80 p-6 flex flex-col items-center justify-center text-center">
+					<span class="text-[10px] font-bold text-foreground/50 uppercase tracking-[0.2em] mb-4">
+						I samarbete med
+					</span>
+					<a
+						href="https://www.playactionochtrend.se/samarbetsforeningar/kampsport/osterlen-budo/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="group transition-transform hover:scale-105 duration-300 my-2"
+					>
+						<img
+							src="/images/sponsor/action_och_trend.png"
+							alt="Action och Trend"
+							class="h-12 w-auto object-contain"
+						/>
+					</a>
+					<p class="text-xs text-foreground/60 mt-4 leading-relaxed">
+						Lokal samarbetspartner och stolt sponsor av Österlen Budo.
+					</p>
+				</div>
+			</div>
 		</div>
 	</div>
 

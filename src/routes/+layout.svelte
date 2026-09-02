@@ -5,7 +5,7 @@
 	import * as DropdownMenu from '$lib/components/ui/dropdown-menu';
 	import * as Sheet from '$lib/components/ui/sheet';
 	import { Button } from '$lib/components/ui/button';
-	import { ChevronDown, Menu, ArrowRight } from 'lucide-svelte';
+	import { ChevronDown, Menu, ArrowRight, ExternalLink } from 'lucide-svelte';
 	import logo from '$lib/assets/logo_no_text.png';
 
 	let { children } = $props();
@@ -79,6 +79,12 @@
 						<DropdownMenu.Item><a href="/regler" class="w-full block py-3 px-4 text-foreground/80 hover:text-primary hover:bg-muted transition-colors rounded-none">Ordningsregler</a></DropdownMenu.Item>
 						<DropdownMenu.Item><a href="/judopass" class="w-full block py-3 px-4 text-foreground/80 hover:text-primary hover:bg-muted transition-colors rounded-none border-t border-border/50">Judopass</a></DropdownMenu.Item>
 						<DropdownMenu.Item><a href="/forsakring" class="w-full block py-3 px-4 text-foreground/80 hover:text-primary hover:bg-muted transition-colors rounded-none border-t border-border/50">Försäkringsinformation</a></DropdownMenu.Item>
+						<DropdownMenu.Item>
+							<a href="https://www.playactionochtrend.se/samarbetsforeningar/kampsport/osterlen-budo/" target="_blank" rel="noopener noreferrer" class="w-full flex items-center justify-between py-3 px-4 text-foreground/80 hover:text-primary hover:bg-muted transition-colors rounded-none border-t border-border/50">
+								<span>Webbshop</span>
+								<ExternalLink class="h-3.5 w-3.5 opacity-60" />
+							</a>
+						</DropdownMenu.Item>
 					</DropdownMenu.Content>
 				</DropdownMenu.Root>
 
@@ -154,6 +160,10 @@
 							<a href="/regler" class="py-2.5 px-4 rounded-none text-foreground/70 hover:text-primary hover:bg-muted transition-colors text-sm">Ordningsregler</a>
 							<a href="/judopass" class="py-2.5 px-4 rounded-none text-foreground/70 hover:text-primary hover:bg-muted transition-colors text-sm border-t border-border/30">Judopass</a>
 							<a href="/forsakring" class="py-2.5 px-4 rounded-none text-foreground/70 hover:text-primary hover:bg-muted transition-colors text-sm border-t border-border/30">Försäkringsinformation</a>
+							<a href="https://www.playactionochtrend.se/samarbetsforeningar/kampsport/osterlen-budo/" target="_blank" rel="noopener noreferrer" class="py-2.5 px-4 rounded-none text-foreground/70 hover:text-primary hover:bg-muted transition-colors text-sm border-t border-border/30 flex items-center justify-between">
+								<span>Webbshop</span>
+								<ExternalLink class="h-3.5 w-3.5 opacity-60" />
+							</a>
 
 							<div class="h-px bg-border my-4 mx-2"></div>
 							<span class="px-4 text-[10px] font-bold text-primary uppercase tracking-[0.2em] mb-2">Om klubben</span>
@@ -187,11 +197,15 @@
 				<img src="/images/sponsor/Sparbanken-skane-logo.png" class="h-10 w-auto object-contain transition-transform hover:scale-105" alt="Sparbanken Skåne" />
 				<img src="/images/sponsor/rf_sisu.svg" class="h-12 w-auto object-contain transition-transform hover:scale-105" alt="RF-SISU" />
 				<img src="/images/sponsor/Fritidskortet_Logo_RGB_hi-res.png" class="h-12 w-auto object-contain transition-transform hover:scale-105" alt="Fritidskortet" />
+				<a href="https://www.playactionochtrend.se/samarbetsforeningar/kampsport/osterlen-budo/" target="_blank" rel="noopener noreferrer" title="Action och Trend – Klubbshop" class="transition-transform hover:scale-105">
+					<img src="/images/sponsor/action_och_trend.png" class="h-8 md:h-9 w-auto object-contain" alt="Action och Trend" />
+				</a>
 			</div>
 			
 			<div class="mt-20 pt-8 border-t border-border w-full flex flex-col md:flex-row justify-between items-center gap-4 text-foreground/60 text-sm">
 				<p>© {new Date().getFullYear()} Österlen Budo. Alla rättigheter förbehållna.</p>
 				<div class="flex gap-4">
+					<a href="https://www.playactionochtrend.se/samarbetsforeningar/kampsport/osterlen-budo/" target="_blank" rel="noopener noreferrer" class="hover:text-primary transition-colors">Webbshop</a>
 					<a href="/kontakt" class="hover:text-primary transition-colors">Kontakt</a>
 					<a href="/regler" class="hover:text-primary transition-colors">Regler</a>
 				</div>

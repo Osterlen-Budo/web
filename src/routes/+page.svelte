@@ -26,6 +26,39 @@
 		deadline.setHours(23, 59, 59, 999);
 		return today > deadline;
 	});
+
+	const shopProducts = [
+		{
+			name: 'Klubbhoodie',
+			category: 'Tröja',
+			image: '/images/shop/hoodie.png',
+			description: 'Svart hoodie med klubbtryck'
+		},
+		{
+			name: 'Funktions-T-shirt',
+			category: 'Craft T-shirt',
+			image: '/images/shop/tshirt.png',
+			description: 'Träningströja med klubbtryck'
+		},
+		{
+			name: 'Träningsbyxor',
+			category: 'Craft Byxor',
+			image: '/images/shop/byxor.png',
+			description: 'Träningsbyxor med klubbmärke'
+		},
+		{
+			name: 'Träningsväska',
+			category: 'Craft Duffelbag',
+			image: '/images/shop/vaska.png',
+			description: 'Rymlig träningsväska'
+		},
+		{
+			name: 'Klubbkeps',
+			category: 'Flexfit Keps',
+			image: '/images/shop/keps.png',
+			description: 'Keps med broderat märke'
+		}
+	];
 </script>
 
 <!-- Hero / Welcome Area -->
@@ -261,6 +294,55 @@
 					<p class="text-xs text-foreground/60 mt-4 leading-relaxed">
 						Lokal samarbetspartner och stolt sponsor av Österlen Budo.
 					</p>
+				</div>
+			</div>
+
+			<!-- Example Products Showcase -->
+			<div class="mt-10 pt-8 border-t border-border">
+				<div class="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-6">
+					<div>
+						<h5 class="text-xs font-bold uppercase tracking-[0.15em] text-foreground/70">
+							Exempel från klubbshoppen
+						</h5>
+						<p class="text-xs text-foreground/60 mt-0.5">
+							Klicka på ett plagg för att se fler detaljer och beställa hos Action & Trend
+						</p>
+					</div>
+					<a
+						href="https://www.playactionochtrend.se/samarbetsforeningar/kampsport/osterlen-budo/"
+						target="_blank"
+						rel="noopener noreferrer"
+						class="text-xs font-bold text-primary hover:text-foreground flex items-center gap-1.5 transition-colors shrink-0"
+					>
+						<span>Se hela sortimentet</span>
+						<ArrowRight class="h-3.5 w-3.5" />
+					</a>
+				</div>
+
+				<div class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-3 sm:gap-4">
+					{#each shopProducts as product}
+						<a
+							href="https://www.playactionochtrend.se/samarbetsforeningar/kampsport/osterlen-budo/"
+							target="_blank"
+							rel="noopener noreferrer"
+							class="group flex flex-col bg-background border border-border/80 p-3 hover:border-primary/60 transition-all duration-300 shadow-2xs hover:shadow-md"
+						>
+							<div class="aspect-square bg-white flex items-center justify-center p-3 mb-3 overflow-hidden border border-border/30">
+								<img
+									src={product.image}
+									alt={product.name}
+									class="h-full w-full object-contain group-hover:scale-105 transition-transform duration-300"
+									loading="lazy"
+								/>
+							</div>
+							<span class="text-[10px] font-bold uppercase tracking-wider text-primary truncate">
+								{product.category}
+							</span>
+							<span class="text-xs font-bold text-foreground group-hover:text-primary transition-colors truncate">
+								{product.name}
+							</span>
+						</a>
+					{/each}
 				</div>
 			</div>
 		</div>

@@ -52,6 +52,13 @@
       "period": "per år",
       "age": "Ej aktiva tränande",
       "description": "För dig som vill stötta klubbens verksamhet utan att träna aktivt på mattan."
+    },
+    {
+      "name": "Svartbältare",
+      "price": "0",
+      "period": "per termin",
+      "age": "Svartbältare",
+      "description": "Reducerad avgift för svartbältare."
     }
   ],
   "benefits": [

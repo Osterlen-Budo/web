@@ -39,8 +39,10 @@
 		}
 	}
 
-	function getBeltColors(beltText: string): { base: string; stripe: string | null } {
+	function getBeltColors(beltText: string): { top: string; bottom: string | null } {
 		const raw = beltText.toLowerCase();
+
+		const rankHierarchy = ['svart', 'brun', 'blå', 'grön', 'orange', 'gul', 'vit', 'röd'];
 
 		const colorMap: Record<string, string> = {
 			svart: 'bg-neutral-900',
@@ -53,13 +55,23 @@
 			röd: 'bg-[#dc2626]'
 		};
 
-		// Check for compound colors like "blå-brun", "grön-blå", "vit-gul", "orange-grön", "gul-orange"
-		for (const [firstKey, firstVal] of Object.entries(colorMap)) {
-			for (const [secondKey, secondVal] of Object.entries(colorMap)) {
-				if (raw.includes(`${firstKey}-${secondKey}`) || raw.includes(`${firstKey} - ${secondKey}`)) {
+		// Check for compound two-color belts (e.g. "blå-brun", "brun-blå", "grön-blå", "vit-gul")
+		// Higher grade color on top, lower grade color underneath
+		for (let i = 0; i < rankHierarchy.length; i++) {
+			for (let j = i + 1; j < rankHierarchy.length; j++) {
+				const higherColor = rankHierarchy[i];
+				const lowerColor = rankHierarchy[j];
+
+				if (
+					raw.includes(`${higherColor}-${lowerColor}`) ||
+					raw.includes(`${lowerColor}-${higherColor}`) ||
+					raw.includes(`${higherColor} - ${lowerColor}`) ||
+					raw.includes(`${lowerColor} - ${higherColor}`) ||
+					(raw.includes(higherColor) && raw.includes(lowerColor))
+				) {
 					return {
-						base: firstVal,
-						stripe: secondVal
+						top: colorMap[higherColor],
+						bottom: colorMap[lowerColor]
 					};
 				}
 			}
@@ -69,17 +81,17 @@
 		for (const [colorName, bgClass] of Object.entries(colorMap)) {
 			if (raw.includes(colorName)) {
 				return {
-					base: bgClass,
-					stripe: null
+					top: bgClass,
+					bottom: null
 				};
 			}
 		}
 
 		if (raw.includes('dan')) {
-			return { base: 'bg-neutral-900', stripe: null };
+			return { top: 'bg-neutral-900', bottom: null };
 		}
 
-		return { base: 'bg-white', stripe: null };
+		return { top: 'bg-white', bottom: null };
 	}
 </script>
 
@@ -115,9 +127,12 @@
 			{@const colors = getBeltColors(belt)}
 			<div class="inline-flex items-center gap-1.5 px-2.5 py-1 mt-2 rounded border border-slate-200 bg-slate-50 text-slate-800 text-[11px] font-semibold shadow-xs">
 				<!-- Martial Arts Belt Mini Bar -->
-				<span class="relative inline-block w-6 h-3 rounded-[2px] border border-black/25 shadow-xs overflow-hidden shrink-0 {colors.base}">
-					{#if colors.stripe}
-						<span class="absolute inset-x-0 top-1/2 -translate-y-1/2 h-[3px] {colors.stripe} border-y border-black/15"></span>
+				<span class="relative inline-flex flex-col w-6 h-3 rounded-[2px] border border-black/25 shadow-xs overflow-hidden shrink-0">
+					{#if colors.bottom}
+						<span class="w-full h-1/2 {colors.top}"></span>
+						<span class="w-full h-1/2 {colors.bottom}"></span>
+					{:else}
+						<span class="w-full h-full {colors.top}"></span>
 					{/if}
 				</span>
 				<span>{belt}</span>

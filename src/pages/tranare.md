@@ -89,6 +89,22 @@ let members = [
     title: "Hjälptränare och aspirantdomare",
     belt: "3 Kyu (Grön-blå)",
   },
+  {href: "/",
+    src: `/images/profile/blank.webp`,
+    gif: "random",
+    alt: "Kristian Kämpe",
+    name: "Kristian Kämpe",
+    title: "Hjälptränare",
+    belt: "4 Kyu (Orange)",
+  },
+  {href: "/",
+    src: `/images/profile/2026/profil-bartosz.png`,
+    gif: "random",
+    alt: "Bartosz Borzecki",
+    name: "Bartosz Borzecki",
+    title: "Hjälptränare",
+    belt: "5 Kyu (Gul)",
+  },
 ];
 </script>
 

@@ -105,6 +105,14 @@ let members = [
     title: "Hjälptränare",
     belt: "5 Kyu (Gul)",
   },
+  {href: "/",
+    src: `/images/profile/2026/profil-jessica.png`,
+    gif: "random",
+    alt: "Jessica Bergljung",
+    name: "Jessica Bergljung",
+    title: "Hjälptränare",
+    belt: "4 Kyu (Orange-grön)",
+  },
 ];
 </script>
 
